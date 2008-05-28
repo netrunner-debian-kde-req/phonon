@@ -1,0 +1,5 @@
+phonon (4.2-1) experimental; urgency=low
+
+  * First release. This has been split out from kde4libs.
+  
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 28 May 2008 20:38:19 +0200

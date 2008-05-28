@@ -1,0 +1,35 @@
+Source: phonon
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake,
+ libqt4-dev, automoc, libglu1-mesa-dev, libxml2-dev,
+Standards-Version: 3.7.3
+Homepage: http://www.kde.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/phonon
+Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/phonon
+
+
+Package: libphonon-dev
+Section: libdevel
+Architecture: any
+Depends: libphonon4 (= ${binary:Version})
+Replaces: kdelibs5-dev (<= 4:4.0.80)
+Description: development files for the Phonon multimedia framework
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains development files for building software that uses the
+ Phonon libraries.
+
+Package: libphonon4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kdelibs5 (<= 4:4.0.80)
+Description: Phonon multimedia framework for Qt 4
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains the files necessary to run applications that use Phonon.
