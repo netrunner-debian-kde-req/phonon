@@ -1,0 +1,363 @@
+
+
+
+
+ 
+ phonon/abstractaudiooutput.cpp LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/abstractaudiooutput.h   LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/abstractaudiooutput_p.cpp   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/abstractaudiooutput_p.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/abstractmediastream.cpp LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/abstractmediastream.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/abstractmediastream_p.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/abstractvideooutput.cpp LGPLv2  (C) 2005 Matthias Kretz <kretz@kde.org>
+ phonon/abstractvideooutput.h   LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/abstractvideooutput_p.cpp   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/abstractvideooutput_p.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/addoninterface.h    LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/audiooutputadaptor.cpp  unspec  (C) 2006 Trolltech AS. All rights reserved.
+ phonon/audiooutputadaptor.h    unspec  (C) 2006 Trolltech AS. All rights reserved.
+ phonon/audiooutput.cpp LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/audiooutput.h   LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/audiooutputinterface.h  LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/audiooutput_p.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/audiopath.cpp   LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/audiopath.h LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/audiopath_p.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/audioplayer.cpp LGPLv2  (C) 2004-2006 Matthias Kretz <kretz@kde.org>
+ phonon/audioplayer.h   LGPLv2  (C) 2004-2006 Matthias Kretz <kretz@kde.org>
+ phonon/backendcapabilities.cpp LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/backendcapabilities.h   LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/backendcapabilities_p.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/backend.dox unspec  unspec
+ phonon/backendinterface.h  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/basedestructionhandler.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/base_p.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/brightnesscontrol.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/brightnesscontrol.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/brightnesscontrol_p.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/BUGS    unspec  unspec
+ phonon/CMakeLists.txt  unspec  unspec
+ phonon/config-phonon.h.cmake   unspec  unspec
+ phonon/deinterlacefilter.cpp   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/deinterlacefilter.h LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/deinterlacefilter_p.h   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/DESIGN/architecture.flw unspec  unspec
+ phonon/DESIGN/audiodeviceconfig.flw    unspec  unspec
+ phonon/DESIGN/BinaryCompatibleAdditions    unspec  unspec
+ phonon/DESIGN/ClassesToBeDesigned  unspec  unspec
+ phonon/DESIGN/design.xmi   unspec  unspec
+ phonon/DESIGN/effects.flw  unspec  unspec
+ phonon/DESIGN/effects.txt  unspec  unspec
+ phonon/DESIGN/HowToConfigureDevices.txt    unspec  unspec
+ phonon/architecture.xmi    unspec  unspec
+ phonon/effect.cpp  LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/effect.h    LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/effectparameter.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/effectparameter.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/effectparameter_p.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/effect_p.h  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/effectwidget.cpp    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/effectwidget.h  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/effectwidget_p.h    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/examples/CMakeLists.txt unspec  unspec
+ phonon/examples/crossfade.cpp  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/examples/crossfade.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/examples/pcmoutput.cpp  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/examples/pcmoutput.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/examples/playback.cpp   MIT-style   (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/examples/simpleplay.cpp unspec  unspec
+ phonon/examples/tutorial1.cpp  MIT-style   (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/examples/tutorial1.pro  unspec  unspec
+ phonon/examples/tutorial2.cpp  MIT-style   (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/examples/tutorial2.pro  unspec  unspec
+ phonon/examples/tutorial3.cpp  MIT-style(C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/examples/tutorial3.pro  unspec  unspec
+ phonon/examples/tutorial4.cpp  LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/examples/tutorial4.pro  unspec  unspec
+ phonon/examples/videoplayandforget.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/examples/videoplayback.cpp  MIT-style   (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/examples/videoplayback.h    MIT-style   (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/audiodataoutput.cpp    LGPLv2  (C) 2005 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/audiodataoutput.h  LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/audiodataoutput_p.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/audiowriter.h  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/avcapture.cpp  LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/avcapture.h    LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/avcapture_p.h  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/avwriter.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/avwriter.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/avwriter_p.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/CMakeLists.txt unspec  unspec
+ phonon/experimental/export.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/overlayapi.cpp LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/overlayapi.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/overlayapi_p.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/rtpreceiver.h  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/tests/audiodataoutputtest.cpp  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/tests/audiodataoutputtest.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/tests/CMakeLists.txt   unspec  unspec
+ phonon/experimental/tests/methods/audiodataoutput.cpp  unspec  unspec
+ phonon/experimental/tests/methods/avcapture.cpp    unspec  unspec
+ phonon/experimental/tests/methods/avwriter.cpp unspec  unspec
+ phonon/experimental/tests/methods/overlayapi.cpp   unspec  unspec
+ phonon/experimental/tests/methods/videodataoutput.cpp  unspec  unspec
+ phonon/experimental/tests/methods/visualization.cpp    unspec  unspec
+ phonon/experimental/videodataoutput.cpp    LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/videodataoutput.h  LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/videodataoutput_p.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/videoframe.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/visualization.cpp  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/visualization.h    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/experimental/visualization_p.h  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/extractmethodcalls.rb   unspec  unspec
+ phonon/factory.cpp LGPLv2  (C) 2004-2007 Matthias Kretz <kretz@kde.org>
+ phonon/factory.h   LGPLv2  (C) 2004-2007 Matthias Kretz <kretz@kde.org>
+ phonon/factory_p.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/frontendinterface_p.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/globalconfig.cpp    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/globalconfig.h  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/globalstatic_p.h    LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/IDEAS   unspec  unspec
+ phonon/iodevicestream.cpp  LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/iodevicestream.h    LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/iodevicestream_p.h  LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/kcm/backendselection.cpp    GPLv2   (C) 2004,2006 Matthias Kretz <kretz@kde.org>
+ phonon/kcm/backendselection.h  GPLv2   (C) 2004,2006 Matthias Kretz <kretz@kde.org>
+ phonon/kcm/backendselection.ui unspec  unspec
+ phonon/kcm/CMakeLists.txt  unspec  unspec
+ phonon/kcm/kcm_phonon.desktop  unspec  unspec
+ phonon/kcm/listview-background.png unspec  unspec
+ phonon/kcm/main.cpp    GPLv2   (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/kcm/main.h  GPLv2   (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/kcm/Messages.sh unspec  unspec
+ phonon/kcm/outputdevicechoice.cpp  GPLv2   (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/kcm/outputdevicechoice.h    GPLv2   (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/kcm/outputdevicechoice.ui   unspec  unspec
+ phonon/.krazy  unspec  unspec
+ phonon/libkaudiodevicelist/audiodevice.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/libkaudiodevicelist/audiodeviceenumerator.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/libkaudiodevicelist/audiodeviceenumerator.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/libkaudiodevicelist/audiodeviceenumerator_p.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/libkaudiodevicelist/audiodevice.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/libkaudiodevicelist/audiodevice_p.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/libkaudiodevicelist/CMakeLists.txt  unspec  unspec
+ phonon/libkaudiodevicelist/kaudiodevicelist_export.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/Mainpage.dox    LGPL    Matthias Kretz <kretz@kde.org>
+ phonon/mediacontroller.cpp LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/mediacontroller.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/mediaobject.cpp LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/mediaobject.dox unspec  unspec
+ phonon/mediaobject.h   LGPLv2  (C) 2005 Matthias Kretz <kretz@kde.org>
+ phonon/mediaobjectinterface.h  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/mediaobject_p.h LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/mediasource.cpp LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/mediasource.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/mediasource_p.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/Messages.sh unspec  unspec
+ phonon/objectdescription.cpp   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/objectdescription.h LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/objectdescriptionmodel.cpp  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/objectdescriptionmodel.h    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/objectdescriptionmodel_p.h  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/objectdescription_p.h   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/org.kde.Phonon.AudioOutput.xml  unspec  unspec
+ phonon/phononbackend.desktop   unspec  unspec
+ phonon/phonondefs.h    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/phonondefs_p.h  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/phonon_export.h LGPLv2h (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/phononnamespace.cpp LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/phononnamespace.h   LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/phononnamespace_p.h LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/phonon.notifyrc unspec  unspec
+ phonon/phonon.pro  unspec  unspec
+ phonon/platform.cpp    LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/platform_kde/CMakeLists.txt unspec  unspec
+ phonon/platform_kde/kdepluginfactory.cpp   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/platform_kde/kdepluginfactory.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/platform_kde/kiomediastream.cpp LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/platform_kde/kiomediastream.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/platform_kde/kiomediastream_p.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/platform_kde/Messages.sh    unspec  unspec
+ phonon/platform_p.h    LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/platformplugin.h    LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/preprocessandextract.sh unspec  unspec
+ phonon/seekslider.cpp  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/seekslider.h    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/seekslider_p.h  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/streaminterface.cpp LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/streaminterface.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/streaminterface_p.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/stream-thoughts unspec  unspec
+ phonon/tests/audiocapturedevicetest.cpp    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/audiodevicelisttest.cpp   GPLv2   (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/audiooutputdevicetest.cpp LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/audiooutputtest.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/audiopathtest.cpp GPLv2   (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/backendcapabilitiestest.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/backendtester.cpp LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/backendtester.h   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/backendtester.ui  unspec  unspec
+ phonon/tests/bytestreamtest2.cpp   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/bytestreamtest2.h LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/bytestreamtest.cpp    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/bytestreamtest.h  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/CMakeLists.txt    unspec  unspec
+ phonon/tests/fakebackend/abstractaudiooutput.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/abstractaudiooutput.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/abstractvideooutput.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/audiodataoutput.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/audiodataoutput.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/audioeffect.cpp   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/audioeffect.h LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/audiooutput.cpp   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/audiooutput.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/audiopath.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/audiopath.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/avcapture.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/avcapture.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/backend.cpp   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/backend.h LGPLv2  (C) 2004-2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/brightnesscontrol.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/brightnesscontrol.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/bytestream.cpp    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/bytestream.h  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/CMakeLists.txt    unspec  unspec
+ phonon/tests/fakebackend/delayaudioeffect.cpp  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/delayaudioeffect.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/effectinterface.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/fake.desktop  unspec  unspec
+ phonon/tests/fakebackend/mediaobject.cpp   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/mediaobject.h LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/mediaqueue.cpp    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/mediaqueue.h  LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/stream.cpp    LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/stream.h  LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/videodataoutput.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/videodataoutput.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/videoeffect.cpp   LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/videoeffect.h LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/videopath.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/videopath.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/videowidget.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/videowidget.h LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/visualization.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/visualization.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/volumefadereffect.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/fakebackend/volumefadereffect.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/guitest.cpp   LGPLv2  (C) 2004-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/guitest.h LGPLv2  (C) 2004-2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/loadfakebackend.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/mediacontrols.cpp LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/mediacontrols.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/mediacontrols_p.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/mediaobjecttest.cpp   GPLv2   (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/mediaplayer.cpp   GPLv2   (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/mediaplayer.h GPLv2   (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/mediasourcetest.cpp   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/methods/abstractaudiooutput.cpp   unspec  unspec
+ phonon/tests/methods/abstractvideooutput.cpp   unspec  unspec
+ phonon/tests/methods/audiooutput.cpp   unspec  unspec
+ phonon/tests/methods/audiopath.cpp unspec  unspec
+ phonon/tests/methods/backendcapabilities.cpp   unspec  unspec
+ phonon/tests/methods/brightnesscontrol.cpp unspec  unspec
+ phonon/tests/methods/effect.cpp    unspec  unspec
+ phonon/tests/methods/effectparameter.cpp   unspec  unspec
+ phonon/tests/methods/factory.cpp   unspec  unspec
+ phonon/tests/methods/mediacontroller.cpp   unspec  unspec
+ phonon/tests/methods/mediaobject.cpp   unspec  unspec
+ phonon/tests/methods/objectdescription.cpp unspec  unspec
+ phonon/tests/methods/phononnamespace.cpp   unspec  unspec
+ phonon/tests/methods/videopath.cpp unspec  unspec
+ phonon/tests/methods/videowidget.cpp   unspec  unspec
+ phonon/tests/methods/volumefadereffect.cpp unspec  unspec
+ phonon/tests/methodtest.cpp    GPLv2   (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/qtesthelper.h LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/seekslidertest.cpp    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/testresources.qrc unspec  unspec
+ phonon/tests/TODO  unspec  unspec
+ phonon/tests/videocapturedevicetest.cpp    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/videopathtest.cpp GPLv2   (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/volumeslidertest.cpp  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/tests/volumeslidertest.h    LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/tests/zero.ogg  unspec  unspec
+ phonon/TODO    unspec  unspec
+ phonon/videopath.cpp   LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/videopath.h LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/videopath_p.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/videoplayer.cpp LGPLv2  (C) 2004-2007 Matthias Kretz <kretz@kde.org>
+ phonon/videoplayer.h   LGPLv2  (C) 2004-2007 Matthias Kretz <kretz@kde.org>
+ phonon/videowidget.cpp LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/videowidget.h   LGPLv2  (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ phonon/videowidget_p.h LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/volumefadereffect.cpp   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/volumefadereffect.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/volumefadereffect_p.h   LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
+ phonon/volumeslider.cpp    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/volumeslider.h  LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ phonon/volumeslider_p.h    LGPLv2  (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ 
+ 
+-------------------------------------------------------------------------------
+Legend:
+ - "unspec":    The file contains no specific copyright/license notice. This
+                means that the copyright holder is the KDE Development Team (as
+                listed above) and the license is GPL2, unless specified otherwise.
+ - "GPL":       The GNU General Public License, without versioning constraints.
+ - "GPLv2":     The GNU General Public License, version 2.
+ - "GPLv2h":    The GNU General Public License, version 2 or (at your
+                option) higher.
+ - "LGPLv2h":   The Lesser (or Library) GNU General Public License, version
+                2 or (at your option).
+ - "BSD"        Files under the BSD license.
+ - "GFDL1.1":   The GNU Free Documentation License, version 1.1 or (at your
+                option) higher. The listed documents use the GFDL with no
+                Invariant Sections, no Front-Cover Texts, and no Back-Cover
+                Texts.
+ - "DTD":       Permission to use, copy, modify and distribute this DTD
+                and its accompanying documentation for any purpose and without fee
+                is hereby granted in perpetuity, provided that the above copyright
+                notice and this paragraph appear in all copies.  The copyright
+                holders make no representation about the suitability of the DTD for
+                any purpose. It is provided "as is" without expressed or implied
+                warranty. 
+  - "MIT":      Permission is hereby granted, free of charge, to any person obtaining a copy
+                of this software and associated documentation files (the "Software"), to deal
+                in the Software without restriction, including without limitation the rights
+                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                copies of the Software, and to permit persons to whom the Software is
+                furnished to do so, subject to the following conditions:
+                The above copyright notice and this permission notice shall be included in
+                all copies or substantial portions of the Software.
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                THE SOFTWARE.
+  - "Artistic": Files under the Artistic license.
+  - "XSD":      Permission to use, copy, modify and distribute this XSD
+                and its accompanying documentation for any purpose and without fee
+                is hereby granted in perpetuity, provided that the above copyright
+                notice and this paragraph appear in all copies.  The copyright
+                holders make no representation about the suitability of the XSD for
+                any purpose. It is provided "as is" without expressed or implied
+                warranty.
+
+On Debian systems, you can find the complete texts of these licenses at:
+  - Artistic: /usr/share/common-licenses/Artistic
+  - BSD:      /usr/share/common-licenses/BSD
+  - GPL:      /usr/share/common-licenses/GPL
+  - GPLv2:    /usr/share/common-licenses/GPL-2
+  - LGPLv2:   /usr/share/common-licenses/LGPL-2
+  - GFDL:     /usr/share/common-licenses/GFDL
+  - BSD:      /usr/share/common-licenses/BSD
+
+-------------------------------------------------------------------------------
+
+
+
+The Debian packaging is (C) 2007-2008, Debian Qt/KDE Maintainers and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
