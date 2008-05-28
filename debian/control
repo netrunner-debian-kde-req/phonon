@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake,
- libqt4-dev, automoc, libglu1-mesa-dev, libxml2-dev,
+ libqt4-dev, automoc, libglu1-mesa-dev, libqt4-opengl-dev, libxml2-dev,
+ libglib2.0-dev, libgstreamermm-0.10-dev, 
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/phonon
