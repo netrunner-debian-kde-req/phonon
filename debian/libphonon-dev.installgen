@@ -1,2 +1,4 @@
 dst:usr/include/.*(?i:phonon)/.*
 dst:usr/lib/libphonon.*\.so$
+dst:usr/share/dbus-1
+dst:\.pc$

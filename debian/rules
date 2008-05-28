@@ -1,3 +1,9 @@
 #!/usr/bin/make -f
 
 include debian/cdbs/kde.mk
+
+DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V'libphonon4 (>> 4:4.2~)'
+
+# No circular dependancy with libphonon
+DEB_DH_SHLIBDEPS_ARGS_phonon-backend-gstreamer = -- -xlibphonon4
+
