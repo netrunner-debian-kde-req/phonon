@@ -1,2 +1,2 @@
-usr/lib/kde4/plugins/phonon_backend/phonon_gstreamer.a
+usr/lib/kde4/plugins/phonon_backend/phonon_gstreamer.so
 usr/share/kde4/services/phononbackends/gstreamer.desktop

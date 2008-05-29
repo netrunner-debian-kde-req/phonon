@@ -1,11 +1,7 @@
-phonon (4:4.2~svn813403-1~pre4) UNRELEASED; urgency=low
+phonon (4:4.2~svn814171-1~pre1) UNRELEASED; urgency=low
 
   * First release. This has been split out from kde4libs:
-    - The latest upstream commit is r813403 by mkretz
-    - Date: Wed, 28 May 2008 22:51:39 -0000
+    - The latest upstream commit is r814171 by mkretz
+    - Date: Thu, 29 May 2008 15:11:55 -0000       
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r813403 by mkretz
-    - Date: Thu, 29 May 2008 13:04:30 -0000
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 16:10:28 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 18:15:03 +0300
