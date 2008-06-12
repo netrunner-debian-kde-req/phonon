@@ -1,5 +1,7 @@
-phonon (4:4.2~svn814583-1) UNRELEASED; urgency=low
+phonon (4:4.2~svn819651-1) experimental; urgency=low
+
+  +++ Changes by Ana Guerrero and Modestas Vainius:
 
   * First release. This has been split out from kde4libs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 18:15:03 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Jun 2008 12:04:49 +0200
