@@ -1,10 +1,19 @@
+This package was debianized by the Debian Qt/KDE Maintainers on
+Thu, 12 Jun 2008 15:01:17 +0200
+
+It was downloaded from http://websvn.kde.org
 
 
+Upstream Author:  Matthias Kretz <kretz@kde.org>
 
+Copyright:
 
+ (C) 2005-2008 Matthias Kretz <kretz@kde.org>
+
+ check for another people...
  
  phonon/abstractaudiooutput.cpp LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
- phonon/abstractaudiooutput.h   LGPLv2  (C) 2005-2006 Matthias Kretz <kretz@kde.org>
+ phonon/abstractaudiooutput.h   LGPLv2 
  phonon/abstractaudiooutput_p.cpp   LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
  phonon/abstractaudiooutput_p.h LGPLv2  (C) 2006 Matthias Kretz <kretz@kde.org>
  phonon/abstractmediastream.cpp LGPLv2  (C) 2007 Matthias Kretz <kretz@kde.org>
