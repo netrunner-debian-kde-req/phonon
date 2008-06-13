@@ -69,6 +69,7 @@ Description: Phonon null backend (no real backend)
 
 Package: phonon-dbg
 Architecture: any
+Priority: extra
 Depends: libphonon4 (>= ${binary:Version})
 Description: Phonon debugging symbols
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
