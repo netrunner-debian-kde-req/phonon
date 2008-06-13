@@ -1,3 +1,12 @@
+phonon (4:4.2~svn820171-2~pre1) UNRELEASED; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Exclude phonon metapackage from automatic shlibdeps because libphonon4
+    itself ended up depending on it somehow.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2008 00:54:52 +0300
+
 phonon (4:4.2~svn820171-1) experimental; urgency=low
 
   +++ Changes by Ana Guerrero, Modestas Vainius, Pino Toscano and Sune Vuorela:

@@ -5,3 +5,5 @@ include debian/cdbs/kde.mk
 PHONON_MINIMUM_VERSION := 4:4.2~
 
 DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V'libphonon4 (>> $(PHONON_MINIMUM_VERSION)), phonon(>> $(PHONON_MINIMUM_VERSION))'
+
+DEB_DH_SHLIBDEPS_ARGS_ALL = -- -xphonon
