@@ -66,6 +66,6 @@ Description: Phonon null backend (no real backend)
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
  .
- This package does not provide any real phonon backend. It can be used to
+ This package does not provide any real Phonon backend. It can be used to
  disable Phonon audio/video capabilities. Please note that Phonon behaviour 
  with this package installed has not been well tested.

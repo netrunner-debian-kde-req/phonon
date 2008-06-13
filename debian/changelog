@@ -3,9 +3,9 @@ phonon (4:4.2~svn820171-1) UNRELEASED; urgency=low
   +++ Changes by Ana Guerrero, Modestas Vainius, Pino Toscano and Sune Vuorela:
 
   * First release. This has been split out from kde4libs.
-  * Add support for phonon backends:
+  * Add support for Phonon backends:
     - Make the phonon-backend-gstreamer provide a virtual phonon-backend.
     - Create a phonon metapackage that installs the phonon library and ensure
       a backend is installed too.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jun 2008 15:07:49 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jun 2008 18:30:03 +0300
