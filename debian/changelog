@@ -1,19 +1,11 @@
-phonon (4:4.2~svn820171-2) UNRELEASED; urgency=low
+phonon (4:4.2~svn820171-1) UNRELEASED; urgency=low
 
-  +++ Changes by Pino Toscano:
-
-  * Make the phonon-backend-gstreamer provide a virtual phonon-backend.
-  * Create a phonon metapackage that installs the phonon library and ensure
-    a backend is installed too.
-  * All the changes above were agreed with Modestas Vainius and Sune Vuorela,
-    thanks.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jun 2008 17:03:52 +0200
-
-phonon (4:4.2~svn820171-1) experimental; urgency=low
-
-  +++ Changes by Ana Guerrero and Modestas Vainius:
+  +++ Changes by Ana Guerrero, Modestas Vainius, Pino Toscano and Sune Vuorela:
 
   * First release. This has been split out from kde4libs.
+  * Add support for phonon backends:
+    - Make the phonon-backend-gstreamer provide a virtual phonon-backend.
+    - Create a phonon metapackage that installs the phonon library and ensure
+      a backend is installed too.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jun 2008 15:07:49 +0200

@@ -55,3 +55,17 @@ Description: Phonon GStreamer 0.10.x backend
  layer for capturing, mixing, processing, and playing audio and video content.
  .
  This package contains GStreamer 0.10.x backend for Phonon.
+
+Package: phonon-backend-null
+Section: sound
+Architecture: all
+Depends: libphonon4 (>= ${source:Version})
+Provides: phonon-backend
+Conflicts: phonon-backend
+Description: Phonon null backend (no real backend)
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package does not provide any real phonon backend. It can be used to
+ disable Phonon audio/video capabilities. Please note that Phonon behaviour 
+ with this package installed has not been well tested.
