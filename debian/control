@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake,
  libqt4-dev, automoc, libglu1-mesa-dev, libqt4-opengl-dev, libxml2-dev,
  libglib2.0-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev,
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386]
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/phonon
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/phonon
@@ -16,7 +16,7 @@ Package: phonon
 Architecture: all
 Depends: phonon-backend-gstreamer | phonon-backend, libphonon4 (>= ${source:Version})
 Suggests: phonon-backend-xine, phonon-backend-vlc, phonon-backend-mplayer
-Description: meta package for Phonon multimedia framework
+Description: metapackage for Phonon multimedia framework
  Phonon is the Qt4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
  .
