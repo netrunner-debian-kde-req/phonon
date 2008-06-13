@@ -1,9 +1,14 @@
-phonon (4:4.2~svn820171-2~pre1) UNRELEASED; urgency=low
+phonon (4:4.2~svn820171-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:
 
   * Exclude phonon metapackage from automatic shlibdeps because libphonon4
     itself ended up depending on it somehow.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update copyright file and write the BSD license instead of pointing at it.
+  * Replace the N/A stuff with some more meaningful (unspecified).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Jun 2008 00:54:52 +0300
 
