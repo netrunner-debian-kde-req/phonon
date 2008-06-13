@@ -1,5 +1,5 @@
 Source: phonon
-Section: libs
+Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Modestas Vainius <modestas@vainius.eu>
@@ -12,7 +12,6 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/phonon
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/phonon
 
 Package: phonon
-Section: libs
 Architecture: all
 Depends: phonon-backend-gstreamer | phonon-backend, libphonon4 (>= ${source:Version})
 Suggests: phonon-backend-xine, phonon-backend-vlc, phonon-backend-mplayer
@@ -46,7 +45,6 @@ Description: Phonon multimedia framework for Qt 4
  This package contains the files necessary to run applications that use Phonon.
 
 Package: phonon-backend-gstreamer
-Section: sound
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libphonon4 (= ${binary:Version})
 Provides: phonon-backend
@@ -57,7 +55,6 @@ Description: Phonon GStreamer 0.10.x backend
  This package contains GStreamer 0.10.x backend for Phonon.
 
 Package: phonon-backend-null
-Section: sound
 Architecture: all
 Depends: libphonon4 (>= ${source:Version})
 Provides: phonon-backend
@@ -69,3 +66,14 @@ Description: Phonon null backend (no real backend)
  This package does not provide any real Phonon backend. It can be used to
  disable Phonon audio/video capabilities. Please note that Phonon behaviour 
  with this package installed has not been well tested.
+
+Package: phonon-dbg
+Architecture: any
+Depends: libphonon4 (>= ${binary:Version})
+Description: Phonon debugging symbols
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package provides Phonon debugging symbols. You should install this
+ package when you are about to report a crash or want to debug a problem with
+ Phonon.
