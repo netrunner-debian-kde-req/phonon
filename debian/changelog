@@ -1,4 +1,4 @@
-phonon (4:4.2~svn820171-1) UNRELEASED; urgency=low
+phonon (4:4.2~svn820171-1) experimental; urgency=low
 
   +++ Changes by Ana Guerrero, Modestas Vainius, Pino Toscano and Sune Vuorela:
 
@@ -8,4 +8,4 @@ phonon (4:4.2~svn820171-1) UNRELEASED; urgency=low
     - Create a phonon metapackage that installs the phonon library and ensure
       a backend is installed too.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jun 2008 18:30:03 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jun 2008 20:15:41 +0200
