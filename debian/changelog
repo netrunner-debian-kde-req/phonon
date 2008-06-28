@@ -1,3 +1,9 @@
+phonon (4:4.2~svn825656-1) unstable; urgency=low
+
+  * New snapshot, upload to unstable. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 29 Jun 2008 00:59:59 +0200
+
 phonon (4:4.2~svn820171-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:
