@@ -3,19 +3,19 @@ Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Modestas Vainius <modestas@vainius.eu>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake,
- libqt4-dev, automoc, libglu1-mesa-dev, libqt4-opengl-dev, libxml2-dev,
- libglib2.0-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0),
+ libqt4-dev, automoc, libglu1-mesa-dev, libqt4-opengl-dev, libxml2-dev, libglib2.0-dev,
+ libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libxine-dev,
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386]
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/phonon
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/phonon
 
 Package: phonon
 Architecture: all
-Depends: phonon-backend-gstreamer | phonon-backend, libphonon4 (>= ${source:Version})
-Suggests: phonon-backend-xine, phonon-backend-vlc, phonon-backend-mplayer
+Depends: phonon-backend-xine | phonon-backend, libphonon4 (>= ${source:Version})
+Suggests: phonon-backend-gstreamer, phonon-backend-vlc, phonon-backend-mplayer
 Description: metapackage for Phonon multimedia framework
  Phonon is the Qt4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
@@ -44,6 +44,19 @@ Description: Phonon multimedia framework for Qt 4
  layer for capturing, mixing, processing, and playing audio and video content.
  .
  This package contains the files necessary to run applications that use Phonon.
+
+Package: phonon-backend-xine
+Section: sound
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: phonon-backend
+Replaces: kdebase-runtime (<< 4:4.1.73)
+Conflicts: kdebase-runtime (<< 4:4.1.73)
+Description: Phonon Xine 1.1.x backend
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains the Xine 1.1.x backend for Phonon.
 
 Package: phonon-backend-gstreamer
 Architecture: any
