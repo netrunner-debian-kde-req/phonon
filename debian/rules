@@ -1,10 +1,18 @@
 #!/usr/bin/make -f
-THIS_SHOULD_GO_TO_UNSTABLE=1
+#THIS_SHOULD_GO_TO_UNSTABLE=1
 
 include debian/cdbs/kde.mk
 
-PHONON_MINIMUM_VERSION := 4:4.2.0
-
-DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V'libphonon4 (>> $(PHONON_MINIMUM_VERSION)), phonon(>> $(PHONON_MINIMUM_VERSION))'
+#PHONON_MINIMUM_VERSION := 4:4.2.0
+#DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V'libphonon4 (>> $(PHONON_MINIMUM_VERSION)), phonon(>> $(PHONON_MINIMUM_VERSION))'
 
 DEB_DH_SHLIBDEPS_ARGS_ALL = -- -xphonon
+
+binary-strip/libphonon4::
+	pkgkde-symbolshelper -i debian/$(cdbs_curpkg).symbols.in -o debian/$(cdbs_curpkg).symbols.$(DEB_HOST_ARCH)
+
+binary-fixup/libphonon4::
+	pkgkde-symbolshelper -f $(cdbs_curpkg)
+
+clean::
+	rm -f debian/libphonon4.symbols.$(DEB_HOST_ARCH)
