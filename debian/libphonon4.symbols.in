@@ -397,10 +397,10 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon11VideoWidget8contrastEv@Base 4:4.2.0
  _ZNK6Phonon11VideoWidget9scaleModeEv@Base 4:4.2.0
  _ZNK6Phonon12EffectWidget10metaObjectEv@Base 4:4.2.0
- _ZNK6Phonon12GlobalConfig20audioOutputDeviceForENS_8CategoryE@Base 4:4.2.70+svn886520
- _ZNK6Phonon12GlobalConfig21audioCaptureDeviceForENS_8CategoryE@Base 4:4.2.70+svn886520
- _ZNK6Phonon12GlobalConfig24audioOutputDeviceListForENS_8CategoryENS0_27HideAdvancedDevicesOverrideE@Base 4:4.2.70+svn886520
- _ZNK6Phonon12GlobalConfig25audioCaptureDeviceListForENS_8CategoryENS0_27HideAdvancedDevicesOverrideE@Base 4:4.2.70+svn886520
+ _ZNK6Phonon12GlobalConfig20audioOutputDeviceForENS_8CategoryEi@Base 4:4.2.80+svn890442
+ _ZNK6Phonon12GlobalConfig21audioCaptureDeviceForENS_8CategoryEi@Base 4:4.2.80+svn890442
+ _ZNK6Phonon12GlobalConfig24audioOutputDeviceListForENS_8CategoryEi@Base 4:4.2.80+svn890442
+ _ZNK6Phonon12GlobalConfig25audioCaptureDeviceListForENS_8CategoryEi@Base 4:4.2.80+svn890442
  _ZNK6Phonon12VolumeSlider10metaObjectEv@Base 4:4.2.0
  _ZNK6Phonon12VolumeSlider10singleStepEv@Base 4:4.2.0
  _ZNK6Phonon12VolumeSlider11audioOutputEv@Base 4:4.2.0

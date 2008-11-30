@@ -9,10 +9,10 @@ include debian/cdbs/kde.mk
 DEB_DH_SHLIBDEPS_ARGS_ALL = -- -xphonon
 
 binary-strip/libphonon4::
-	pkgkde-symbolshelper -i debian/$(cdbs_curpkg).symbols.in -o debian/$(cdbs_curpkg).symbols.$(DEB_HOST_ARCH)
+	pkgkde-symbolshelper symbolfile -p $(cdbs_curpkg) -o debian/$(cdbs_curpkg).symbols.$(DEB_HOST_ARCH)
 
 binary-fixup/libphonon4::
-	pkgkde-symbolshelper -f $(cdbs_curpkg)
+	pkgkde-symbolshelper postgensymbols -p $(cdbs_curpkg) -v
 
 clean::
 	rm -f debian/libphonon4.symbols.$(DEB_HOST_ARCH)

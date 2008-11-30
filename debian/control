@@ -3,7 +3,7 @@ Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Modestas Vainius <modestas@vainius.eu>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.2), pkg-kde-tools (>= 0.3~),
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.2), pkg-kde-tools (>= 0.3~pre5),
  libqt4-dev, automoc, libglu1-mesa-dev, libqt4-opengl-dev, libxml2-dev, libglib2.0-dev,
  libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libxine-dev,
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386]

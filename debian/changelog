@@ -1,4 +1,4 @@
-phonon (4:4.2.80+svn887051-0r1) UNRELEASED; urgency=low
+phonon (4:4.2.80+svn890442-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -9,14 +9,14 @@ phonon (4:4.2.80+svn887051-0r1) UNRELEASED; urgency=low
   * Bump cmake build dependency to 2.6.2.
   * Bump Standards-Version to 3.8.0: add README.source.
   * phonon-xine-backend replaces earlier kdebase-runtime.
-  * Add symbols file for libphonon4. This needs pkg-kde-tools (>=0.3)
+  * Add symbols file for libphonon4. This needs pkg-kde-tools (>= 0.3)
     at build time.
     - Hook up phonon dependency to play(), stop(), pause() etc. methods.
   * Resync patches:
     - drop phonon-libraryPaths.patch patch. Merged upstream.
     - prepend sequence number to phonon-inc.patch (01_) and refresh it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Nov 2008 11:31:03 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Nov 2008 15:01:20 +0200
 
 phonon (4:4.2.0-2) unstable; urgency=low
 
