@@ -15,8 +15,9 @@ phonon (4:4.2.80+svn890442-0r1) UNRELEASED; urgency=low
   * Resync patches:
     - drop phonon-libraryPaths.patch patch. Merged upstream.
     - prepend sequence number to phonon-inc.patch (01_) and refresh it.
+  * Switch to new installgen format.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Nov 2008 15:01:20 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Nov 2008 15:37:44 +0200
 
 phonon (4:4.2.0-2) unstable; urgency=low
 
