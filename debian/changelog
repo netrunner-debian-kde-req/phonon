@@ -28,7 +28,7 @@ phonon (4:4.2.0-2) unstable; urgency=low
     documentation is unclear, symlink Phonon to the phonon header.
     Also create a symlink from /usr/include/qt4/phonon to /usr/include/phonon
     so that application using qmake can use it.
-.
+
  -- Sune Vuorela <debian@pusling.com>  Thu, 20 Nov 2008 20:06:34 +0100
 
 phonon (4:4.2.0-1) unstable; urgency=low
