@@ -1,4 +1,4 @@
-phonon (4:4.2.80+svn890442-0r1) UNRELEASED; urgency=low
+phonon (4:4.2.80+svn896612-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -17,7 +17,12 @@ phonon (4:4.2.80+svn890442-0r1) UNRELEASED; urgency=low
     - prepend sequence number to phonon-inc.patch (01_) and refresh it.
   * Switch to new installgen format.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Nov 2008 15:37:44 +0200
+  +++ Changes by George Kiagiadakis:
+
+  * Build-conflict with the experimental libxine-dev (>= 1.1.90) as the
+    phonon-xine backend cannot build with it.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Dec 2008 00:56:14 +0200
 
 phonon (4:4.2.0-2) unstable; urgency=low
 
