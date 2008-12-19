@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.2), pkg-
  libqt4-dev, automoc, libglu1-mesa-dev, libqt4-opengl-dev, libxml2-dev, libglib2.0-dev,
  libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libxine-dev,
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386]
-Build-Conflicts: libxine-dev (>= 1.1.90)
+Build-Conflicts: libxine2
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/phonon
