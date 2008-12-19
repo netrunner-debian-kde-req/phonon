@@ -1,4 +1,4 @@
-phonon (4:4.2.80+svn896612-0r1) UNRELEASED; urgency=low
+phonon (4:4.2.80+svn898997-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -8,7 +8,7 @@ phonon (4:4.2.80+svn896612-0r1) UNRELEASED; urgency=low
   * Make xine backend a default one (via phonon metapackage).
   * Bump cmake build dependency to 2.6.2.
   * Bump Standards-Version to 3.8.0: add README.source.
-  * phonon-xine-backend replaces earlier kdebase-runtime.
+  * phonon-xine-backend replaces earlier kde-icons-oxygen.
   * Add symbols file for libphonon4. This needs pkg-kde-tools (>= 0.3)
     at build time.
     - Hook up phonon dependency to play(), stop(), pause() etc. methods.
@@ -22,7 +22,7 @@ phonon (4:4.2.80+svn896612-0r1) UNRELEASED; urgency=low
   * Build-conflict with the experimental libxine-dev (>= 1.1.90) as the
     phonon-xine backend cannot build with it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Dec 2008 00:56:14 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Dec 2008 22:17:13 +0200
 
 phonon (4:4.2.0-2) unstable; urgency=low
 
