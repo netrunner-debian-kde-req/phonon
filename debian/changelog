@@ -1,4 +1,4 @@
-phonon (4:4.2.80+svn899720-0r1) UNRELEASED; urgency=low
+phonon (4:4.2.96+svn906929-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -22,7 +22,7 @@ phonon (4:4.2.80+svn899720-0r1) UNRELEASED; urgency=low
   * Build-conflict with the experimental libxine2 as the
     phonon-xine backend cannot build with it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Dec 2008 21:14:52 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Jan 2009 12:12:44 +0200
 
 phonon (4:4.2.0-2) unstable; urgency=low
 
