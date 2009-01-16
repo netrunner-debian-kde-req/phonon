@@ -70,7 +70,7 @@ Description: Phonon GStreamer 0.10.x backend
  layer for capturing, mixing, processing, and playing audio and video content.
  .
  You should install gstreamer0.10-plugins-good to get support for playing
- popular free multimedia format and gstreamer0.10-plugins-ugly to get support
+ popular free multimedia formats and gstreamer0.10-plugins-ugly to get support
  for popular MPEG audio formats like MP3.
  .
  This package contains GStreamer 0.10.x backend for Phonon.
