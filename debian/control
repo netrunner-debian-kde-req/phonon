@@ -60,11 +60,18 @@ Description: Phonon Xine 1.1.x backend
 
 Package: phonon-backend-gstreamer
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libphonon4 (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, libphonon4 (= ${binary:Version}),
+ gstreamer0.10-plugins-base
+Recommends: gstreamer0.10-plugins-good
+Suggests: gstreamer0.10-plugins-ugly
 Provides: phonon-backend
 Description: Phonon GStreamer 0.10.x backend
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ You should install gstreamer0.10-plugins-good to get support for playing
+ popular free multimedia format and gstreamer0.10-plugins-ugly to get support
+ for popular MPEG audio formats like MP3.
  .
  This package contains GStreamer 0.10.x backend for Phonon.
 

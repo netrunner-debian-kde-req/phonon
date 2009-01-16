@@ -1,4 +1,4 @@
-phonon (4:4.2.96+svn906929-0r1) UNRELEASED; urgency=low
+phonon (4:4.2.96+svn906929-0r2) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -16,13 +16,18 @@ phonon (4:4.2.96+svn906929-0r1) UNRELEASED; urgency=low
     - drop phonon-libraryPaths.patch patch. Merged upstream.
     - prepend sequence number to phonon-inc.patch (01_) and refresh it.
   * Switch to new installgen format.
+  * Make phonon-backend-xine depend on gstreamer0.10-plugins-base. Otherwise,
+    it causes crashes sometimes.
+  * Make phonon-backend-gstreamer recommend gstreamer0.10-plugins-good and
+    suggest gstreamer0.10-plugins-ugly. Explain reasoning in the package 
+    description.
 
   +++ Changes by George Kiagiadakis:
 
   * Build-conflict with the experimental libxine2 as the
     phonon-xine backend cannot build with it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Jan 2009 12:12:44 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Jan 2009 12:20:25 +0200
 
 phonon (4:4.2.0-2) unstable; urgency=low
 
