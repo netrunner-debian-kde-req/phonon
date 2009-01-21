@@ -35,10 +35,7 @@ Copyright-And-License: unspecified
 Files: phonon.pc.cmake
 Copyright-And-License: unspecified
 
-Directory: cmake/
-Copyright-And-License: unspecified
-
-Directory: cmake/
+Files: cmake/*
 As you can read in cmake/COPYING-CMAKE-SCRIPTS all files under this directory
 are under the following license:
   
@@ -65,22 +62,23 @@ are under the following license:
     | (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
     | THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
 Files: cmake/FindAlsa.cmake
 Copyright: © 2006, David Faure, <faure@kde.org>
            © 2007, Matthias Kretz <kretz@kde.org>
 
 Files: cmake/FindAutomoc4.cmake
-Copyright: © 2008, Alexander Neundorf, <neundorf@kde.org>
+Copyright: © 2008-2009, Alexander Neundorf, <neundorf@kde.org>
 
 Files: cmake/FindGLIB2.cmake
 Copyright-And-License: unspecified
 
 Files: cmake/FindGObject.cmake
 Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2008, Helio Chissini de Castro <helio@kde.org>
 
 Files: cmake/FindGStreamer.cmake
 Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2008, Helio Chissini de Castro <helio@kde.org>
 
 Files: cmake/FindGStreamerPlugins.cmake
 Copyright: © 2007, Trolltech ASA
@@ -95,194 +93,24 @@ Files: cmake/MacroLogFeature.cmake
 Copyright: © 2006, Alexander Neundorf, <neundorf@kde.org>
            © 2006, Allen Winter, <winter@kde.org>
 
-
 Files: cmake/MacroOptionalFindPackage.cmake
 Copyright: © 2006, Alexander Neundorf, <neundorf@kde.org>
 
 Files: cmake/MacroPushRequiredVars.cmake
 Copyright: © 2006, Alexander Neundorf, <neundorf@kde.org>
 
+Files: ds9/*
+Copyright: © 2008, Nokia Corporation and/or its subsidiary(-ies)
+License: LGPL-2.1 | LGPL-3
 
-Directory: ds9/
-Copyright-And-License: unspecified
-
-Files: ds9/CMakeLists.txt
-Copyright-And-License: unspecified
-
-Files: ds9/ConfigureChecks.cmake
-Copyright-And-License: unspecified
-
-Files: ds9/abstractvideorenderer.cpp
+Files: gstreamer/*
 Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/abstractvideorenderer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/audiooutput.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/audiooutput.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/backend.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/backend.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/backendnode.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/backendnode.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/compointer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/ds9.desktop
-Copyright-And-License: unspecified
-
-Files: ds9/effect.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/effect.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/fakesource.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/fakesource.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/iodevicereader.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/iodevicereader.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/mediagraph.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/mediagraph.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/mediaobject.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/mediaobject.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/phononds9_namespace.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qasyncreader.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qasyncreader.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qaudiocdreader.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qaudiocdreader.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qbasefilter.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qbasefilter.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qmeminputpin.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qmeminputpin.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qpin.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/qpin.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/videorenderer_soft.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/videorenderer_soft.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/videorenderer_vmr9.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/videorenderer_vmr9.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/videowidget.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/videowidget.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/volumeeffect.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: ds9/volumeeffect.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Directory: gstreamer/
-Copyright-And-License: unspecified
+License: LGPL-2.1 | LGPL-3
 
 Files: gstreamer/CMakeLists.txt
-Copyright-And-License: unspecified
-
-Files: gstreamer/ConfigureChecks.cmake
-Copyright-And-License: unspecified
-
-Files: gstreamer/abstractrenderer.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/abstractrenderer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Copyright: © 2007, Trolltech ASA. All rights reserved.
+Copyright: © 2008, Matthias Kretz <kretz@kde.org>
+License: LGPL-2.1 | LGPL-3
 
 Files: gstreamer/alsasink2.c
 Copyright: © 2001 CodeFactory AB
@@ -299,180 +127,21 @@ Copyright: © 2005 Wim Taymans <wim@fluendo.com>
            © 2008 Matthias Kretz <kretz@kde.org>
 License: LGPL-2+
 
-Files: gstreamer/artssink.cpp
+Files: gstreamer/artssink.*
 Copyright: © 2008 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+License: LGPL-2.1 | LGPL-3
 
-Files: gstreamer/artssink.h
-Copyright: © 2008 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/audioeffect.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/audioeffect.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/audiooutput.cpp
+Files: gstreamer/audiooutput.*
 Copyright: © 2007 Trolltech ASA. All Rights Reserved.
            © 2008 Matthias Kretz <kretz@kde.org>
-License: LGPL-2.1 or 3
-
-Files: gstreamer/audiooutput.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-           © 2008 Matthias Kretz <kretz@kde.org>
-License: LGPL-2.1 or 3
-
-Files: gstreamer/backend.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/backend.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/common.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/devicemanager.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/devicemanager.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/effect.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/effect.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/effectmanager.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/effectmanager.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/glrenderer.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/glrenderer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/gsthelper.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/gsthelper.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+License: LGPL-2.1 | LGPL-3
 
 Files: gstreamer/gstreamer.desktop
 Copyright-And-License: unspecified
 
-Files: gstreamer/lgpl-2.1.txt
-Copyright-And-License: unspecified
-
-Files: gstreamer/lgpl-3.txt
-Copyright-And-License: unspecified
-
-Files: gstreamer/medianode.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/medianode.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/medianodeevent.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/medianodeevent.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/mediaobject.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/mediaobject.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/message.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/message.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/phononsrc.cpp
+Files: gstreamer/phononsrc.*
 Copyright: © 2008 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/phononsrc.h
-Copyright: © 2008 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/qwidgetvideosink.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/qwidgetvideosink.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/streamreader.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/streamreader.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/videowidget.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/videowidget.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/volumefadereffect.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/volumefadereffect.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/widgetrenderer.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/widgetrenderer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/x11renderer.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: gstreamer/x11renderer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+License: LGPL-2.1 | LGPL-3
 
 Directory: includes/*
 Copyright-And-License: unspecified
@@ -1512,231 +1181,218 @@ Copyright-And-License: unspecified
 Files: phonon/tests/methods/volumefadereffect.cpp
 Copyright-And-License: unspecified
 
-Directory: qt7/
+Files: qt7/*
+Copyright: © 2007, Trolltech ASA. All rights reserved.
+License: LGPL-2.1 | LGPL-3
+
+Files: xine/abstractaudiooutput.cpp
+Copyright: © 2006, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/abstractaudiooutput.cpp
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/audiodataoutput.*
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+License: LGPL-2+
+
+Files: xine/audiooutput.cpp
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/audiooutput.h
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2008, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/backend.cpp
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/backend.h
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+License: LGPL-2+
+
+Files: xine/brightnesscontrol.*
+Copyright: © 2006, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/BUGS
 Copyright-And-License: unspecified
 
-Files: qt7/CMakeLists.txt
+Files: xine/bytestream.*
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/bytestreamplugin.cpp
+Copyright: © 2006, Matthias Kretz <kretz@kde.org>
+License: LGPL-2
+
+Files: xine/CMakeLists.txt
 Copyright-And-License: unspecified
 
-Files: qt7/ConfigureChecks.cmake
+Files: xine/config-xine-widget.h.cmake
 Copyright-And-License: unspecified
 
-Files: qt7/audioconnection.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/connectnotificationinterface.h
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/audioconnection.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/deinterlacefilter.*
+Copyright: © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/audiodevice.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/demux_wav.c
+Copyright: © 2001-2008, the xine project
 
-Files: qt7/audiodevice.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/effect.*
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/audioeffects.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/events.h
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/audioeffects.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/keepreference.h
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/audiograph.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/macros.h
+Copyright: © 2008, Matthias Kretz <kretz@kde.org>
+License: LGPL-2.1+
+License: other
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) version 3, or any
+    later version accepted by the membership of KDE e.V. (or its
+    successor approved by the membership of KDE e.V.), Trolltech ASA
+    (or its successors, if any) and the KDE Free Qt Foundation, which shall
+    act as a proxy defined in Section 6 of version 3 of the license.
 
-Files: qt7/audiograph.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/mediaobject.cpp
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+           © 2008, Ian Monroe <imonroe@kde.org>
+License: LGPL-2+
 
-Files: qt7/audiomixer.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/mediaobject.h
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/audiomixer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/audionode.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/audionode.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/audiooutput.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/audiooutput.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/audiopartoutput.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/audiopartoutput.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/audiosplitter.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/audiosplitter.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/backend.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/backend.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/backendheader.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/backendinfo.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/backendinfo.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/displaylinkcallback.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/displaylinkcallback.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/error.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/lgpl-2.1.txt
+Files: xine/mediaproducer.cpp
 Copyright-And-License: unspecified
 
-Files: qt7/lgpl-3.txt
+Files: xine/Messages.sh
 Copyright-And-License: unspecified
 
-Files: qt7/medianode.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/mixer_plugin.cpp
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/medianode.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/myshareddatapointer.h
+Copyright: © 1992-2008, Trolltech ASA. All rights reserved.
+           © 2008, Matthias Kretz <kretz@kde.org>
+License: GPL-2 | GPL-3
+License: other
+    This file may be used under the terms of the GNU General Public
+    License versions 2.0 or 3.0 as published by the Free Software
+    Foundation and appearing in the files LICENSE.GPL2 and LICENSE.GPL3
+    included in the packaging of this file.  Alternatively you may (at
+    your option) use any later version of the GNU General Public
+    License if such license has been publicly approved by Trolltech ASA
+    (or its successors, if any) and the KDE Free Qt Foundation. In
+    addition, as a special exception, Trolltech gives you certain
+    additional rights. These rights are described in the Trolltech GPL
+    Exception version 1.2, which can be found at
+    http://www.trolltech.com/products/qt/gplexception/.
 
-Files: qt7/medianodeevent.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/net_buf_ctrl.*
+Copyright: © 2000-2003, the xine project
+           © 2007, Matthias Kretz <kretz@kde.org>
+License: GPL-2+
 
-Files: qt7/medianodeevent.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/nullsink.*
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/medianodevideopart.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/plugins.c
+Copyright: © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/medianodevideopart.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/shareddata.h
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: GPL-2+
 
-Files: qt7/mediaobject.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/sinknode.*
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/mediaobject.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/sourcenode.*
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/mediaobjectaudionode.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/videodataoutput.*
+Copyright: © 2006-2008, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/mediaobjectaudionode.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/videoeffect.*
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/objc_help.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/videowidget.cpp
+Copyright: © 2006-2008, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/objc_help.mm
+Files: xine/videowidget.h
+Copyright: © 2005-2008, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/visualization.*
+Copyright: © 2006, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/volumefadereffect.*
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/volumefader_plugin.cpp
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/wirecall.h
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
+
+Files: xine/xine.desktop
 Copyright-And-License: unspecified
 
-Files: qt7/quicktimeaudioplayer.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/xineengine.*
+Copyright: © 2006, Tim Beaulen <tbscope@gmail.com>
+           © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/quicktimeaudioplayer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/xinestream.cpp
+Copyright: © 2006-2008, Matthias Kretz <kretz@kde.org>
+           © 2008, Ian Monroe <imonroe@kde.org>
+License: LGPL-2+
 
-Files: qt7/quicktimemetadata.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
+Files: xine/xinestream.h
+Copyright: © 2006-2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
-Files: qt7/quicktimemetadata.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/quicktimestreamreader.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/quicktimestreamreader.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/quicktimestreamreader_objc.mm
-Copyright-And-License: unspecified
-
-Files: qt7/quicktimevideoplayer.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/quicktimevideoplayer.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/videoeffect.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/videoeffect.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/videoframe.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/videoframe.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/videowidget.cpp
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
-Files: qt7/videowidget.h
-Copyright: © 2007 Trolltech ASA. All Rights Reserved.
-License: LGPL-2.1 or 3
-
+Files: xine/xinethread.*
+Copyright: © 2007, Matthias Kretz <kretz@kde.org>
+License: LGPL-2+
 
  
  
@@ -1744,12 +1400,14 @@ License: LGPL-2.1 or 3
 Legend:
  - "LGPL-2":     The GNU Library General Public License, version 2.
  - "LGPL-2.1":   The GNU Library General Public License, version 2.1.
+ - "LGPL-3":     The GNU Library General Public License, version 3.
  - "LGPL-2+":   The Lesser (or Library) GNU General Public License, version
                 2 or later (at your option).
 
 On Debian systems, you can find the complete texts of these licenses at:
   - LGPL-2:    /usr/share/common-licenses/LGPL-2
   - LGPL-2.1:  /usr/share/common-licenses/LGPL-2.1
+  - LGPL-3:    /usr/share/common-licenses/LGPL-3
 
 -------------------------------------------------------------------------------
 
