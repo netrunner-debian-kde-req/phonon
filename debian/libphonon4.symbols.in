@@ -55,7 +55,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon11MediaObject4seekEx@Base 4:4.2.0 1
  _ZN6Phonon11MediaObject4stopEv@Base 4:4.2.0 1
  _ZN6Phonon11MediaObject4tickEx@Base 4:4.2.0
- _ZN6Phonon11MediaObject5clearEv@Base 4:4.2.70+svn886520
+ _ZN6Phonon11MediaObject5clearEv@Base 4:4.3.0
  _ZN6Phonon11MediaObject5pauseEv@Base 4:4.2.0 1
  _ZN6Phonon11MediaObject7enqueueERK5QListI4QUrlE@Base 4:4.2.0
  _ZN6Phonon11MediaObject7enqueueERK5QListINS_11MediaSourceEE@Base 4:4.2.0
@@ -100,9 +100,9 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon11VideoPlayer8finishedEv@Base 4:4.2.0
  _ZN6Phonon11VideoPlayer9setVolumeEf@Base 4:4.2.0
  _ZN6Phonon11VideoPlayerC1ENS_8CategoryEP7QWidget@Base 4:4.2.0
- _ZN6Phonon11VideoPlayerC1EP7QWidget@Base 4:4.2.80+svn886909
+ _ZN6Phonon11VideoPlayerC1EP7QWidget@Base 4:4.3.0
  _ZN6Phonon11VideoPlayerC2ENS_8CategoryEP7QWidget@Base 4:4.2.0
- _ZN6Phonon11VideoPlayerC2EP7QWidget@Base 4:4.2.80+svn886909
+ _ZN6Phonon11VideoPlayerC2EP7QWidget@Base 4:4.3.0
  _ZN6Phonon11VideoPlayerD0Ev@Base 4:4.2.0
  _ZN6Phonon11VideoPlayerD1Ev@Base 4:4.2.0
  _ZN6Phonon11VideoPlayerD2Ev@Base 4:4.2.0
@@ -132,11 +132,11 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon12EffectWidgetD0Ev@Base 4:4.2.0
  _ZN6Phonon12EffectWidgetD1Ev@Base 4:4.2.0
  _ZN6Phonon12EffectWidgetD2Ev@Base 4:4.2.0
- _ZN6Phonon12GlobalConfigC1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12GlobalConfigC2Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12GlobalConfigD0Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12GlobalConfigD1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12GlobalConfigD2Ev@Base 4:4.2.70+svn886520
+ _ZN6Phonon12GlobalConfigC1Ev@Base 4:4.3.0
+ _ZN6Phonon12GlobalConfigC2Ev@Base 4:4.3.0
+ _ZN6Phonon12GlobalConfigD0Ev@Base 4:4.3.0
+ _ZN6Phonon12GlobalConfigD1Ev@Base 4:4.3.0
+ _ZN6Phonon12GlobalConfigD2Ev@Base 4:4.3.0
  _ZN6Phonon12VolumeSlider11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.0
  _ZN6Phonon12VolumeSlider11qt_metacastEPKc@Base 4:4.2.0
  _ZN6Phonon12VolumeSlider11setIconSizeERK5QSize@Base 4:4.2.0
@@ -281,13 +281,13 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon22ObjectDescriptionModelILNS_21ObjectDescriptionTypeE3EE16staticMetaObjectE@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN6Phonon22ObjectDescriptionModelILNS_21ObjectDescriptionTypeE4EE11qt_metacastEPKc@Base 4:4.2.0
  _ZN6Phonon22ObjectDescriptionModelILNS_21ObjectDescriptionTypeE4EE16staticMetaObjectE@Base 4:4.2.0
- _ZN6Phonon26AbstractMediaStreamPrivate13setStreamSizeEx@Base 4:4.2.70+svn886520
- _ZN6Phonon26AbstractMediaStreamPrivate17setStreamSeekableEb@Base 4:4.2.70+svn886520
+ _ZN6Phonon26AbstractMediaStreamPrivate13setStreamSizeEx@Base 4:4.3.0
+ _ZN6Phonon26AbstractMediaStreamPrivate17setStreamSeekableEb@Base 4:4.3.0
  _ZN6Phonon26AbstractMediaStreamPrivate18setStreamInterfaceEPNS_15StreamInterfaceE@Base 4:4.2.0
  _ZN6Phonon26AbstractMediaStreamPrivate21phononObjectDestroyedEPNS_16MediaNodePrivateE@Base 4:4.2.0
  _ZN6Phonon26AbstractMediaStreamPrivate21setMediaObjectPrivateEPNS_18MediaObjectPrivateE@Base 4:4.2.0
- _ZN6Phonon26AbstractMediaStreamPrivate9endOfDataEv@Base 4:4.2.70+svn886520
- _ZN6Phonon26AbstractMediaStreamPrivate9writeDataERK10QByteArray@Base 4:4.2.70+svn886520
+ _ZN6Phonon26AbstractMediaStreamPrivate9endOfDataEv@Base 4:4.3.0
+ _ZN6Phonon26AbstractMediaStreamPrivate9writeDataERK10QByteArray@Base 4:4.3.0
  _ZN6Phonon26AbstractMediaStreamPrivateD0Ev@Base 4:4.2.0
  _ZN6Phonon26AbstractMediaStreamPrivateD1Ev@Base 4:4.2.0
  _ZN6Phonon26AbstractMediaStreamPrivateD2Ev@Base 4:4.2.0
@@ -328,9 +328,6 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon7Factory11backendNameEv@Base 4:4.2.0
  _ZN6Phonon7Factory14platformPluginEv@Base 4:4.2.0
  _ZN6Phonon7Factory15registerQObjectEP7QObject@Base 4:4.2.0
-#MISSING: 4:4.2.70+svn886520-0r2# _ZN6Phonon7Factory19createVisualizationEP7QObject@Base 4:4.2.0
-#MISSING: 4:4.2.70+svn886520-0r2# _ZN6Phonon7Factory21createAudioDataOutputEP7QObject@Base 4:4.2.0
-#MISSING: 4:4.2.70+svn886520-0r2# _ZN6Phonon7Factory21createVideoDataOutputEP7QObject@Base 4:4.2.0
  _ZN6Phonon7Factory22registerFrontendObjectEPNS_16MediaNodePrivateE@Base 4:4.2.0
  _ZN6Phonon7Factory24deregisterFrontendObjectEPNS_16MediaNodePrivateE@Base 4:4.2.0
  _ZN6Phonon7Factory6senderEv@Base 4:4.2.0
@@ -397,10 +394,10 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon11VideoWidget8contrastEv@Base 4:4.2.0
  _ZNK6Phonon11VideoWidget9scaleModeEv@Base 4:4.2.0
  _ZNK6Phonon12EffectWidget10metaObjectEv@Base 4:4.2.0
- _ZNK6Phonon12GlobalConfig20audioOutputDeviceForENS_8CategoryEi@Base 4:4.2.80+svn890442
- _ZNK6Phonon12GlobalConfig21audioCaptureDeviceForENS_8CategoryEi@Base 4:4.2.80+svn890442
- _ZNK6Phonon12GlobalConfig24audioOutputDeviceListForENS_8CategoryEi@Base 4:4.2.80+svn890442
- _ZNK6Phonon12GlobalConfig25audioCaptureDeviceListForENS_8CategoryEi@Base 4:4.2.80+svn890442
+ _ZNK6Phonon12GlobalConfig20audioOutputDeviceForENS_8CategoryEi@Base 4:4.3.0
+ _ZNK6Phonon12GlobalConfig21audioCaptureDeviceForENS_8CategoryEi@Base 4:4.3.0
+ _ZNK6Phonon12GlobalConfig24audioOutputDeviceListForENS_8CategoryEi@Base 4:4.3.0
+ _ZNK6Phonon12GlobalConfig25audioCaptureDeviceListForENS_8CategoryEi@Base 4:4.3.0
  _ZNK6Phonon12VolumeSlider10metaObjectEv@Base 4:4.2.0
  _ZNK6Phonon12VolumeSlider10singleStepEv@Base 4:4.2.0
  _ZNK6Phonon12VolumeSlider11audioOutputEv@Base 4:4.2.0
@@ -450,7 +447,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon21ObjectDescriptionData7isValidEv@Base 4:4.2.0
  _ZNK6Phonon21ObjectDescriptionData8propertyEPKc@Base 4:4.2.0
  _ZNK6Phonon21ObjectDescriptionDataeqERKS0_@Base 4:4.2.0
- _ZNK6Phonon22AudioOutputInterface4219deviceAccessListForERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE0EEE@Base 4:4.2.70+svn886520
+ _ZNK6Phonon22AudioOutputInterface4219deviceAccessListForERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE0EEE@Base 4:4.3.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZNK6Phonon22ObjectDescriptionModelILNS_21ObjectDescriptionTypeE0EE10metaObjectEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZNK6Phonon22ObjectDescriptionModelILNS_21ObjectDescriptionTypeE1EE10metaObjectEv@Base 4:4.2.0
 #DEPRECATED: PRIVATE: TEMPLINST# _ZNK6Phonon22ObjectDescriptionModelILNS_21ObjectDescriptionTypeE2EE10metaObjectEv@Base 4:4.2.0
@@ -466,8 +463,8 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon26ObjectDescriptionModelData9mimeTypesENS_21ObjectDescriptionTypeE@Base 4:4.2.0
  _ZNK6Phonon26ObjectDescriptionModelData9modelDataERK11QModelIndex@Base 4:4.2.0
  _ZNK6Phonon26ObjectDescriptionModelData9modelDataEv@Base 4:4.2.0
- _ZNK6Phonon4Path4sinkEv@Base 4:4.2.80+svn886909
- _ZNK6Phonon4Path6sourceEv@Base 4:4.2.80+svn886909
+ _ZNK6Phonon4Path4sinkEv@Base 4:4.3.0
+ _ZNK6Phonon4Path6sourceEv@Base 4:4.3.0
  _ZNK6Phonon4Path7effectsEv@Base 4:4.2.0
  _ZNK6Phonon4Path7isValidEv@Base 4:4.2.0
  _ZNK6Phonon4PatheqERKS0_@Base 4:4.2.0
@@ -485,7 +482,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZTIN6Phonon11VideoPlayerE@Base 4:4.2.0
  _ZTIN6Phonon11VideoWidgetE@Base 4:4.2.0
  _ZTIN6Phonon12EffectWidgetE@Base 4:4.2.0
- _ZTIN6Phonon12GlobalConfigE@Base 4:4.2.70+svn886520
+ _ZTIN6Phonon12GlobalConfigE@Base 4:4.3.0
  _ZTIN6Phonon12VolumeSliderE@Base 4:4.2.0
  _ZTIN6Phonon15MediaControllerE@Base 4:4.2.0
  _ZTIN6Phonon15StreamInterfaceE@Base 4:4.2.0
@@ -504,7 +501,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZTSN6Phonon11VideoPlayerE@Base 4:4.2.0
  _ZTSN6Phonon11VideoWidgetE@Base 4:4.2.0
  _ZTSN6Phonon12EffectWidgetE@Base 4:4.2.0
- _ZTSN6Phonon12GlobalConfigE@Base 4:4.2.70+svn886520
+ _ZTSN6Phonon12GlobalConfigE@Base 4:4.3.0
  _ZTSN6Phonon12VolumeSliderE@Base 4:4.2.0
  _ZTSN6Phonon15MediaControllerE@Base 4:4.2.0
  _ZTSN6Phonon15StreamInterfaceE@Base 4:4.2.0
@@ -523,7 +520,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZTVN6Phonon11VideoPlayerE@Base 4:4.2.0
  _ZTVN6Phonon11VideoWidgetE@Base 4:4.2.0
  _ZTVN6Phonon12EffectWidgetE@Base 4:4.2.0
- _ZTVN6Phonon12GlobalConfigE@Base 4:4.2.70+svn886520
+ _ZTVN6Phonon12GlobalConfigE@Base 4:4.3.0
  _ZTVN6Phonon12VolumeSliderE@Base 4:4.2.0
  _ZTVN6Phonon15MediaControllerE@Base 4:4.2.0
  _ZTVN6Phonon15StreamInterfaceE@Base 4:4.2.0
@@ -553,13 +550,13 @@ libphonon.so.4 libphonon4 #MINVER#
 libphononexperimental.so.4 libphonon4 #MINVER#
 | phonon #MINVER#, libphonon4 #MINVER#
 * Build-Depends-Package: libphonon-dev
- _ZN6Phonon10PacketPoolC1ERKS0_@Base 4:4.2.70+svn886520
- _ZN6Phonon10PacketPoolC1Eii@Base 4:4.2.70+svn886520
- _ZN6Phonon10PacketPoolC2ERKS0_@Base 4:4.2.70+svn886520
- _ZN6Phonon10PacketPoolC2Eii@Base 4:4.2.70+svn886520
- _ZN6Phonon10PacketPoolD1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon10PacketPoolD2Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon10PacketPoolaSERKS0_@Base 4:4.2.70+svn886520
+ _ZN6Phonon10PacketPoolC1ERKS0_@Base 4:4.3.0
+ _ZN6Phonon10PacketPoolC1Eii@Base 4:4.3.0
+ _ZN6Phonon10PacketPoolC2ERKS0_@Base 4:4.3.0
+ _ZN6Phonon10PacketPoolC2Eii@Base 4:4.3.0
+ _ZN6Phonon10PacketPoolD1Ev@Base 4:4.3.0
+ _ZN6Phonon10PacketPoolD2Ev@Base 4:4.3.0
+ _ZN6Phonon10PacketPoolaSERKS0_@Base 4:4.3.0
  _ZN6Phonon12Experimental11MediaSourceC1ERK5QListINS_11MediaSourceEE@Base 4:4.2.0
  _ZN6Phonon12Experimental11MediaSourceC1ERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE65536EEE@Base 4:4.2.0
  _ZN6Phonon12Experimental11MediaSourceC1ERKS1_@Base 4:4.2.0
@@ -597,67 +594,67 @@ libphononexperimental.so.4 libphonon4 #MINVER#
  _ZN6Phonon12Experimental15VideoDataOutput5startEv@Base 4:4.2.0 1
  _ZN6Phonon12Experimental15VideoDataOutputC1EP7QObject@Base 4:4.2.0
  _ZN6Phonon12Experimental15VideoDataOutputC2EP7QObject@Base 4:4.2.0
- _ZN6Phonon12Experimental16VideoDataOutput210endOfMediaEv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental16VideoDataOutput210frameReadyERKNS0_11VideoFrame2E@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental16VideoDataOutput211qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental16VideoDataOutput211qt_metacastEPKc@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental16VideoDataOutput216endOfMediaSignalEv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental16VideoDataOutput216frameReadySignalERKNS0_11VideoFrame2E@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental16VideoDataOutput216staticMetaObjectE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental16VideoDataOutput2C1EP7QObject@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental16VideoDataOutput2C2EP7QObject@Base 4:4.2.70+svn886520
+ _ZN6Phonon12Experimental16VideoDataOutput210endOfMediaEv@Base 4:4.3.0
+ _ZN6Phonon12Experimental16VideoDataOutput210frameReadyERKNS0_11VideoFrame2E@Base 4:4.3.0
+ _ZN6Phonon12Experimental16VideoDataOutput211qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.0
+ _ZN6Phonon12Experimental16VideoDataOutput211qt_metacastEPKc@Base 4:4.3.0
+ _ZN6Phonon12Experimental16VideoDataOutput216endOfMediaSignalEv@Base 4:4.3.0
+ _ZN6Phonon12Experimental16VideoDataOutput216frameReadySignalERKNS0_11VideoFrame2E@Base 4:4.3.0
+ _ZN6Phonon12Experimental16VideoDataOutput216staticMetaObjectE@Base 4:4.3.0
+ _ZN6Phonon12Experimental16VideoDataOutput2C1EP7QObject@Base 4:4.3.0
+ _ZN6Phonon12Experimental16VideoDataOutput2C2EP7QObject@Base 4:4.3.0
  _ZN6Phonon12Experimental19BackendCapabilities28availableVideoCaptureDevicesEv@Base 4:4.2.0
- _ZN6Phonon12Experimental23AbstractAudioDataOutput10setRunningEb@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractAudioDataOutput17setAllowedFormatsERK4QSetINS0_11AudioFormatEE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractAudioDataOutput4stopEv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractAudioDataOutput5startEv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractAudioDataOutputC1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractAudioDataOutputC2Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractAudioDataOutputD0Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractAudioDataOutputD1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractAudioDataOutputD2Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutput10setRunningEb@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutput17setAllowedFormatsERK4QSetINS0_11VideoFrame26FormatEE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutput4stopEv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutput5startEv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutputC1ERNS0_30AbstractVideoDataOutputPrivateE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutputC1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutputC2ERNS0_30AbstractVideoDataOutputPrivateE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutputC2Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutputD0Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutputD1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental23AbstractVideoDataOutputD2Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental7Factory19createVisualizationEP7QObject@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental7Factory21createAudioDataOutputEP7QObject@Base 4:4.2.70+svn886520
-#MISSING: 4:4.2.70+svn886520-0r2# _ZN6Phonon12Experimental7Factory21createVideoDataOutputEP7QObject@Base 4:4.2.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutput10setRunningEb@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutput17setAllowedFormatsERK4QSetINS0_11AudioFormatEE@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutput4stopEv@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutput5startEv@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutputC1Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutputC2Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutputD0Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutputD1Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractAudioDataOutputD2Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutput10setRunningEb@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutput17setAllowedFormatsERK4QSetINS0_11VideoFrame26FormatEE@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutput4stopEv@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutput5startEv@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutputC1ERNS0_30AbstractVideoDataOutputPrivateE@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutputC1Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutputC2ERNS0_30AbstractVideoDataOutputPrivateE@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutputC2Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutputD0Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutputD1Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental23AbstractVideoDataOutputD2Ev@Base 4:4.3.0
+ _ZN6Phonon12Experimental7Factory19createVisualizationEP7QObject@Base 4:4.3.0
+ _ZN6Phonon12Experimental7Factory21createAudioDataOutputEP7QObject@Base 4:4.3.0
+#MISSING: 4:4.3.0-0r2# _ZN6Phonon12Experimental7Factory21createVideoDataOutputEP7QObject@Base 4:4.2.0
  _ZN6Phonon12Experimental7Factory6senderEv@Base 4:4.2.0
- _ZN6Phonon12Experimental9AvCapture11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCapture11qt_metacastEPKc@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCapture16staticMetaObjectE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCapture21setAudioCaptureDeviceENS_8CategoryE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCapture21setAudioCaptureDeviceERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE4EEE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCapture21setVideoCaptureDeviceENS_8CategoryE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCapture21setVideoCaptureDeviceERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE65536EEE@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCapture4stopEv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCapture5startEv@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCaptureC1EP7QObject@Base 4:4.2.70+svn886520
- _ZN6Phonon12Experimental9AvCaptureC2EP7QObject@Base 4:4.2.70+svn886520
- _ZN6Phonon6Packet4dataEv@Base 4:4.2.70+svn886520
- _ZN6Phonon6Packet7setSizeEi@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketC1ERKS0_@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketC1ERNS_10PacketPoolE@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketC1ERNS_13PacketPrivateE@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketC1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketC2ERKS0_@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketC2ERNS_10PacketPoolE@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketC2ERNS_13PacketPrivateE@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketC2Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketD1Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketD2Ev@Base 4:4.2.70+svn886520
- _ZN6Phonon6PacketaSERKS0_@Base 4:4.2.70+svn886520
- _ZNK6Phonon10PacketPool10packetSizeEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon10PacketPool13unusedPacketsEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon10PacketPool8poolSizeEv@Base 4:4.2.70+svn886520
+ _ZN6Phonon12Experimental9AvCapture11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCapture11qt_metacastEPKc@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCapture16staticMetaObjectE@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCapture21setAudioCaptureDeviceENS_8CategoryE@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCapture21setAudioCaptureDeviceERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE4EEE@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCapture21setVideoCaptureDeviceENS_8CategoryE@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCapture21setVideoCaptureDeviceERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE65536EEE@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCapture4stopEv@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCapture5startEv@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCaptureC1EP7QObject@Base 4:4.3.0
+ _ZN6Phonon12Experimental9AvCaptureC2EP7QObject@Base 4:4.3.0
+ _ZN6Phonon6Packet4dataEv@Base 4:4.3.0
+ _ZN6Phonon6Packet7setSizeEi@Base 4:4.3.0
+ _ZN6Phonon6PacketC1ERKS0_@Base 4:4.3.0
+ _ZN6Phonon6PacketC1ERNS_10PacketPoolE@Base 4:4.3.0
+ _ZN6Phonon6PacketC1ERNS_13PacketPrivateE@Base 4:4.3.0
+ _ZN6Phonon6PacketC1Ev@Base 4:4.3.0
+ _ZN6Phonon6PacketC2ERKS0_@Base 4:4.3.0
+ _ZN6Phonon6PacketC2ERNS_10PacketPoolE@Base 4:4.3.0
+ _ZN6Phonon6PacketC2ERNS_13PacketPrivateE@Base 4:4.3.0
+ _ZN6Phonon6PacketC2Ev@Base 4:4.3.0
+ _ZN6Phonon6PacketD1Ev@Base 4:4.3.0
+ _ZN6Phonon6PacketD2Ev@Base 4:4.3.0
+ _ZN6Phonon6PacketaSERKS0_@Base 4:4.3.0
+ _ZNK6Phonon10PacketPool10packetSizeEv@Base 4:4.3.0
+ _ZNK6Phonon10PacketPool13unusedPacketsEv@Base 4:4.3.0
+ _ZNK6Phonon10PacketPool8poolSizeEv@Base 4:4.3.0
  _ZNK6Phonon12Experimental11MediaSource10substreamsEv@Base 4:4.2.0
  _ZNK6Phonon12Experimental11MediaSource18videoCaptureDeviceEv@Base 4:4.2.0
  _ZNK6Phonon12Experimental11MediaSourceeqERKS1_@Base 4:4.2.0
@@ -670,45 +667,45 @@ libphononexperimental.so.4 libphonon4 #MINVER#
  _ZNK6Phonon12Experimental15VideoDataOutput10metaObjectEv@Base 4:4.2.0
  _ZNK6Phonon12Experimental15VideoDataOutput7latencyEv@Base 4:4.2.0
  _ZNK6Phonon12Experimental15VideoDataOutput9isRunningEv@Base 4:4.2.0
- _ZNK6Phonon12Experimental16VideoDataOutput210metaObjectEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon12Experimental23AbstractAudioDataOutput14allowedFormatsEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon12Experimental23AbstractAudioDataOutput9isRunningEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon12Experimental23AbstractVideoDataOutput14allowedFormatsEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon12Experimental23AbstractVideoDataOutput9isRunningEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon12Experimental9AvCapture10metaObjectEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon12Experimental9AvCapture18audioCaptureDeviceEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon12Experimental9AvCapture18videoCaptureDeviceEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon6Packet4dataEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon6Packet4sizeEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon6Packet6isNullEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon6Packet8capacityEv@Base 4:4.2.70+svn886520
- _ZNK6Phonon6PacketeqERKS0_@Base 4:4.2.70+svn886520
- _ZNK6Phonon6PacketneERKS0_@Base 4:4.2.70+svn886520
+ _ZNK6Phonon12Experimental16VideoDataOutput210metaObjectEv@Base 4:4.3.0
+ _ZNK6Phonon12Experimental23AbstractAudioDataOutput14allowedFormatsEv@Base 4:4.3.0
+ _ZNK6Phonon12Experimental23AbstractAudioDataOutput9isRunningEv@Base 4:4.3.0
+ _ZNK6Phonon12Experimental23AbstractVideoDataOutput14allowedFormatsEv@Base 4:4.3.0
+ _ZNK6Phonon12Experimental23AbstractVideoDataOutput9isRunningEv@Base 4:4.3.0
+ _ZNK6Phonon12Experimental9AvCapture10metaObjectEv@Base 4:4.3.0
+ _ZNK6Phonon12Experimental9AvCapture18audioCaptureDeviceEv@Base 4:4.3.0
+ _ZNK6Phonon12Experimental9AvCapture18videoCaptureDeviceEv@Base 4:4.3.0
+ _ZNK6Phonon6Packet4dataEv@Base 4:4.3.0
+ _ZNK6Phonon6Packet4sizeEv@Base 4:4.3.0
+ _ZNK6Phonon6Packet6isNullEv@Base 4:4.3.0
+ _ZNK6Phonon6Packet8capacityEv@Base 4:4.3.0
+ _ZNK6Phonon6PacketeqERKS0_@Base 4:4.3.0
+ _ZNK6Phonon6PacketneERKS0_@Base 4:4.3.0
  _ZTIN6Phonon12Experimental13VisualizationE@Base 4:4.2.0
  _ZTIN6Phonon12Experimental15AudioDataOutputE@Base 4:4.2.0
  _ZTIN6Phonon12Experimental15VideoDataOutputE@Base 4:4.2.0
- _ZTIN6Phonon12Experimental16VideoDataOutput2E@Base 4:4.2.70+svn886520
- _ZTIN6Phonon12Experimental23AbstractAudioDataOutputE@Base 4:4.2.70+svn886520
- _ZTIN6Phonon12Experimental23AbstractVideoDataOutputE@Base 4:4.2.70+svn886520
- _ZTIN6Phonon12Experimental9AvCaptureE@Base 4:4.2.70+svn886520
+ _ZTIN6Phonon12Experimental16VideoDataOutput2E@Base 4:4.3.0
+ _ZTIN6Phonon12Experimental23AbstractAudioDataOutputE@Base 4:4.3.0
+ _ZTIN6Phonon12Experimental23AbstractVideoDataOutputE@Base 4:4.3.0
+ _ZTIN6Phonon12Experimental9AvCaptureE@Base 4:4.3.0
  _ZTIN6Phonon19AbstractVideoOutputE@Base 4:4.2.0
  _ZTSN6Phonon12Experimental13VisualizationE@Base 4:4.2.0
  _ZTSN6Phonon12Experimental15AudioDataOutputE@Base 4:4.2.0
  _ZTSN6Phonon12Experimental15VideoDataOutputE@Base 4:4.2.0
- _ZTSN6Phonon12Experimental16VideoDataOutput2E@Base 4:4.2.70+svn886520
- _ZTSN6Phonon12Experimental23AbstractAudioDataOutputE@Base 4:4.2.70+svn886520
- _ZTSN6Phonon12Experimental23AbstractVideoDataOutputE@Base 4:4.2.70+svn886520
- _ZTSN6Phonon12Experimental9AvCaptureE@Base 4:4.2.70+svn886520
+ _ZTSN6Phonon12Experimental16VideoDataOutput2E@Base 4:4.3.0
+ _ZTSN6Phonon12Experimental23AbstractAudioDataOutputE@Base 4:4.3.0
+ _ZTSN6Phonon12Experimental23AbstractVideoDataOutputE@Base 4:4.3.0
+ _ZTSN6Phonon12Experimental9AvCaptureE@Base 4:4.3.0
  _ZTSN6Phonon19AbstractVideoOutputE@Base 4:4.2.0
  _ZTVN6Phonon12Experimental13VisualizationE@Base 4:4.2.0
  _ZTVN6Phonon12Experimental15AudioDataOutputE@Base 4:4.2.0
  _ZTVN6Phonon12Experimental15VideoDataOutputE@Base 4:4.2.0
- _ZTVN6Phonon12Experimental16VideoDataOutput2E@Base 4:4.2.70+svn886520
- _ZTVN6Phonon12Experimental23AbstractAudioDataOutputE@Base 4:4.2.70+svn886520
- _ZTVN6Phonon12Experimental23AbstractVideoDataOutputE@Base 4:4.2.70+svn886520
- _ZTVN6Phonon12Experimental9AvCaptureE@Base 4:4.2.70+svn886520
+ _ZTVN6Phonon12Experimental16VideoDataOutput2E@Base 4:4.3.0
+ _ZTVN6Phonon12Experimental23AbstractAudioDataOutputE@Base 4:4.3.0
+ _ZTVN6Phonon12Experimental23AbstractVideoDataOutputE@Base 4:4.3.0
+ _ZTVN6Phonon12Experimental9AvCaptureE@Base 4:4.3.0
  _ZTVN6Phonon19AbstractVideoOutputE@Base 4:4.2.0
  _ZThn{vt:8}_N6Phonon12Experimental13VisualizationD0Ev@Base 4:4.2.0
  _ZThn{vt:8}_N6Phonon12Experimental13VisualizationD1Ev@Base 4:4.2.0
- _ZThn{vt:8}_N6Phonon12Experimental16VideoDataOutput210endOfMediaEv@Base 4:4.2.70+svn886520
- _ZThn{vt:8}_N6Phonon12Experimental16VideoDataOutput210frameReadyERKNS0_11VideoFrame2E@Base 4:4.2.70+svn886520
+ _ZThn{vt:8}_N6Phonon12Experimental16VideoDataOutput210endOfMediaEv@Base 4:4.3.0
+ _ZThn{vt:8}_N6Phonon12Experimental16VideoDataOutput210frameReadyERKNS0_11VideoFrame2E@Base 4:4.3.0
