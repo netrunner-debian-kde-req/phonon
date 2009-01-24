@@ -27,7 +27,11 @@ phonon (4:4.3.0-0r1) UNRELEASED; urgency=low
   * Build-conflict with the experimental libxine2 as the
     phonon-xine backend cannot build with it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Jan 2009 12:20:25 +0200
+  +++ Changes by Pino Toscano:
+
+  * Update copyright file.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2009 00:31:24 +0100
 
 phonon (4:4.2.0-2) unstable; urgency=low
 
