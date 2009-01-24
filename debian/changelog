@@ -1,3 +1,12 @@
+phonon (4:4.3.0-2) UNRELEASED; urgency=low
+
+  +++ Changes by Modestas Vainius
+
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:46:50 +0200
+
 phonon (4:4.3.0-1) experimental; urgency=low
 
   * New upstream release.
