@@ -1,4 +1,4 @@
-phonon (4:4.3.0-0r1) UNRELEASED; urgency=low
+phonon (4:4.3.0-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -30,6 +30,10 @@ phonon (4:4.3.0-0r1) UNRELEASED; urgency=low
   +++ Changes by Pino Toscano:
 
   * Update copyright file.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update packaging years and upstream URL in copyright. 
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2009 00:31:24 +0100
 
