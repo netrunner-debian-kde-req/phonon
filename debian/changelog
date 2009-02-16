@@ -10,8 +10,9 @@ phonon (4:4.3.0-2~pre1) UNRELEASED; urgency=low
     - replace debian/cdbs/kde.mk with
       /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules;
     - remove custom symbolshelper rules from debian/rules.
+  * Remove THIS_SHOULD_GO_TO_UNSTABLE from debian/rules.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:46:50 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 16 Feb 2009 02:11:30 +0200
 
 phonon (4:4.3.0-1) experimental; urgency=low
 
