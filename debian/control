@@ -10,8 +10,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, cmake (>= 2.6.2), pkg-
 Build-Conflicts: libxine2
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/phonon
-Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/phonon
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/phonon
+Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/phonon
 
 Package: phonon
 Architecture: all
