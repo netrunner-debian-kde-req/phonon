@@ -1,4 +1,4 @@
-phonon (4:4.3.0-2~pre1) UNRELEASED; urgency=low
+phonon (4:4.3.0-2) unstable; urgency=low
 
   +++ Changes by Modestas Vainius
 
@@ -12,7 +12,7 @@ phonon (4:4.3.0-2~pre1) UNRELEASED; urgency=low
     - remove custom symbolshelper rules from debian/rules.
   * Remove THIS_SHOULD_GO_TO_UNSTABLE from debian/rules.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 16 Feb 2009 02:11:30 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Feb 2009 00:52:44 +0100
 
 phonon (4:4.3.0-1) experimental; urgency=low
 
