@@ -15,10 +15,9 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/phonon
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/phonon
 
 Package: phonon-backend-xine
-Section: sound
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: phonon-backend
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kde-icons-oxygen (<< 4:4.1.80)
 Description: Phonon Xine 1.1.x backend
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
@@ -28,11 +27,10 @@ Description: Phonon Xine 1.1.x backend
 
 Package: phonon-backend-gstreamer
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libphonon4 (= ${binary:Version}),
- gstreamer0.10-plugins-base
+Provides: phonon-backend
+Depends: ${shlibs:Depends}, ${misc:Depends}, gstreamer0.10-plugins-base
 Recommends: gstreamer0.10-plugins-good
 Suggests: gstreamer0.10-plugins-ugly
-Provides: phonon-backend
 Description: Phonon GStreamer 0.10.x backend
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
@@ -45,8 +43,8 @@ Description: Phonon GStreamer 0.10.x backend
 
 Package: phonon-backend-null
 Architecture: all
-Depends: libphonon4 (>= ${source:Version})
 Provides: phonon-backend
+Depends: libphonon4 (>= ${source:Version})
 Conflicts: phonon-backend
 Description: Phonon null backend (no real backend)
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
