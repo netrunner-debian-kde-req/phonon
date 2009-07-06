@@ -1,7 +1,19 @@
+phonon (4:4.3.1-2) unstable; urgency=low
+
+  * Build Phonon from Qt sources:
+    - Add mysel to Uploaders field.
+    - Add 02_disable_phonon_build.diff to avoid Phonon build.
+    - Add versioned libphonon-dev build dependency.
+    - Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
+    - Remove phonon, phonon-dbg, libphonon4 and libphonon-dev packages.
+    - Cleanup unnecessary files.
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 06 Jul 2009 10:26:39 +0200
+
 phonon (4:4.3.1-1) unstable; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Modestas Vainius:
 
   * Point Debian Vcs URLs to pkg-kde/trunk (new location).
