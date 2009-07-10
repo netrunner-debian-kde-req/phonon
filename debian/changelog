@@ -1,7 +1,7 @@
 phonon (4:4.3.1-2) unstable; urgency=low
 
   * Build Phonon from Qt sources:
-    - Add mysel to Uploaders field.
+    - Add myself to Uploaders field.
     - Add 02_disable_phonon_build.diff to avoid Phonon build.
     - Add versioned libphonon-dev build dependency.
     - Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
