@@ -1,3 +1,10 @@
+phonon (4:4.3.1-3) UNRELEASED; urgency=low
+
+  * Add gstreamer0.10-alsa dependency to phonon-backend-gstreamer.
+    (Closes: #532490)
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 13 Jul 2009 21:34:53 +0200
+
 phonon (4:4.3.1-2) unstable; urgency=low
 
   * Build Phonon from Qt sources:
