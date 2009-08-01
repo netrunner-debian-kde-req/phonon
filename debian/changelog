@@ -1,9 +1,16 @@
-phonon (4:4.3.1-3) UNRELEASED; urgency=low
+phonon (4:4.3.1-3~pre1) UNRELEASED; urgency=low
+
+  +++ Changes by Fathi Boudra:
 
   * Add gstreamer0.10-alsa dependency to phonon-backend-gstreamer.
     (Closes: #532490)
 
- -- Fathi Boudra <fabo@debian.org>  Mon, 13 Jul 2009 21:34:53 +0200
+  +++ Changes by Modestas Vainius:
+
+  * Add 03_r950739_fullscreen_hidecursor.diff patch which makes it possible
+    to hide mouse cursor in fullscreen mode when xine backend is in use.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Aug 2009 22:59:29 +0300
 
 phonon (4:4.3.1-2) unstable; urgency=low
 
