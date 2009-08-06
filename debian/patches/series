@@ -2,3 +2,4 @@
 02_disable_phonon_build.diff
 03_r950739_fullscreen_hidecursor.diff
 04_backends_to_qt4_plugins_dir.diff
+05_924144_encoding_local_files_fix.diff
