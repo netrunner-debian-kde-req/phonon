@@ -1,3 +1,6 @@
+Author: mkretz
+http://websvn.kde.org/?view=rev&revision=924144
+
 --- a/xine/xinestream.h
 +++ b/xine/xinestream.h
 @@ -86,7 +86,6 @@ class XineStream : public QObject, publi
