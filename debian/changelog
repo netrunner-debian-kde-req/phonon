@@ -1,4 +1,4 @@
-phonon-backends (4:4.3.1-5~pre6) UNRELEASED; urgency=low
+phonon-backends (4:4.3.1-5) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
 
@@ -9,7 +9,7 @@ phonon-backends (4:4.3.1-5~pre6) UNRELEASED; urgency=low
   * Backport Xine equalizer support from Phonon trunk (patch
     07_feature_backport_xine_equalizer.diff).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Oct 2009 18:56:37 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Oct 2009 20:31:26 +0300
 
 phonon (4:4.3.1-4) unstable; urgency=low
 
