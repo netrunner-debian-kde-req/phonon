@@ -1,3 +1,16 @@
+phonon-backends (4:4.3.1-5~pre6) UNRELEASED; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Rename source package to phonon-backends.
+  * Add phonon-backends-dbg debug package.
+  * Add patch (06_983650_play_filenames_with_hash.diff) to fix playback of
+    files with hash (#) symbol in their name (Closes: #546271).
+  * Backport Xine equalizer support from Phonon trunk (patch
+    07_feature_backport_xine_equalizer.diff).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Oct 2009 18:56:37 +0300
+
 phonon (4:4.3.1-4) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:

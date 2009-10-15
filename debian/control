@@ -1,4 +1,4 @@
-Source: phonon
+Source: phonon-backends
 Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -45,7 +45,7 @@ Description: Phonon GStreamer 0.10.x backend
 Package: phonon-backend-null
 Architecture: all
 Provides: phonon-backend
-Depends: libphonon4 (>= ${source:Version})
+Depends: libphonon4
 Conflicts: phonon-backend
 Description: Phonon null backend (no real backend)
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
@@ -54,3 +54,13 @@ Description: Phonon null backend (no real backend)
  This package does not provide any real Phonon backend. It can be used to
  disable Phonon audio/video capabilities. Please note that Phonon behaviour 
  with this package installed has not been well tested.
+
+Package: phonon-backends-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${sameVersionDep:libphonon4}, phonon-dbg
+Suggests: phonon-backend-xine (= ${binary:Version}), phonon-backend-gstreamer (= ${binary:Version})
+Description: debugging symbols for Phonon backends
+ This package contains debugging files useful when investigating problems
+ (e.g. crashes) with Phonon backends.
