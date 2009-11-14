@@ -1,3 +1,11 @@
+phonon-backends (4:4.3.1-6) UNRELEASED; urgency=low
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove myself from Uploaders. 
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Nov 2009 15:50:33 +0100
+
 phonon-backends (4:4.3.1-5) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
