@@ -5,6 +5,7 @@ phonon-backends (4:4.3.1-6) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
+  * Fix Vcs-Browser URL.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Nov 2009 15:50:33 +0100
 
