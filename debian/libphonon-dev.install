@@ -1,0 +1,5 @@
+usr/include/KDE/Phonon/*
+usr/include/phonon/*
+usr/lib/libphonon*.so
+usr/lib/pkgconfig/phonon.pc
+usr/share/dbus-1/interfaces/org.kde.Phonon.AudioOutput.xml

@@ -3,6 +3,8 @@ phonon (4:4.3.80-1) UNRELEASED; urgency=low
   * New upstream release.
 
   [ Fathi Boudra ]
+  * Build Phonon from kdesupport again:
+    - Add phonon, phonon-dbg, libphonon4 and libphonon-dev packages.
   * Remove patches:
     - 02_disable_phonon_build.diff - dropped.
     - 03_r950739_fullscreen_hidecursor.diff - stolen upstream.
@@ -12,6 +14,7 @@ phonon (4:4.3.80-1) UNRELEASED; urgency=low
   * Update debian/control:
     - Bump build dependencies (debhelper and pkg-kde-tools).
     - Add libpulse-dev build dependency.
+    - Remove libphonon-dev build dependency.
     - Bump Standards-Version from 3.8.2 to 3.8.4 (no changes needed).
 
   [ Ana Beatriz Guerrero Lopez ]
