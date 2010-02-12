@@ -1,4 +1,4 @@
-Source: phonon-backends
+Source: phonon
 Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -55,7 +55,7 @@ Description: Phonon null backend (no real backend)
  disable Phonon audio/video capabilities. Please note that Phonon behaviour 
  with this package installed has not been well tested.
 
-Package: phonon-backends-dbg
+Package: phonon-dbg
 Section: debug
 Priority: extra
 Architecture: any
