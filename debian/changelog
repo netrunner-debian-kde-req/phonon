@@ -1,13 +1,23 @@
-phonon-backends (4:4.3.1-6) UNRELEASED; urgency=low
+phonon (4:4.3.80-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  [ Fathi Boudra ]
+  * Remove patches:
+    - 02_disable_phonon_build.diff - dropped.
+    - 03_r950739_fullscreen_hidecursor.diff - stolen upstream.
+    - 05_924144_encoding_local_files_fix.diff - stolen upstream.
+    - 06_983650_play_filenames_with_hash.diff - stolen upstream.
+    - 07_feature_backport_xine_equalizer.diff - stolen upstream.
 
   [ Ana Beatriz Guerrero Lopez ]
-  * Remove myself from Uploaders. 
+  * Remove myself from Uploaders.
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Nov 2009 15:50:33 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Feb 2010 13:23:15 +0100
 
 phonon-backends (4:4.3.1-5) unstable; urgency=low
 

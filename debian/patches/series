@@ -1,6 +1,1 @@
 01_phonon-inc.patch
-02_disable_phonon_build.diff
-03_r950739_fullscreen_hidecursor.diff
-05_924144_encoding_local_files_fix.diff
-06_983650_play_filenames_with_hash.diff
-07_feature_backport_xine_equalizer.diff
