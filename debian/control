@@ -3,13 +3,13 @@ Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>, Fathi Boudra <fabo@debian.org>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, cmake (>= 2.6.2), pkg-kde-tools (>= 0.4.2), automoc,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.3), quilt, cmake (>= 2.6.2), pkg-kde-tools (>= 0.6.1), automoc,
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libglib2.0-dev, libglu1-mesa-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev,
  libphonon-dev (>= 4:4.5.2), libqt4-dev (>= 4:4.5.2), libqt4-opengl-dev (>= 4:4.5.2),
  libxine-dev, libxml2-dev
 Build-Conflicts: libxine2
-Standards-Version: 3.8.2
+Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/phonon/#_trunk_packages_phonon_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/phonon

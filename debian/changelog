@@ -9,6 +9,9 @@ phonon (4:4.3.80-1) UNRELEASED; urgency=low
     - 05_924144_encoding_local_files_fix.diff - stolen upstream.
     - 06_983650_play_filenames_with_hash.diff - stolen upstream.
     - 07_feature_backport_xine_equalizer.diff - stolen upstream.
+  * Update debian/rules:
+    - Bump build dependencies (debhelper and pkg-kde-tools).
+    - Bump Standards-Version from 3.8.2 to 3.8.4 (no changes needed).
 
   [ Ana Beatriz Guerrero Lopez ]
   * Remove myself from Uploaders.
