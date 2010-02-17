@@ -1,0 +1,23 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: Do not set install RPATH to /usr/lib by default
+ /usr/lib RPATH is disallowed on Debian systems and is a bad practise in
+ general
+Forwarded: not-needed
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -241,15 +241,6 @@
+    set ( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wnon-virtual-dtor -Wno-long-long -ansi -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-check-new -fno-common")
+ endif (CMAKE_COMPILER_IS_GNUCXX OR CMAKE_C_COMPILER MATCHES "icc")
+ 
+-# Set up RPATH handling, so the libs are found if they are installed to a non-standard location.
+-# By default cmake builds the targets with full RPATH to everything in the build directory,
+-# but then removes the RPATH when installing.
+-# These two options below make it set the RPATH of the installed targets to all
+-# RPATH directories outside the current CMAKE_BINARY_DIR and also the library 
+-# install directory. Alex
+-set(CMAKE_INSTALL_RPATH_USE_LINK_PATH  TRUE)
+-set(CMAKE_INSTALL_RPATH "${LIB_INSTALL_DIR}" )
+-
+ if(APPLE)
+    set(CMAKE_INSTALL_NAME_DIR ${LIB_INSTALL_DIR})
+ endif(APPLE)

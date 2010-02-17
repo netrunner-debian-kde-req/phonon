@@ -1,3 +1,8 @@
+From: Sune Vuorela <debian@pusling.com>
+Subject: Create a magic phonon header
+ Thanks to Matthias Kretz.
+Forwarded: no
+
 --- a/phonon/CMakeLists.txt
 +++ b/phonon/CMakeLists.txt
 @@ -128,3 +128,7 @@ install(FILES

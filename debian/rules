@@ -2,6 +2,10 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
+UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
+
+PHONON_MINIMUM_VERSION := 4:4.6.0
+DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V'libphonon4 (>> $(UPSTREAMVERSION)), phonon (>> $(PHONON_MINIMUM_VERSION))'
+
 DEB_CMAKE_EXTRA_FLAGS += -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
-#DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
