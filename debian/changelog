@@ -1,4 +1,4 @@
-phonon (4:4.6.0really4.3.80-0r2) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.3.80-0r3) UNRELEASED; urgency=low
 
   * New upstream release (using really-style version number).
 
@@ -37,6 +37,7 @@ phonon (4:4.6.0really4.3.80-0r2) UNRELEASED; urgency=low
   * Tweak copyright file a bit so lintian stops thinking it's of
     old-dh-make style. Also bump years of packaging copyright.
   * Add phonon-backends-dbg to phonon-dbg Conflicts and Replaces.
+  * Do not version dependency on the phonon metapackage.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Feb 2010 13:23:15 +0100
 
