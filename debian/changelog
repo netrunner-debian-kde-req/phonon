@@ -24,7 +24,7 @@ phonon (4:4.6.0really4.3.80-0r2) UNRELEASED; urgency=low
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
   * Improve descriptions.
-  * Downgrate Qt build dependency to 4.5.
+  * Downgrade Qt build dependency to 4.5.
   * Bump version to 4:4.6.0really4.3.80 to be higher than the last
     release of the Phonon libraries with the qt4-x11 source package.
   * Convert libphonon4.symbols to new pkg-kde-tools 0.6 style, adjust
