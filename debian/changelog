@@ -1,4 +1,4 @@
-phonon (4:4.6.0really4.3.80-0r6) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.3.80-0r7) UNRELEASED; urgency=low
 
   * New upstream release (using really-style version number).
 
@@ -41,6 +41,9 @@ phonon (4:4.6.0really4.3.80-0r6) UNRELEASED; urgency=low
   * Use strict interdependencies among backends and libphonon4.
   * Build depend on dpkg-dev 1.15.5.
   * Make libphonon4 break phonon-backend-xine (<< 4:4.6.0really4.3.80).
+
+  [ Sune Vuorela ]
+  * Fix installing of include headers so that others can also find them.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Feb 2010 13:23:15 +0100
 
