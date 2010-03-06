@@ -1,3 +1,10 @@
+phonon (4:4.6.0really4.3.80-2) UNRELEASED; urgency=low
+
+  * Add 04_skip_pa_detection_if_no_glib_loop.diff patch which fixes phonon
+    hang if GLib loop is disabled in Qt.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 06 Mar 2010 23:25:56 +0200
+
 phonon (4:4.6.0really4.3.80-1) experimental; urgency=low
 
   * New upstream release (using really-style version number).

@@ -1,0 +1,24 @@
+Author: Martin T. H. Sandsmark <sandsmark@samfundet.no>
+Description: do not hang if GLib loop is not used
+ Previously phonon used to hang at Pulseaudio detection. Now PulseAudio
+ detection is simply not done.
+Origin: upstream, http://gitorious.org/phonon/phonon/commit/466914c63cf09a51e9ea4702355cb1f5da99c4f3.diff
+ http://gitorious.org/phonon/phonon/commit/e476ebec8197db26838f7159487219fc5c7c9040.diff
+Forwarded: not-needed
+
+--- a/phonon/pulsesupport.cpp
++++ b/phonon/pulsesupport.cpp
+@@ -650,6 +650,13 @@
+     if (pulseenv.toInt())
+         return;
+ 
++    // We require a glib event loop
++    if (QLatin1String(QAbstractEventDispatcher::instance()->metaObject()->className())
++            == "QGuiEventDispatcherGlib") {
++        logMessage("Disabling PulseAudio integration for lack of GLib event loop.");
++        return;
++    }
++
+     s_mainloop = pa_glib_mainloop_new(NULL);
+     Q_ASSERT(s_mainloop);
+     pa_mainloop_api *api = pa_glib_mainloop_get_api(s_mainloop);
