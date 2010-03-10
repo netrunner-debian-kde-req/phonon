@@ -4,6 +4,7 @@ Description: do not hang if GLib loop is not used
  detection is simply not done.
 Origin: upstream, http://gitorious.org/phonon/phonon/commit/466914c63cf09a51e9ea4702355cb1f5da99c4f3.diff
  http://gitorious.org/phonon/phonon/commit/e476ebec8197db26838f7159487219fc5c7c9040.diff
+ http://gitorious.org/phonon/phonon/commit/85ce7481f5ce4f837b82787bf26f56bc6cb90bdc.diff
 Forwarded: not-needed
 
 --- a/phonon/pulsesupport.cpp
@@ -14,7 +15,7 @@ Forwarded: not-needed
  
 +    // We require a glib event loop
 +    if (QLatin1String(QAbstractEventDispatcher::instance()->metaObject()->className())
-+            == "QGuiEventDispatcherGlib") {
++            != "QGuiEventDispatcherGlib") {
 +        logMessage("Disabling PulseAudio integration for lack of GLib event loop.");
 +        return;
 +    }
