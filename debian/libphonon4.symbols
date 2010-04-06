@@ -153,7 +153,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon12PulseSupport28emitObjectDescriptionChangedENS_21ObjectDescriptionTypeE@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport34setOutputDevicePriorityForCategoryENS_8CategoryE5QListIiE@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport35setCaptureDevicePriorityForCategoryENS_8CategoryE5QListIiE@Base 4:4.6.0really4.3.80
- _ZN6Phonon12PulseSupport7disableEv@Base 4:4.6.0really4.3.80
+ _ZN6Phonon12PulseSupport6enableEb@Base 4:4.6.0really4.4.0
  _ZN6Phonon12PulseSupport8isActiveEv@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport8shutdownEv@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupportC1Ev@Base 4:4.6.0really4.3.80

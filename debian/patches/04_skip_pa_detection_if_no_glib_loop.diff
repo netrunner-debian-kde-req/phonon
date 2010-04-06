@@ -9,7 +9,15 @@ Forwarded: not-needed
 
 --- a/phonon/pulsesupport.cpp
 +++ b/phonon/pulsesupport.cpp
-@@ -650,6 +650,13 @@
+@@ -30,6 +30,7 @@
+ #include <pulse/pulseaudio.h>
+ #include <pulse/xmalloc.h>
+ #include <pulse/glib-mainloop.h>
++#include <QtCore/QAbstractEventDispatcher>
+ #ifdef HAVE_PULSEAUDIO_DEVICE_MANAGER
+ #  include <pulse/ext-device-manager.h>
+ #endif
+@@ -692,6 +693,13 @@ PulseSupport::PulseSupport()
      if (pulseenv.toInt())
          return;
  
