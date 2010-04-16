@@ -68,7 +68,7 @@ Package: phonon-backend-gstreamer
 Architecture: any
 Provides: phonon-backend
 Depends: ${shlibs:Depends}, ${misc:Depends},
- gstreamer0.10-plugins-base, gstreamer0.10-alsa
+ gstreamer0.10-plugins-base, gstreamer0.10-alsa [linux-any]
 Recommends: gstreamer0.10-plugins-good
 Suggests: gstreamer0.10-plugins-ugly
 Description: Phonon GStreamer 0.10.x backend

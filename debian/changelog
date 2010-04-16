@@ -1,3 +1,11 @@
+phonon (4:4.6.0really4.4.0-3r0) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * phonon-backend-gstreamer: depend on gstreamer0.10-alsa only on Linux archs,
+    as ALSA is available only there.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Apr 2010 00:56:32 +0200
+
 phonon (4:4.6.0really4.4.0-2) unstable; urgency=low
 
   * Upload to unstable.
