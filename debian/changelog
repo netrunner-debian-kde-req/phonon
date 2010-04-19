@@ -1,4 +1,4 @@
-phonon (4:4.6.0really4.4.0-3r0) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.4.0-3) unstable; urgency=low
 
   [ Pino Toscano ]
   * phonon-backend-gstreamer: depend on gstreamer0.10-alsa only on Linux
