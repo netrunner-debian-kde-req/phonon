@@ -1,3 +1,15 @@
+phonon (4:4.6.0really4.4.0-4) unstable; urgency=high
+
+  [ Modestas Vainius ]
+  * Make libphonon-dev depend on libqt4-dev.
+  * Manually create /usr/include/qt4/phonon symlink on upgrades.
+    See #404850 why dpkg does not create it by itself.
+  * Urgency high as the bug leaves Phonon undiscoverable by KDE
+    FindPhonon.cmake after upgrade and the buggy libphonon-dev is already in
+    testing.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Apr 2010 00:52:29 +0300
+
 phonon (4:4.6.0really4.4.0-3) unstable; urgency=low
 
   [ Pino Toscano ]
