@@ -8,7 +8,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.13), quilt, cmake (>= 2.6.2),
  libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libglib2.0-dev, libglu1-mesa-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev,
  libpulse-dev (>= 0.9.21), libqt4-dev (>= 4.5), libqt4-opengl-dev (>= 4.5),
- libxine-dev, libxml2-dev
+ libxine-dev (>= 1.16.3), libxml2-dev
 Build-Conflicts: libxine2
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
@@ -57,7 +57,7 @@ Description: the core library of the Phonon multimedia framework
 Package: phonon-backend-xine
 Architecture: any
 Provides: phonon-backend
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${xine-x:Depends}
 Replaces: kde-icons-oxygen (<< 4:4.1.80)
 Description: Phonon Xine 1.1.x backend
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
