@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.0really4.3.80 amd64
+# SymbolsHelper-Confirmed: 4:4.6.0really4.4.1 amd64
 libphonon.so.4 libphonon4 #MINVER#
 | phonon, libphonon4 #MINVER#
 * Build-Depends-Package: libphonon-dev
@@ -89,6 +89,24 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon11MediaSourceD1Ev@Base 4:4.2.0
  _ZN6Phonon11MediaSourceD2Ev@Base 4:4.2.0
  _ZN6Phonon11MediaSourceaSERKS0_@Base 4:4.2.0
+ _ZN6Phonon11PulseStream11muteChangedEb@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream11qt_metacastEPKc@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream11usingDeviceEi@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream13volumeChangedEd@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream16staticMetaObjectE@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream4uuidEv@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream5indexEv@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream7setMuteEb@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream8channelsEv@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream8setIndexEj@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream9setDeviceEi@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream9setVolumeEPK10pa_cvolume@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStreamC1E7QString@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStreamC2E7QString@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStreamD0Ev@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStreamD1Ev@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStreamD2Ev@Base 4:4.6.0really4.4.1
  _ZN6Phonon11VideoPlayer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.2.0
  _ZN6Phonon11VideoPlayer11qt_metacastEPKc@Base 4:4.2.0
  _ZN6Phonon11VideoPlayer16staticMetaObjectE@Base 4:4.2.0
@@ -144,11 +162,17 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon12PulseSupport11getInstanceEv@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport11qt_metacastEPKc@Base 4:4.6.0really4.3.80
+ _ZN6Phonon12PulseSupport13setOutputMuteE7QStringb@Base 4:4.6.0really4.4.1
+ _ZN6Phonon12PulseSupport13setOutputNameE7QStringS1_@Base 4:4.6.0really4.4.1
+ _ZN6Phonon12PulseSupport15connectToDaemonEv@Base 4:4.6.0really4.4.1
  _ZN6Phonon12PulseSupport15setOutputDeviceE7QStringi@Base 4:4.6.0really4.3.80
+ _ZN6Phonon12PulseSupport15setOutputVolumeE7QStringd@Base 4:4.6.0really4.4.1
  _ZN6Phonon12PulseSupport16clearStreamCacheE7QString@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport16setCaptureDeviceE7QStringi@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport16staticMetaObjectE@Base 4:4.6.0really4.3.80
- _ZN6Phonon12PulseSupport17setStreamPropListENS_8CategoryE7QString@Base 4:4.6.0really4.3.80
+#MISSING: 4:4.6.0really4.4.1# _ZN6Phonon12PulseSupport17setStreamPropListENS_8CategoryE7QString@Base 4:4.6.0really4.3.80
+ _ZN6Phonon12PulseSupport20registerOutputStreamE7QStringNS_8CategoryE@Base 4:4.6.0really4.4.1
+ _ZN6Phonon12PulseSupport21registerCaptureStreamE7QStringNS_8CategoryE@Base 4:4.6.0really4.4.1
  _ZN6Phonon12PulseSupport24objectDescriptionChangedENS_21ObjectDescriptionTypeE@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport28emitObjectDescriptionChangedENS_21ObjectDescriptionTypeE@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport34setOutputDevicePriorityForCategoryENS_8CategoryE5QListIiE@Base 4:4.6.0really4.3.80
@@ -410,6 +434,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon11MediaSource8discTypeEv@Base 4:4.2.0
  _ZNK6Phonon11MediaSource8fileNameEv@Base 4:4.2.0
  _ZNK6Phonon11MediaSourceeqERKS0_@Base 4:4.2.0
+ _ZNK6Phonon11PulseStream10metaObjectEv@Base 4:4.6.0really4.4.1
  _ZNK6Phonon11VideoPlayer10metaObjectEv@Base 4:4.2.0
  _ZNK6Phonon11VideoPlayer11audioOutputEv@Base 4:4.2.0
  _ZNK6Phonon11VideoPlayer11currentTimeEv@Base 4:4.2.0
@@ -521,6 +546,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZTIN6Phonon10SeekSliderE@Base 4:4.2.0
  _ZTIN6Phonon11AudioOutputE@Base 4:4.2.0
  _ZTIN6Phonon11MediaObjectE@Base 4:4.2.0
+ _ZTIN6Phonon11PulseStreamE@Base 4:4.6.0really4.4.1
  _ZTIN6Phonon11VideoPlayerE@Base 4:4.2.0
  _ZTIN6Phonon11VideoWidgetE@Base 4:4.2.0
  _ZTIN6Phonon12EffectWidgetE@Base 4:4.2.0
@@ -542,6 +568,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZTSN6Phonon10SeekSliderE@Base 4:4.2.0
  _ZTSN6Phonon11AudioOutputE@Base 4:4.2.0
  _ZTSN6Phonon11MediaObjectE@Base 4:4.2.0
+ _ZTSN6Phonon11PulseStreamE@Base 4:4.6.0really4.4.1
  _ZTSN6Phonon11VideoPlayerE@Base 4:4.2.0
  _ZTSN6Phonon11VideoWidgetE@Base 4:4.2.0
  _ZTSN6Phonon12EffectWidgetE@Base 4:4.2.0
@@ -563,6 +590,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZTVN6Phonon10SeekSliderE@Base 4:4.2.0
  _ZTVN6Phonon11AudioOutputE@Base 4:4.2.0
  _ZTVN6Phonon11MediaObjectE@Base 4:4.2.0
+ _ZTVN6Phonon11PulseStreamE@Base 4:4.6.0really4.4.1
  _ZTVN6Phonon11VideoPlayerE@Base 4:4.2.0
  _ZTVN6Phonon11VideoWidgetE@Base 4:4.2.0
  _ZTVN6Phonon12EffectWidgetE@Base 4:4.2.0
