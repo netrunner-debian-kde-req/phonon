@@ -13,6 +13,8 @@ phonon (4:4.6.0really4.4.1-1) unstable; urgency=low
     (Closes: #575115).
   * Update libphonon4 symbol file.
   * Add ${misc:Depends} to phonon-backend-null.
+  * Update libphonon-dev.install: ship new style CamelCase headers in
+    /usr/include/phonon.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 May 2010 00:55:16 +0300
 
