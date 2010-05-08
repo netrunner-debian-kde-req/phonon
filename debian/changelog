@@ -1,9 +1,9 @@
 phonon (4:4.6.0really4.4.1-1) unstable; urgency=low
 
   * New upstream release:
+   - fixes crash when opening PDF document (Closes: #580802);
 
   [ Modestas Vainius ]
-   - fixes crash when opening PDF document (Closes: #580802);
   * Add debian/watch.
   * Update patches:
     - refresh 01 and 02;
