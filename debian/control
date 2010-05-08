@@ -85,7 +85,7 @@ Description: Phonon GStreamer 0.10.x backend
 Package: phonon-backend-null
 Architecture: all
 Provides: phonon-backend
-Depends: libphonon4
+Depends: libphonon4, ${misc:Depends}
 Conflicts: phonon-backend
 Description: Phonon null backend (no real backend)
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
