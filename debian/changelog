@@ -1,6 +1,8 @@
-phonon (4:4.6.0really4.4.1-0r1) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.4.1-1) unstable; urgency=low
 
   * New upstream release:
+
+  [ Modestas Vainius ]
    - fixes crash when opening PDF document (Closes: #580802);
   * Add debian/watch.
   * Update patches:
@@ -12,7 +14,7 @@ phonon (4:4.6.0really4.4.1-0r1) UNRELEASED; urgency=low
   * Update libphonon4 symbol file.
   * Add ${misc:Depends} to phonon-backend-null.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 08 May 2010 23:51:56 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 May 2010 00:55:16 +0300
 
 phonon (4:4.6.0really4.4.0-4) unstable; urgency=high
 
