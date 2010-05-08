@@ -7,7 +7,7 @@ phonon (4:4.6.0really4.4.1-0r1) UNRELEASED; urgency=low
     - refresh 01 and 02;
     - adapt 03 to upstream changes;
     - remove 04, was stolen from upstream.
-  * Use dh_xine, version libxine-dev build dependency to >= 1.16.3
+  * Use dh_xine, version libxine-dev build dependency to >= 1.1.16.3
     (Closes: #575115).
   * Update libphonon4 symbol file.
 
