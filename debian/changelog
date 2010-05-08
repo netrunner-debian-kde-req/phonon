@@ -1,3 +1,15 @@
+phonon (4:4.6.0really4.4.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release:
+   - fixes crash when opening PDF document (Closes: #580802);
+  * Add debian/watch.
+  * Update patches:
+    - refresh 01 and 02;
+    - adapt 03 to upstream changes;
+    - remove 04, was stolen from upstream.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 08 May 2010 23:51:56 +0300
+
 phonon (4:4.6.0really4.4.0-4) unstable; urgency=high
 
   [ Modestas Vainius ]

@@ -5,7 +5,7 @@ Forwarded: no
 
 --- a/phonon/CMakeLists.txt
 +++ b/phonon/CMakeLists.txt
-@@ -137,3 +137,7 @@ install(FILES
+@@ -139,3 +139,7 @@ install(FILES
     DESTINATION ${INCLUDE_INSTALL_DIR}/phonon COMPONENT Devel)
  
  install(FILES org.kde.Phonon.AudioOutput.xml  DESTINATION  ${DBUS_INTERFACES_INSTALL_DIR})

@@ -1,4 +1,3 @@
 01_phonon-inc.patch
 02_no_rpath.patch
 03_phonon_is_not_forced_in_KDE.diff
-04_skip_pa_detection_if_no_glib_loop.diff
