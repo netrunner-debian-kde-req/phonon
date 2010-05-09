@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.0really4.4.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.0really4.4.1 amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libphonon.so.4 libphonon4 #MINVER#
 | phonon, libphonon4 #MINVER#
 * Build-Depends-Package: libphonon-dev
@@ -93,7 +93,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon11PulseStream11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream11qt_metacastEPKc@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream11usingDeviceEi@Base 4:4.6.0really4.4.1
- _ZN6Phonon11PulseStream13volumeChangedEd@Base 4:4.6.0really4.4.1
+ (subst)_ZN6Phonon11PulseStream13volumeChangedE{qreal}@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream16staticMetaObjectE@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream4uuidEv@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream5indexEv@Base 4:4.6.0really4.4.1
@@ -166,7 +166,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon12PulseSupport13setOutputNameE7QStringS1_@Base 4:4.6.0really4.4.1
  _ZN6Phonon12PulseSupport15connectToDaemonEv@Base 4:4.6.0really4.4.1
  _ZN6Phonon12PulseSupport15setOutputDeviceE7QStringi@Base 4:4.6.0really4.3.80
- _ZN6Phonon12PulseSupport15setOutputVolumeE7QStringd@Base 4:4.6.0really4.4.1
+ (subst)_ZN6Phonon12PulseSupport15setOutputVolumeE7QString{qreal}@Base 4:4.6.0really4.4.1
  _ZN6Phonon12PulseSupport16clearStreamCacheE7QString@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport16setCaptureDeviceE7QStringi@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport16staticMetaObjectE@Base 4:4.6.0really4.3.80
