@@ -1,3 +1,15 @@
+phonon (4:4.6.0really4.4.2-0r1) UNRELEASED; urgency=low
+
+  * New upstream release:
+    - fixes PulseAudio breakage in xine backend (Closes: #582716).
+  * Switch to 3.0 (quilt) format:
+    - build depend on pkg-kde-tools (>= 0.9);
+    - set appropriate debian/source/format;
+    - remove quilt from build depends;
+    - use original tar.bz2 tarballs from now on.
+
+ -- Modestas Vainius <modax@debian.org>  Wed, 02 Jun 2010 23:32:23 +0300
+
 phonon (4:4.6.0really4.4.1-2) unstable; urgency=low
 
   * Update symbol file for armel, fixes FTBFS.
