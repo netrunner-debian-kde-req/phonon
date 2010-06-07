@@ -8,6 +8,7 @@ phonon (4:4.6.0really4.4.2-0r1) UNRELEASED; urgency=low
     - remove quilt from build depends;
     - use original tar.bz2 tarballs from now on.
   * Update symbol file.
+  * Drop unused phonon-backend-null lintian-override.
 
  -- Modestas Vainius <modax@debian.org>  Wed, 02 Jun 2010 23:32:23 +0300
 
