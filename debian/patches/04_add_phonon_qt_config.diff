@@ -1,0 +1,19 @@
+Description: Qt applications do not recognize the availability of Phonon if Qt
+             is built without Phonon and Phonon is installed separately.
+             This patch needs Qt >= 4.7.0~beta2-3
+Author: Fathi Boudra <fabo@debian.org>
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -268,4 +268,6 @@ if(NOT WIN32) # pkgconfig file
+    install(FILES ${CMAKE_CURRENT_BINARY_DIR}/phonon.pc DESTINATION ${LIB_INSTALL_DIR}/pkgconfig)
+ endif(NOT WIN32)
+ 
++install(FILES qt_phonon.pri DESTINATION  ${QT_MKSPECS_DIR}/modules)
++
+ macro_display_feature_log()
+--- /dev/null
++++ b/qt_phonon.pri
+@@ -0,0 +1,2 @@
++#configuration
++QT_CONFIG *= phonon
