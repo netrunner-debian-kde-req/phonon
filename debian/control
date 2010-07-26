@@ -12,8 +12,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.13), cmake (>= 2.6.2),
 Build-Conflicts: libxine2
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/phonon/#_trunk_packages_phonon_
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/phonon
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/phonon.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-req/phonon.git
 
 Package: phonon
 Architecture: all
