@@ -236,7 +236,7 @@ phonon (4:4.3.0-1) experimental; urgency=low
   * Make phonon-backend-xine depend on gstreamer0.10-plugins-base. Otherwise,
     it causes crashes sometimes.
   * Make phonon-backend-gstreamer recommend gstreamer0.10-plugins-good and
-    suggest gstreamer0.10-plugins-ugly. Explain reasoning in the package 
+    suggest gstreamer0.10-plugins-ugly. Explain reasoning in the package
     description.
 
   +++ Changes by George Kiagiadakis:
@@ -250,7 +250,7 @@ phonon (4:4.3.0-1) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Update packaging years and upstream URL in copyright. 
+  * Update packaging years and upstream URL in copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2009 00:31:24 +0100
 
@@ -273,12 +273,12 @@ phonon (4:4.2.0-1) unstable; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Bump libphonon shlibs to 4.2.0.
-  
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Jul 2008 16:01:05 +0300
 
 phonon (4:4.2~svn825656-1) unstable; urgency=low
 
-  * New snapshot, upload to unstable. 
+  * New snapshot, upload to unstable.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 29 Jun 2008 00:59:59 +0200
 
