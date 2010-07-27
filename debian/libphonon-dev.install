@@ -120,3 +120,4 @@ usr/include/phonon/volumeslider.h
 usr/lib/libphonon.so
 usr/lib/pkgconfig/phonon.pc
 usr/share/dbus-1/interfaces/org.kde.Phonon.AudioOutput.xml
+usr/share/qt4/mkspecs/modules/qt_phonon.pri
