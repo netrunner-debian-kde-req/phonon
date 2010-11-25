@@ -1,4 +1,6 @@
-phonon (4:4.6.0really4.4.2-2) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.4.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Fathi Boudra ]
   * Add 04_add_phonon_qt_config.diff:
@@ -8,7 +10,7 @@ phonon (4:4.6.0really4.4.2-2) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
 
- -- Fathi Boudra <fabo@debian.org>  Sat, 24 Jul 2010 19:15:47 +0300
+ -- Modestas Vainius <modax@debian.org>  Fri, 26 Nov 2010 01:33:33 +0200
 
 phonon (4:4.6.0really4.4.2-1) unstable; urgency=low
 
