@@ -5,6 +5,7 @@ phonon (4:4.6.0really4.4.3-1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
   * Update symbol file. for 4.4.3 on amd64.
+  * Update install files.
 
  -- Modestas Vainius <modax@debian.org>  Fri, 26 Nov 2010 01:33:33 +0200
 
