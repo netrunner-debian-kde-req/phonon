@@ -33,7 +33,6 @@ Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}, libphonon4 (= ${binary:Version}),
  ${sameVersionDep:libqt4-dev:libphonon4}
-Replaces: kdelibs5-dev (<< 4:4.0.81)
 Description: development files for the Phonon multimedia framework
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
@@ -45,7 +44,6 @@ Package: libphonon4
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdelibs5 (<= 4:4.0.80)
 Breaks: phonon-backend-xine (<< 4:4.6.0really4.3.80)
 Description: the core library of the Phonon multimedia framework
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
