@@ -2,11 +2,6 @@ phonon (4:4.6.0really4.4.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  [ Fathi Boudra ]
-  * Add 04_add_phonon_qt_config.diff:
-    define Phonon module when Qt is built without Phonon and Phonon is
-    installed separately (needs Qt >= 4.7.0~beta2-3 to work).
-
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
 
