@@ -96,7 +96,6 @@ usr/include/phonon/effect.h
 usr/include/phonon/effectinterface.h
 usr/include/phonon/effectparameter.h
 usr/include/phonon/effectwidget.h
-usr/include/phonon/experimental/avcaptureinterface.h
 usr/include/phonon/globalconfig.h
 usr/include/phonon/mediacontroller.h
 usr/include/phonon/medianode.h

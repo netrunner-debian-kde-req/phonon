@@ -1,7 +1,10 @@
 phonon (4:4.6.0really4.4.3-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Do not install the header experimental/avcaptureinterface.h in
+    libphonon-dev, as it experimental.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 15:56:47 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 
 phonon (4:4.6.0really4.4.3-1) experimental; urgency=low
 

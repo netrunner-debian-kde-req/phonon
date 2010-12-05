@@ -12,6 +12,7 @@
 ./usr/include/phonon/experimental/audiodataoutputinterface.h
 ./usr/include/phonon/experimental/audioformat.h
 ./usr/include/phonon/experimental/avcapture.h
+./usr/include/phonon/experimental/avcaptureinterface.h
 ./usr/include/phonon/experimental/backendcapabilities.h
 ./usr/include/phonon/experimental/backendinterface.h
 ./usr/include/phonon/experimental/export.h
