@@ -16,7 +16,7 @@ Architecture: all
 Depends: ${misc:Depends}, libphonon4 (>= ${source:Version}),
  phonon-backend-vlc | phonon-backend | phonon-backend-null
 Recommends: phonon-backend-vlc | phonon-backend-gstreamer | phonon-backend
-Suggests: phonon-backend-xine, phonon-backend-gstreamer, phonon-backend-vlc,
+Suggests: phonon-backend-vlc, phonon-backend-gstreamer, phonon-backend-xine,
  phonon-backend-mplayer
 Description: metapackage for the Phonon multimedia framework
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
