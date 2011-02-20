@@ -13,6 +13,7 @@ phonon (4:4.6.0really4.4.4-0r1) UNRELEASED; urgency=low
   * Remove xine and gstreamer specific packages from Build-Depends.
   * Adapt 02_no_rpath.patch to upstream changes.
   * Refresh other debian patches.
+  * Remove sequence number from debian patches filenames.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 
