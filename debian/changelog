@@ -15,6 +15,7 @@ phonon (4:4.6.0really4.4.4-0r1) UNRELEASED; urgency=low
   * Refresh other debian patches.
   * Remove sequence number from debian patches filenames.
   * Update install files.
+  * Switch default backend to phonon-backend-vlc (phonon metapackage).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 
