@@ -1,3 +1,4 @@
+
 usr/include/phonon/AbstractAudioOutput
 usr/include/phonon/AbstractMediaStream
 usr/include/phonon/AbstractVideoOutput
@@ -122,4 +123,15 @@ usr/include/phonon/volumeslider.h
 usr/lib/libphonon.so
 usr/lib/pkgconfig/phonon.pc
 usr/share/dbus-1/interfaces/org.kde.Phonon.AudioOutput.xml
+usr/share/phonon-buildsystem/FindAutomoc4.cmake
+usr/share/phonon-buildsystem/FindPackageHandleStandardArgs.cmake
+usr/share/phonon-buildsystem/FindPhonon.cmake
+usr/share/phonon-buildsystem/FindPhononInternal.cmake
+usr/share/phonon-buildsystem/FindQt4.cmake
+usr/share/phonon-buildsystem/MacroEnsureVersion.cmake
+usr/share/phonon-buildsystem/MacroLogFeature.cmake
+usr/share/phonon-buildsystem/MacroOptionalFindPackage.cmake
+usr/share/phonon-buildsystem/MacroPushRequiredVars.cmake
+usr/share/phonon-buildsystem/PhononMacros.cmake
+usr/share/phonon-buildsystem/cmake_uninstall.cmake.in
 usr/share/qt4/mkspecs/modules/qt_phonon.pri
