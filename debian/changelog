@@ -27,6 +27,7 @@ phonon (4:4.6.0really4.4.4-0r1) UNRELEASED; urgency=low
       phonon Depends;
     - add "phonon-backend-null | phonon" to libphonon-dev Depends;
     - add real Phonon backends to phonon metapackage Recommends.
+  * Add lintian override for "phonon-backend-null: empty-binary-package".
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 
