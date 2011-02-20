@@ -3,6 +3,7 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
 UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
+DEB_RECOMMENDED_PHONON_BACKEND := phonon-backend-vlc
 
 DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V'libphonon4 (>= $(UPSTREAMVERSION)), phonon'
 
@@ -12,3 +13,13 @@ DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
 # Strict interdependencies for backends
 DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
 include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
+
+$(patsubst %,binary-predeb/%,$(DEB_ALL_PACKAGES)) :: binary-predeb/% :
+	@for f in debian/$(cdbs_curpkg)/DEBIAN/post* \
+	          debian/$(cdbs_curpkg)/DEBIAN/pre* \
+	          debian/$(cdbs_curpkg)/DEBIAN/templates; do \
+	    if [ -f "$$f" ]; then \
+	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(DEB_RECOMMENDED_PHONON_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
+	        echo "$$cmd"; eval "$$cmd"; \
+	    fi; \
+	done
