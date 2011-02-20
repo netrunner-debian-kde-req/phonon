@@ -30,6 +30,7 @@ phonon (4:4.6.0really4.4.4-0r1) UNRELEASED; urgency=low
   * Add lintian override for "phonon-backend-null: empty-binary-package".
   * Reshuffle backends in the Suggests of the phonon metapackage in the order of
     preferrence.
+  * Drop README.source, no longer needed since switch to 3.0 (quilt).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 
