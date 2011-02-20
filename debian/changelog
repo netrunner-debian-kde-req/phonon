@@ -19,7 +19,7 @@ phonon (4:4.6.0really4.4.4-0r1) UNRELEASED; urgency=low
   * Try to solve an issue with Phonon backends getting auto-installed on
     buildds. phonon-backend-null will be preferred if Phonon is installed via
     libphonon-dev (which normally won't be a case on user systems). However,
-    if auto-recommends is switched ON (default on user systems), apt(itude)
+    if auto-recommends is switched ON (default on user systems), aptitude
     will prefer to remove -null once phonon metapackage is about to be
     installed due to it recommending only real backends. Changes:
     - phonon-backend-null no longer provides phonon-backend;
