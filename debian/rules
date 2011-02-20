@@ -12,6 +12,3 @@ DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
 # Strict interdependencies for backends
 DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
 include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
-
-binary-predeb/phonon-backend-xine::
-	dh_xine -pphonon-backend-xine

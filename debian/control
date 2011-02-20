@@ -52,35 +52,6 @@ Description: the core library of the Phonon multimedia framework
  This package contains the core library of the Phonon cross-platform multimedia
  framework for Qt 4.  It is required to run applications that use Phonon.
 
-Package: phonon-backend-xine
-Architecture: any
-Provides: phonon-backend
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${xine-x:Depends}
-Replaces: kde-icons-oxygen (<< 4:4.1.80)
-Breaks: kde-icons-oxygen (<< 4:4.1.80)
-Description: Phonon Xine 1.1.x backend
- Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
- layer for capturing, mixing, processing, and playing audio and video content.
- .
- This package contains the Xine 1.1.x backend for Phonon.
-
-Package: phonon-backend-gstreamer
-Architecture: any
-Provides: phonon-backend
-Depends: ${shlibs:Depends}, ${misc:Depends},
- gstreamer0.10-plugins-base, gstreamer0.10-alsa [linux-any]
-Recommends: gstreamer0.10-plugins-good
-Suggests: gstreamer0.10-plugins-ugly
-Description: Phonon GStreamer 0.10.x backend
- Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
- layer for capturing, mixing, processing, and playing audio and video content.
- .
- This package contains GStreamer 0.10.x backend for Phonon.
- .
- You should install gstreamer0.10-plugins-good to get support for playing
- popular free multimedia formats and gstreamer0.10-plugins-ugly to get support
- for popular MPEG audio formats like MP3.
-
 Package: phonon-backend-null
 Architecture: all
 Provides: phonon-backend
@@ -101,8 +72,6 @@ Section: debug
 Depends: ${misc:Depends}, libphonon4 (= ${binary:Version})
 Conflicts: phonon-backends-dbg
 Replaces: phonon-backends-dbg
-Suggests: phonon-backend-xine (= ${binary:Version}),
- phonon-backend-gstreamer (= ${binary:Version})
 Description: Phonon debugging symbols
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
