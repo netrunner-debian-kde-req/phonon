@@ -1,4 +1,4 @@
-# START POSTINST[phonon-null-backend/isnt_functional]
+# START CONFIG[phonon-null-backend/isnt_functional]
 
 . /usr/share/debconf/confmodule
 
@@ -46,4 +46,4 @@ warn_about_phonon_backend_null "$@"
 
 # vim: set syntax=sh
 
-# END POSTINST[phonon-null-backend/isnt_functional]
+# END CONFIG[phonon-null-backend/isnt_functional]

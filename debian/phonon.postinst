@@ -2,6 +2,6 @@
 
 set -e
 
-#INCLUDE debian/phonon-backend-null.dc-postinst.in#
+. /usr/share/debconf/confmodule
 
 #DEBHELPER#

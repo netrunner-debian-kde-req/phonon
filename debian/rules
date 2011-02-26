@@ -17,6 +17,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
 $(patsubst %,binary-predeb/%,$(DEB_ALL_PACKAGES)) :: binary-predeb/% :
 	@for f in debian/$(cdbs_curpkg)/DEBIAN/post* \
 	          debian/$(cdbs_curpkg)/DEBIAN/pre* \
+	          debian/$(cdbs_curpkg)/DEBIAN/config \
 	          debian/$(cdbs_curpkg)/DEBIAN/templates; do \
 	    if [ -f "$$f" ]; then \
 	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(DEB_RECOMMENDED_PHONON_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
