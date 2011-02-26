@@ -9,6 +9,7 @@ DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V'libphonon4 (>= $(UPSTREAMVERSION)), phono
 
 DEB_CMAKE_EXTRA_FLAGS += -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
+DEB_DH_GENCONTROL_ARGS_ALL := -- -Vphonon:Recommended-Backend=$(DEB_RECOMMENDED_PHONON_BACKEND)
 
 # Strict interdependencies for backends
 DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
