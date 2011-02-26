@@ -10,6 +10,7 @@ case "$1" in
         if [ -e /usr/share/debconf/confmodule ]; then
             . /usr/share/debconf/confmodule
             db_fset phonon-backend-null/isnt_functional seen false || true
+            db_unregister phonon-backend-null/isnt_functional || true
         fi
     ;;
 esac

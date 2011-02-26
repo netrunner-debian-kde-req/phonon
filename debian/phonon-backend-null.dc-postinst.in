@@ -2,11 +2,6 @@
 
 . /usr/share/debconf/confmodule
 
-query_package_status()
-{
-    dpkg-query -W -f'${Status}\n' "$1" | cut -d' ' -f3
-}
-
 # This function will show a warning about phonon-backend-null whenever phonon
 # metapackage or phonon-backend-null is being installed
 warn_about_phonon_backend_null()
@@ -22,26 +17,13 @@ warn_about_phonon_backend_null()
     fi
 
     if [ "$1" = "configure" ]; then
-        case "$package" in
-            # In case the phonon metapackage is being installed, display the
-            # warning only if phonon-backend-null is already installed.
-            phonon)
-                if [ "`query_package_status phonon-backend-null`" = "installed" ]; then
-                    show_warning=1
-                fi
-            ;;
-            # If null backend is being installed, show the warning only if
-            # phonon metapackage is already installed
-            phonon-backend-null)
-                if [ "`query_package_status phonon`" = "installed" ]; then
-                    show_warning=1
-                fi
-            ;;
-            *)
-                echo "warn_about_phonon_backend_null: unsupported package: $package" >&2
-                exit 10
-            ;;
-        esac
+        # Display the warning only if both (phonon and phonon-backend-null)
+        # are (about to be) installed. In order to avoid checking dpkg status
+        # database, we can check Owners field of the debconf question.
+        db_metaget phonon-backend-null/isnt_functional Owners
+        if [ "${RET#*,}" != "$RET" ]; then
+            show_warning=1
+        fi
 
         # Finally show the note if needed (and it wasn't seen already)
         db_fget phonon-backend-null/isnt_functional seen || true
