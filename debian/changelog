@@ -18,15 +18,7 @@ phonon (4:4.6.0really4.4.4-0r3) UNRELEASED; urgency=low
   * Switch default backend to phonon-backend-vlc (phonon metapackage).
   * Try to solve an issue with Phonon backends getting auto-installed on
     buildds. phonon-backend-null will be preferred if Phonon is installed via
-    libphonon-dev (which normally won't be a case on user systems). However,
-    if auto-recommends is switched ON (default on user systems), aptitude
-    will prefer to remove -null once phonon metapackage is about to be
-    installed due to it recommending only real backends. Changes:
-    - phonon-backend-null no longer provides phonon-backend;
-    - add "phonon-backend-null" as an alternative to phonon-backend in
-      phonon Depends;
-    - add "phonon-backend-null | phonon" to libphonon-dev Depends;
-    - add real Phonon backends to phonon metapackage Recommends.
+    libphonon-dev (which normally won't be a case on user systems).
   * Add lintian override for "phonon-backend-null: empty-binary-package".
   * Reshuffle backends in the Suggests of the phonon metapackage in the order of
     preferrence.

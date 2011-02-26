@@ -14,8 +14,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-req/phonon.git
 Package: phonon
 Architecture: all
 Depends: ${misc:Depends}, libphonon4 (>= ${source:Version}),
- phonon-backend-vlc | phonon-backend | phonon-backend-null
-Recommends: phonon-backend-vlc | phonon-backend-gstreamer | phonon-backend
+ phonon-backend-vlc | phonon-backend
 Suggests: phonon-backend-vlc, phonon-backend-gstreamer, phonon-backend-xine,
  phonon-backend-mplayer
 Description: metapackage for the Phonon multimedia framework
@@ -51,6 +50,7 @@ Description: the core library of the Phonon multimedia framework
 
 Package: phonon-backend-null
 Architecture: all
+Provides: phonon-backend
 Depends: libphonon4, ${misc:Depends}
 Conflicts: phonon-backend
 Description: Phonon null backend (no real backend)
