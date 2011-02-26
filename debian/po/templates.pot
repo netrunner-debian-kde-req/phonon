@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: phonon@packages.debian.org\n"
+"POT-Creation-Date: 2011-02-27 01:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: title
+#. Description
+#: ../phonon-backend-null.templates:1001
+msgid "Warning: Phonon is not functional"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../phonon-backend-null.templates:2001
+msgid "Phonon multimedia capabilities are disabled"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../phonon-backend-null.templates:2001
+msgid ""
+"Phonon based (i.e. most KDE and some Qt) applications will produce no audio "
+"or video output because there is no real Phonon backend installed on your "
+"system. Typically, this is an undesirable configuration which you might have "
+"gotten to unintentionally."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../phonon-backend-null.templates:2001
+msgid ""
+"If you wish to restore full Phonon multimedia capabilities, install a real "
+"Phonon backend with your favourite package manager. The following Phonon "
+"backend packages seem to be available for your system at the moment:"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../phonon-backend-null.templates:2001
+msgid "${recommended_backend} (recommended)${other_backends}"
+msgstr ""
