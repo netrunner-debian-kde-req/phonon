@@ -26,6 +26,7 @@ phonon (4:4.6.0really4.4.4-0r4) UNRELEASED; urgency=low
   * Show a debconf warning to users who end up installing phonon-backend-null
     (probably unintentionally). The warning is displayed only if both phonon
     and phonon-backend-null packages end up being installed.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 
