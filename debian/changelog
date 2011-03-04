@@ -28,6 +28,10 @@ phonon (4:4.6.0really4.4.4-0r5) UNRELEASED; urgency=low
     and phonon-backend-null packages end up being installed.
   * Update debian/copyright.
   * Point Homepage to http://phonon.kde.org/.
+  * Add packages (libphononexperimental4 and libphononexperimental-dev) for the
+    Phonon-Experimental library. It's needed by phonon-backend-gstreamer. The
+    packages include disclaimers (in the README.Debian) about expected usage of
+    this library.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 

@@ -48,6 +48,37 @@ Description: the core library of the Phonon multimedia framework
  This package contains the core library of the Phonon cross-platform multimedia
  framework for Qt 4.  It is required to run applications that use Phonon.
 
+Package: libphononexperimental-dev
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends}, ${misc:Depends}, libphononexperimental4 (= ${binary:Version}),
+ ${sameVersionDep:libqt4-dev:libphononexperimental4}
+Replaces: libphonon-dev (<< 4:4.6.0really4.3.80)
+Breaks: libphonon-dev (<< 4:4.6.0really4.3.80)
+Description: development files for the Phonon-Experimental library
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains the development files needed to build Phonon backends or
+ internal applications which need the Phonon-Experimental library. Third party
+ applications should not depend on this library. Please read README.Debian if
+ you consider to Build-Depend on this package.
+
+Package: libphononexperimental4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libphonon4 (<< 4:4.6.0really4.3.80)
+Breaks: libphonon4 (<< 4:4.6.0really4.3.80)
+Description: the Phonon Experimental library (internal)
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains the Phonon-Experimental library which might be needed by
+ Phonon backends or other internal applications. Third party applications
+ should not depend on this library. Please read README.Debian before using this
+ library.
+
 Package: phonon-backend-null
 Architecture: all
 Provides: phonon-backend
