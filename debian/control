@@ -97,6 +97,7 @@ Priority: extra
 Architecture: any
 Section: debug
 Depends: ${misc:Depends}, libphonon4 (= ${binary:Version})
+Suggests: libphononexperimental4 (= ${binary:Version})
 Conflicts: phonon-backends-dbg
 Replaces: phonon-backends-dbg
 Description: Phonon debugging symbols
