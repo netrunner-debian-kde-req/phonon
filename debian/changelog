@@ -27,6 +27,7 @@ phonon (4:4.6.0really4.4.4-0r4) UNRELEASED; urgency=low
     (probably unintentionally). The warning is displayed only if both phonon
     and phonon-backend-null packages end up being installed.
   * Update debian/copyright.
+  * Point Homepage to http://phonon.kde.org/.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 

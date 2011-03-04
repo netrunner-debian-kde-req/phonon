@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.13), cmake (>= 2.6.2),
  pkg-kde-tools (>= 0.9), dpkg-dev (>= 1.15.5), automoc, libglib2.0-dev,
  libpulse-dev (>= 0.9.21), libqt4-dev (>= 4.5)
 Standards-Version: 3.9.1
-Homepage: http://www.kde.org/
+Homepage: http://phonon.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/phonon.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-req/phonon.git
 
