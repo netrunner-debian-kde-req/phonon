@@ -98,8 +98,8 @@ Architecture: any
 Section: debug
 Depends: ${misc:Depends}, libphonon4 (= ${binary:Version})
 Suggests: libphononexperimental4 (= ${binary:Version})
-Conflicts: phonon-backends-dbg
 Replaces: phonon-backends-dbg
+Breaks: phonon-backends-dbg
 Description: Phonon debugging symbols
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.

@@ -33,6 +33,7 @@ phonon (4:4.6.0really4.4.4-0r5) UNRELEASED; urgency=low
     packages include disclaimers (in the README.Debian) about expected usage of
     this library.
   * Add libphononexperimental4 to phonon-dbg Suggests.
+  * phonon-dbg: replace "Conflicts: phonon-backends-dbg" with Breaks.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
 
