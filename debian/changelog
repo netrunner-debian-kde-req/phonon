@@ -1,4 +1,4 @@
-phonon (4:4.6.0really4.4.4-0r6) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.4.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -35,7 +35,7 @@ phonon (4:4.6.0really4.4.4-0r6) UNRELEASED; urgency=low
   * Add libphononexperimental4 to phonon-dbg Suggests.
   * phonon-dbg: replace "Conflicts: phonon-backends-dbg" with Breaks.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Dec 2010 16:01:39 +0100
+ -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 02:38:24 +0200
 
 phonon (4:4.6.0really4.4.3-1) experimental; urgency=low
 
