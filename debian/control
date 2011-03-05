@@ -53,8 +53,8 @@ Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}, libphononexperimental4 (= ${binary:Version}),
  ${sameVersionDep:libqt4-dev:libphononexperimental4}
-Replaces: libphonon-dev (<< 4:4.6.0really4.3.80)
-Breaks: libphonon-dev (<< 4:4.6.0really4.3.80)
+Replaces: libphonon-dev (<< 4:4.6.0really4.4.4)
+Breaks: libphonon-dev (<< 4:4.6.0really4.4.4)
 Description: development files for the Phonon-Experimental library
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
