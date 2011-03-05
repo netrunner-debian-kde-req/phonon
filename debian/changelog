@@ -2,6 +2,7 @@ phonon (4:4.6.0really4.4.4-2) UNRELEASED; urgency=low
 
   * Drop phonon-backends-dbg from phonon-dbg Recommends/Breaks. No longer
     needed.
+  * Readd packaging copyright/licensing to debian/copyright.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 11:59:29 +0200
 

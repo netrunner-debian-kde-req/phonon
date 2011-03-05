@@ -7,6 +7,10 @@ Upstream Author:
 
     Matthias Kretz <kretz@kde.org> and others.
 
+The Debian packaging (debian/*) is © 2008-2011, Debian Qt/KDE Maintainers and
+is licensed under the LGPL version 2 or later, see
+`/usr/share/common-licenses/LGPL-2
+
 Copyright: © 2004-2008 Matthias Kretz <kretz@kde.org>
 Copyright: © 2005-2008 Cláudio da Silveira
 Copyright: © 2005-2008 Pinheiro <taupter@gmail.com>
