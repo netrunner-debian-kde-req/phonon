@@ -1,27 +1,35 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+dh = --dbg-package=phonon-dbg
 
-UPSTREAMVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: \(.*\)-.*/\1/')
-DEB_RECOMMENDED_PHONON_BACKEND := phonon-backend-vlc
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_DH_MAKESHLIBS_ARGS_libphonon4 = -V'libphonon4 (>= $(UPSTREAMVERSION)), phonon'
-
-DEB_CMAKE_EXTRA_FLAGS += -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
-DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
-DEB_DH_GENCONTROL_ARGS_ALL := -- -Vphonon:Recommended-Backend=$(DEB_RECOMMENDED_PHONON_BACKEND)
-
-# Strict interdependencies for backends
+# Enable strict interdependencies
 DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
-include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
-$(patsubst %,binary-predeb/%,$(DEB_ALL_PACKAGES)) :: binary-predeb/% :
-	@for f in debian/$(cdbs_curpkg)/DEBIAN/post* \
-	          debian/$(cdbs_curpkg)/DEBIAN/pre* \
-	          debian/$(cdbs_curpkg)/DEBIAN/config \
-	          debian/$(cdbs_curpkg)/DEBIAN/templates; do \
+RECOMMENDED_PHONON_BACKEND := phonon-backend-vlc
+
+override_dh_auto_configure:
+	$(configure_dh_auto_configure) -- -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
+
+# shlibs is needed for library-packages.mk (strict shlibs) to work
+override_dh_makeshlibs:
+	$(binary_dh_makeshlibs) -plibphonon4 -V'libphonon4 (>= $(dqk_upstream_version)), phonon'
+	$(binary_dh_makeshlibs) -V --remaining-packages
+
+override_dh_shlibdeps:
+	dh_shlibdeps -- -xphonon
+
+override_dh_gencontrol:
+	# Expand some variables in maintainer scripts and debconf templates
+	@for f in debian/*/DEBIAN/post* \
+	          debian/*/DEBIAN/pre* \
+	          debian/*/DEBIAN/config \
+	          debian/*/DEBIAN/templates; do \
 	    if [ -f "$$f" ]; then \
-	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(DEB_RECOMMENDED_PHONON_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
+	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(RECOMMENDED_PHONON_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
 	        echo "$$cmd"; eval "$$cmd"; \
 	    fi; \
 	done
+	dh_gencontrol -- -Vphonon:Recommended-Backend=$(RECOMMENDED_PHONON_BACKEND)
