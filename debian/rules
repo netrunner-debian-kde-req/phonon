@@ -5,7 +5,7 @@ dh = --dbg-package=phonon-dbg
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 # Enable strict interdependencies
-DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 RECOMMENDED_PHONON_BACKEND := phonon-backend-vlc
