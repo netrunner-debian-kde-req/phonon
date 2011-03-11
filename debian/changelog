@@ -1,4 +1,4 @@
-phonon (4:4.6.0really4.4.4-2~pre1) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.4.4-2) unstable; urgency=low
 
   * Drop phonon-backends-dbg from phonon-dbg Recommends/Breaks. No longer
     needed.
@@ -14,8 +14,9 @@ phonon (4:4.6.0really4.4.4-2~pre1) UNRELEASED; urgency=low
   * Add README.Debian to phonon-backend-null package.
   * Remove phonon-backend-null.lintian-overrides: phonon-backend-null is no
     longer and empty package due to README.Debian (see above).
+  * Release to unstable.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 11:59:29 +0200
+ -- Modestas Vainius <modax@debian.org>  Fri, 11 Mar 2011 21:39:20 +0200
 
 phonon (4:4.6.0really4.4.4-1) experimental; urgency=low
 
