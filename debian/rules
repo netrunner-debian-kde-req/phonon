@@ -32,4 +32,6 @@ override_dh_gencontrol:
 	        echo "$$cmd"; eval "$$cmd"; \
 	    fi; \
 	done
+	sed -i 's/\$${recommended_backend}/$(RECOMMENDED_PHONON_BACKEND)/g' \
+	    debian/phonon-backend-null/usr/share/doc/phonon-backend-null/README.Debian
 	$(overriden_command) -- -Vphonon:Recommended-Backend=$(RECOMMENDED_PHONON_BACKEND)

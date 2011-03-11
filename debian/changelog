@@ -11,6 +11,7 @@ phonon (4:4.6.0really4.4.4-2~pre1) UNRELEASED; urgency=low
     - port debian/rules to dhmk keeping it dh compatible as much as possible.
   * Drop unused ${shlibs:Depends} from libphonon-dev and
     libphononexperimental-dev packages.
+  * Add README.Debian to phonon-backend-null package.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 11:59:29 +0200
 
