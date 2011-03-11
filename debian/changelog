@@ -7,7 +7,7 @@ phonon (4:4.6.0really4.4.4-2) UNRELEASED; urgency=low
     libphononexperimental-dev. experimental/avcaptureinterface.h header which
     used to be there up to 4.4.4 (see changelog below).
   * Switch debian/rules build engine to dhmk (qt-kde-team/2/*):
-    - build-depend on pkg-kde-tools >= 0.10;
+    - build-depend on pkg-kde-tools >= 0.11;
     - port debian/rules to dhmk keeping it dh compatible as much as possible.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 11:59:29 +0200
