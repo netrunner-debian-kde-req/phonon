@@ -1,8 +1,8 @@
-phonon (4:4.6.0really4.4.4-3) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.4.4-3) unstable; urgency=low
 
   * Fix FTBFS with binary-arch target.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 12 Mar 2011 19:25:38 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 12 Mar 2011 19:27:58 +0200
 
 phonon (4:4.6.0really4.4.4-2) unstable; urgency=low
 
