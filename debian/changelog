@@ -4,6 +4,7 @@ phonon (4:4.6.0really4.5.0-1) UNRELEASED; urgency=low
   * Drop cdbs from Build-Depends.
   * Update install files.
   * Update symbol files.
+  * Manage phononexperimental ABI via phononexperimental-abi-N virual package.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 13 Mar 2011 13:21:47 +0200
 

@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.6.0really4.5.0 amd64
-libphononexperimental.so.4 libphononexperimental4 #MINVER#
+libphononexperimental.so.4 libphononexperimental4 #MINVER#, phononexperimental-abi-1
  _ZN6Phonon10PacketPoolC1ERKS0_@Base 4:4.6.0really4.4.4
  _ZN6Phonon10PacketPoolC1Eii@Base 4:4.6.0really4.4.4
  _ZN6Phonon10PacketPoolC2ERKS0_@Base 4:4.6.0really4.4.4

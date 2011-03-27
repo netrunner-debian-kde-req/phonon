@@ -68,6 +68,7 @@ Package: libphononexperimental4
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: phononexperimental-abi-1
 Replaces: libphonon4 (<< 4:4.6.0really4.3.80)
 Breaks: libphonon4 (<< 4:4.6.0really4.3.80)
 Description: the Phonon Experimental library (internal)
