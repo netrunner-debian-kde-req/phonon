@@ -6,12 +6,14 @@ usr/include/phonon/AudioCaptureDevice
 usr/include/phonon/AudioCaptureDeviceModel
 usr/include/phonon/AudioChannelDescription
 usr/include/phonon/AudioChannelDescriptionModel
+usr/include/phonon/AudioDataOutput
 usr/include/phonon/AudioOutput
 usr/include/phonon/AudioOutputDevice
 usr/include/phonon/AudioOutputDeviceModel
 usr/include/phonon/AudioOutputInterface
 usr/include/phonon/AudioOutputInterface40
 usr/include/phonon/AudioOutputInterface42
+usr/include/phonon/AvCapture
 usr/include/phonon/BackendCapabilities
 usr/include/phonon/BackendInterface
 usr/include/phonon/Effect
@@ -26,6 +28,7 @@ usr/include/phonon/MediaNode
 usr/include/phonon/MediaObject
 usr/include/phonon/MediaObjectInterface
 usr/include/phonon/MediaSource
+usr/include/phonon/Mrl
 usr/include/phonon/ObjectDescription
 usr/include/phonon/ObjectDescriptionData
 usr/include/phonon/ObjectDescriptionModel
@@ -102,6 +105,7 @@ usr/include/phonon/medianode.h
 usr/include/phonon/mediaobject.h
 usr/include/phonon/mediaobjectinterface.h
 usr/include/phonon/mediasource.h
+usr/include/phonon/mrl.h
 usr/include/phonon/objectdescription.h
 usr/include/phonon/objectdescriptionmodel.h
 usr/include/phonon/path.h
@@ -121,10 +125,10 @@ usr/include/phonon/volumefaderinterface.h
 usr/include/phonon/volumeslider.h
 usr/lib/libphonon.so
 usr/lib/pkgconfig/phonon.pc
+usr/lib/qt4/plugins/designer/libphononwidgets.so
 usr/share/dbus-1/interfaces/org.kde.Phonon.AudioOutput.xml
 usr/share/phonon-buildsystem/FindAutomoc4.cmake
 usr/share/phonon-buildsystem/FindPackageHandleStandardArgs.cmake
-usr/share/phonon-buildsystem/FindPhonon.cmake
 usr/share/phonon-buildsystem/FindPhononInternal.cmake
 usr/share/phonon-buildsystem/FindQt4.cmake
 usr/share/phonon-buildsystem/MacroEnsureVersion.cmake
