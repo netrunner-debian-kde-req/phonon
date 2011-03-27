@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.0really4.4.4 amd64
+# SymbolsHelper-Confirmed: 4:4.6.0really4.5.0 amd64
 libphononexperimental.so.4 libphononexperimental4 #MINVER#
  _ZN6Phonon10PacketPoolC1ERKS0_@Base 4:4.6.0really4.4.4
  _ZN6Phonon10PacketPoolC1Eii@Base 4:4.6.0really4.4.4
@@ -79,15 +79,22 @@ libphononexperimental.so.4 libphononexperimental4 #MINVER#
  _ZN6Phonon12Experimental7Factory6senderEv@Base 4:4.6.0really4.4.4
  _ZN6Phonon12Experimental9AvCapture11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.6.0really4.4.4
  _ZN6Phonon12Experimental9AvCapture11qt_metacastEPKc@Base 4:4.6.0really4.4.4
+ _ZN6Phonon12Experimental9AvCapture12stateChangedENS_5StateES2_@Base 4:4.6.0really4.5.0
  _ZN6Phonon12Experimental9AvCapture16staticMetaObjectE@Base 4:4.6.0really4.4.4
+ _ZN6Phonon12Experimental9AvCapture17setCaptureDevicesENS_15CaptureCategoryE@Base 4:4.6.0really4.5.0
+ _ZN6Phonon12Experimental9AvCapture21setAudioCaptureDeviceENS_15CaptureCategoryE@Base 4:4.6.0really4.5.0
  _ZN6Phonon12Experimental9AvCapture21setAudioCaptureDeviceENS_8CategoryE@Base 4:4.6.0really4.4.4
  _ZN6Phonon12Experimental9AvCapture21setAudioCaptureDeviceERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE4EEE@Base 4:4.6.0really4.4.4
+ _ZN6Phonon12Experimental9AvCapture21setVideoCaptureDeviceENS_15CaptureCategoryE@Base 4:4.6.0really4.5.0
  _ZN6Phonon12Experimental9AvCapture21setVideoCaptureDeviceENS_8CategoryE@Base 4:4.6.0really4.4.4
  _ZN6Phonon12Experimental9AvCapture21setVideoCaptureDeviceERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE5EEE@Base 4:4.6.0really4.4.4
  _ZN6Phonon12Experimental9AvCapture21setVideoCaptureDeviceERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE65536EEE@Base 4:4.6.0really4.4.4
  _ZN6Phonon12Experimental9AvCapture4stopEv@Base 4:4.6.0really4.4.4
+ _ZN6Phonon12Experimental9AvCapture5pauseEv@Base 4:4.6.0really4.5.0
  _ZN6Phonon12Experimental9AvCapture5startEv@Base 4:4.6.0really4.4.4
+ _ZN6Phonon12Experimental9AvCaptureC1ENS_15CaptureCategoryEP7QObject@Base 4:4.6.0really4.5.0
  _ZN6Phonon12Experimental9AvCaptureC1EP7QObject@Base 4:4.6.0really4.4.4
+ _ZN6Phonon12Experimental9AvCaptureC2ENS_15CaptureCategoryEP7QObject@Base 4:4.6.0really4.5.0
  _ZN6Phonon12Experimental9AvCaptureC2EP7QObject@Base 4:4.6.0really4.4.4
  _ZN6Phonon6Packet4dataEv@Base 4:4.6.0really4.4.4
  _ZN6Phonon6Packet7setSizeEi@Base 4:4.6.0really4.4.4
@@ -108,7 +115,9 @@ libphononexperimental.so.4 libphononexperimental4 #MINVER#
  _ZNK6Phonon12Experimental11MediaSource10substreamsEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon12Experimental11MediaSource18videoCaptureDeviceEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon12Experimental11MediaSourceeqERKS1_@Base 4:4.6.0really4.4.4
+ _ZNK6Phonon12Experimental12GlobalConfig21videoCaptureDeviceForENS_15CaptureCategoryEi@Base 4:4.6.0really4.5.0
  _ZNK6Phonon12Experimental12GlobalConfig21videoCaptureDeviceForENS_8CategoryEi@Base 4:4.6.0really4.4.4
+ _ZNK6Phonon12Experimental12GlobalConfig25videoCaptureDeviceListForENS_15CaptureCategoryEi@Base 4:4.6.0really4.5.0
  _ZNK6Phonon12Experimental12GlobalConfig25videoCaptureDeviceListForENS_8CategoryEi@Base 4:4.6.0really4.4.4
  _ZNK6Phonon12Experimental13Visualization10metaObjectEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon12Experimental13Visualization13visualizationEv@Base 4:4.6.0really4.4.4
@@ -127,13 +136,13 @@ libphononexperimental.so.4 libphononexperimental4 #MINVER#
  _ZNK6Phonon12Experimental9AvCapture10metaObjectEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon12Experimental9AvCapture18audioCaptureDeviceEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon12Experimental9AvCapture18videoCaptureDeviceEv@Base 4:4.6.0really4.4.4
+ _ZNK6Phonon12Experimental9AvCapture5stateEv@Base 4:4.6.0really4.5.0
  _ZNK6Phonon6Packet4dataEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon6Packet4sizeEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon6Packet6isNullEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon6Packet8capacityEv@Base 4:4.6.0really4.4.4
  _ZNK6Phonon6PacketeqERKS0_@Base 4:4.6.0really4.4.4
  _ZNK6Phonon6PacketneERKS0_@Base 4:4.6.0really4.4.4
- _ZTIN6Phonon12Experimental12GlobalConfigE@Base 4:4.6.0really4.4.4
  _ZTIN6Phonon12Experimental13VisualizationE@Base 4:4.6.0really4.4.4
  _ZTIN6Phonon12Experimental15AudioDataOutputE@Base 4:4.6.0really4.4.4
  _ZTIN6Phonon12Experimental15VideoDataOutputE@Base 4:4.6.0really4.4.4
@@ -141,7 +150,6 @@ libphononexperimental.so.4 libphononexperimental4 #MINVER#
  _ZTIN6Phonon12Experimental23AbstractAudioDataOutputE@Base 4:4.6.0really4.4.4
  _ZTIN6Phonon12Experimental23AbstractVideoDataOutputE@Base 4:4.6.0really4.4.4
  _ZTIN6Phonon12Experimental9AvCaptureE@Base 4:4.6.0really4.4.4
- _ZTSN6Phonon12Experimental12GlobalConfigE@Base 4:4.6.0really4.4.4
  _ZTSN6Phonon12Experimental13VisualizationE@Base 4:4.6.0really4.4.4
  _ZTSN6Phonon12Experimental15AudioDataOutputE@Base 4:4.6.0really4.4.4
  _ZTSN6Phonon12Experimental15VideoDataOutputE@Base 4:4.6.0really4.4.4
@@ -149,7 +157,6 @@ libphononexperimental.so.4 libphononexperimental4 #MINVER#
  _ZTSN6Phonon12Experimental23AbstractAudioDataOutputE@Base 4:4.6.0really4.4.4
  _ZTSN6Phonon12Experimental23AbstractVideoDataOutputE@Base 4:4.6.0really4.4.4
  _ZTSN6Phonon12Experimental9AvCaptureE@Base 4:4.6.0really4.4.4
- _ZTVN6Phonon12Experimental12GlobalConfigE@Base 4:4.6.0really4.4.4
  _ZTVN6Phonon12Experimental13VisualizationE@Base 4:4.6.0really4.4.4
  _ZTVN6Phonon12Experimental15AudioDataOutputE@Base 4:4.6.0really4.4.4
  _ZTVN6Phonon12Experimental15VideoDataOutputE@Base 4:4.6.0really4.4.4
