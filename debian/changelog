@@ -1,4 +1,4 @@
-phonon (4:4.6.0really4.5.0-1) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.5.0-1) experimental; urgency=low
 
   * New upstream release.
   * Drop cdbs from Build-Depends.
@@ -9,7 +9,7 @@ phonon (4:4.6.0really4.5.0-1) UNRELEASED; urgency=low
   * Update package descriptions (thanks to Christian PERRIER and
     Justin B Rye).
 
- -- Modestas Vainius <modax@debian.org>  Sun, 13 Mar 2011 13:21:47 +0200
+ -- Modestas Vainius <modax@debian.org>  Sun, 27 Mar 2011 12:25:04 +0300
 
 phonon (4:4.6.0really4.4.4-3) unstable; urgency=low
 
