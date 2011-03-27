@@ -27,7 +27,7 @@ Description: metapackage for the Phonon multimedia framework
 Package: libphonon-dev
 Architecture: any
 Section: libdevel
-Depends: ${misc:Depends}, libphonon4 (= ${binary:Version}),
+Depends: ${shlibs:Depends}, ${misc:Depends}, libphonon4 (= ${binary:Version}),
  ${sameVersionDep:libqt4-dev:libphonon4}, phonon-backend-null | phonon
 Description: development files for the Phonon multimedia framework
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
