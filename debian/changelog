@@ -1,9 +1,9 @@
-phonon (4:4.6.0really4.5.0-2) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.5.0-2) unstable; urgency=low
 
   * Add final post-review version of package descriptions and
     phonon-backend-null.templates.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 04 Apr 2011 00:42:13 +0300
+ -- Modestas Vainius <modax@debian.org>  Mon, 04 Apr 2011 00:52:30 +0300
 
 phonon (4:4.6.0really4.5.0-1) experimental; urgency=low
 
