@@ -4,14 +4,15 @@ _Description: Warning: Phonon is not functional
 
 Template: phonon-backend-null/isnt_functional
 Type: note
-_Description: Phonon multimedia capabilities are disabled
- Phonon based (i.e. most KDE and some Qt) applications will produce no audio or
- video output because there is no real Phonon backend installed on your system.
- Typically, this is an undesirable configuration which you might have gotten to
- unintentionally.
+#flag:comment:4
+# Translators: do not translate variable names
+# only translate "(recommended)" (the one in parenthesis)
+_Description: Missing back-end for Phonon
+ Applications using Phonon (the Qt 4 multimedia framework) will produce
+ no audio or video output, because only a dummy Phonon back-end is
+ installed on this system. This is typically an unintended configuration.
  .
- If you wish to restore full Phonon multimedia capabilities, install a real
- Phonon backend with your favourite package manager. The following Phonon
- backend packages seem to be available for your system at the moment:
+ To restore full Phonon multimedia capabilities, install one of the real
+ Phonon back-end packages which are currently available for this system:
  .
  ${recommended_backend} (recommended)${other_backends}
