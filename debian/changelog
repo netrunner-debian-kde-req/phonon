@@ -9,6 +9,17 @@ phonon (4:4.6.0really4.5.0-3) UNRELEASED; urgency=low
     Requires pkg-kde-tools 0.12.
   * Bump Standards-Version to 3.9.2: no changes needed.
 
+  [ Christian Perrier ]
+  * Debconf translation updates:
+    - Danish (Joe Hansen).  Closes: #620817
+    - Czech (Michal Simunek).  Closes: #620855
+    - German (Martin Eberhard Schauer).  Closes: #622223
+    - French (Steve Petruzzello).  Closes: #622736
+    - Russian (Yuri Kozlov).  Closes: #623359
+    - Portuguese (Américo Monteiro).  Closes: #623421
+    - Swedish (Martin Bagge / brother).  Closes: #623399
+    - Spanish (Omar Campagne).  Closes: #623588
+
  -- Modestas Vainius <modax@debian.org>  Tue, 05 Apr 2011 11:04:10 +0200
 
 phonon (4:4.6.0really4.5.0-2) unstable; urgency=low
