@@ -1,4 +1,4 @@
-phonon (4:4.6.0really4.5.0-3) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.5.0-3) unstable; urgency=low
 
   [ Pino Toscano ]
   * Backport macro usage for registerMetaTypes() from upstream branch 4.5
@@ -20,7 +20,7 @@ phonon (4:4.6.0really4.5.0-3) UNRELEASED; urgency=low
     - Swedish (Martin Bagge / brother).  Closes: #623399
     - Spanish (Omar Campagne).  Closes: #623588
 
- -- Modestas Vainius <modax@debian.org>  Tue, 05 Apr 2011 11:04:10 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 May 2011 00:20:00 +0300
 
 phonon (4:4.6.0really4.5.0-2) unstable; urgency=low
 
