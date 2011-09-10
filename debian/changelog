@@ -1,10 +1,10 @@
-phonon (4:4.6.0really4.5.0-5) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.5.0-5) unstable; urgency=low
 
   [ Pino Toscano ]
   * Do not make X11 mandatory for phonon and its backends (patch
     findqt4_optional_x11.diff). (Closes: #641111)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Sep 2011 15:14:26 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Sep 2011 16:05:58 +0200
 
 phonon (4:4.6.0really4.5.0-4) unstable; urgency=low
 
