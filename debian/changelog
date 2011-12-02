@@ -5,6 +5,7 @@ phonon (4:4.6.0really4.5.0-6) UNRELEASED; urgency=low
     (commit d7d3a08, upstream_pulse-Use-qPow-as-pow-is-sometimes-not-found)
 
   [ Debconf translation updates ]
+  * Dutch (Jeroen Schot). (Closes: #637506)
   * Japanese (Hideki Yamane). (Closes: #626849)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Dec 2011 11:50:17 +0100
