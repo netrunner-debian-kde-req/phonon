@@ -1,4 +1,4 @@
-phonon (4:4.6.0really4.5.0-6) UNRELEASED; urgency=low
+phonon (4:4.6.0really4.5.0-6) unstable; urgency=low
 
   [ Pino Toscano ]
   * Backport upstream patch to switch from pow() to qPow(). (Closes: #650708)
@@ -9,7 +9,7 @@ phonon (4:4.6.0really4.5.0-6) UNRELEASED; urgency=low
   * Japanese (Hideki Yamane). (Closes: #626849)
   * Slovak (Slavko). (Closes: #641958)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Dec 2011 11:50:17 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Dec 2011 12:35:02 +0100
 
 phonon (4:4.6.0really4.5.0-5) unstable; urgency=low
 
