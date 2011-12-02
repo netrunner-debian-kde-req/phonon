@@ -1,5 +1,8 @@
 phonon (4:4.6.0really4.5.0-6) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport upstream patch to switch from pow() to qPow(). (Closes: #650708)
+    (commit d7d3a08, upstream_pulse-Use-qPow-as-pow-is-sometimes-not-found)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Dec 2011 11:50:17 +0100
 
