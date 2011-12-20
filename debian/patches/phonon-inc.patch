@@ -2,14 +2,14 @@ From: Sune Vuorela <debian@pusling.com>
 Subject: Create a magic phonon header
  Thanks to Matthias Kretz.
 Forwarded: no
+Last-Update: 2011-12-20
 
 --- a/phonon/CMakeLists.txt
 +++ b/phonon/CMakeLists.txt
-@@ -150,3 +150,7 @@ install(FILES
-    DESTINATION ${INCLUDE_INSTALL_DIR}/phonon COMPONENT Devel)
+@@ -153,3 +153,6 @@ if (QT_QTDBUS_FOUND AND NOT PHONON_NO_DB
+     install(FILES org.kde.Phonon.AudioOutput.xml  DESTINATION  ${DBUS_INTERFACES_INSTALL_DIR})
+ endif (QT_QTDBUS_FOUND AND NOT PHONON_NO_DBUS)
  
- install(FILES org.kde.Phonon.AudioOutput.xml  DESTINATION  ${DBUS_INTERFACES_INSTALL_DIR})
-+
 +install(FILES
 +   phonon
 +DESTINATION ${INCLUDE_INSTALL_DIR}/phonon)

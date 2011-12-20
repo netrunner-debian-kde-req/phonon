@@ -2,6 +2,14 @@ phonon (4:4.6.0really4.5.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  [ Pino Toscano ]
+  * Update the patches:
+    - phonon-inc.patch: adapt to the new version
+    - phonon_is_not_forced_in_KDE.diff: refresh
+    - upstream_PHONON_EXPORT_DEPRECATED.diff: drop, applied upstream
+    - upstream_pulse-Use-qPow-as-pow-is-sometimes-not-found.patch: drop,
+      applied upstream
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Dec 2011 11:40:28 +0100
 
 phonon (4:4.6.0really4.5.0-6) unstable; urgency=low

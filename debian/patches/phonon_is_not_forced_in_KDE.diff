@@ -4,7 +4,7 @@ Forwarded: no
 
 --- a/includes/CMakeLists.txt
 +++ b/includes/CMakeLists.txt
-@@ -87,7 +87,7 @@ install( FILES
+@@ -90,7 +90,7 @@ install( FILES
    old/Phonon/VolumeFaderEffect
    old/Phonon/VolumeFaderInterface
    old/Phonon/VolumeSlider
