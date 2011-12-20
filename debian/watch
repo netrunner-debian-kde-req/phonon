@@ -1,4 +1,4 @@
 version=3
 
 opts=uversionmangle=s/^/4.6.0really/ \
-ftp://ftp.kde.org/pub/kde/stable/phonon/([\d.]+)/ phonon-([\d.]+).tar.bz2
+ftp://ftp.kde.org/pub/kde/stable/phonon/([\d.]+)/src/ phonon-([\d.]+).tar.(?:bz2|xz)

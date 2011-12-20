@@ -9,6 +9,7 @@ phonon (4:4.6.0really4.5.1-0r1) UNRELEASED; urgency=low
     - upstream_PHONON_EXPORT_DEPRECATED.diff: drop, applied upstream
     - upstream_pulse-Use-qPow-as-pow-is-sometimes-not-found.patch: drop,
       applied upstream
+  * debian/watch: update for the new path and format of tarballs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Dec 2011 11:40:28 +0100
 
