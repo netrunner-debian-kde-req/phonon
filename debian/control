@@ -17,7 +17,8 @@ Architecture: all
 Depends: ${misc:Depends}, libphonon4 (>= ${source:Version}),
  ${phonon:Recommended-Backend} | phonon-backend
 Suggests: ${phonon:Recommended-Backend}, phonon-backend-gstreamer,
- phonon-backend-xine, phonon-backend-mplayer
+ phonon-backend-mplayer
+Conflicts: phonon-backend-xine
 Description: multimedia framework from KDE - metapackage
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.

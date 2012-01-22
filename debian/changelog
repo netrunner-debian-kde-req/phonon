@@ -3,7 +3,10 @@ phonon (4:4.6.0really4.5.1-2) UNRELEASED; urgency=low
   [ Debconf translation updates ]
   * Italian (Francesca Ciceri). (Closes: #656468)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Jan 2012 16:19:02 +0100
+  [ Sune Vuorela ]
+  * Make phonon conflicts with the xine backend. People must migrate away
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Jan 2012 22:51:45 +0100
 
 phonon (4:4.6.0really4.5.1-1) unstable; urgency=low
 
