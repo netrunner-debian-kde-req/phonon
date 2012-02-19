@@ -14,6 +14,7 @@ phonon (4:4.6.0.0-1) UNRELEASED; urgency=low
   * Adapt no_rpath.patch to upstream changes.
   * Add globaldescriptioncontainer.h to phonon-inc.patch.
   * Refresh phonon_is_not_forced_in_KDE.diff.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Jan 2012 22:51:45 +0100
 
