@@ -4,12 +4,12 @@ Forwarded: no
 
 --- a/includes/CMakeLists.txt
 +++ b/includes/CMakeLists.txt
-@@ -90,7 +90,7 @@ install( FILES
+@@ -91,7 +91,7 @@ install( FILES
    old/Phonon/VolumeFaderEffect
    old/Phonon/VolumeFaderInterface
    old/Phonon/VolumeSlider
 -DESTINATION ${INCLUDE_INSTALL_DIR}/KDE/Phonon COMPONENT Devel)
 +DESTINATION ${INCLUDE_INSTALL_DIR}/phonon/Phonon COMPONENT Devel)
  
- install(FILES
-   old/Phonon/Experimental/AbstractVideoDataOutput
+ if (PHONON_BUILD_EXPERIMENTAL)
+     install(FILES
