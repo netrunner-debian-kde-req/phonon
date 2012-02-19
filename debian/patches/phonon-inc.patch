@@ -15,7 +15,7 @@ Last-Update: 2011-12-20
 +DESTINATION ${INCLUDE_INSTALL_DIR}/phonon)
 --- /dev/null
 +++ b/phonon/phonon
-@@ -0,0 +1,31 @@
+@@ -0,0 +1,32 @@
 +#include "abstractaudiooutput.h"
 +#include "abstractmediastream.h"
 +#include "abstractvideooutput.h"
@@ -28,6 +28,7 @@ Last-Update: 2011-12-20
 +#include "effectinterface.h"
 +#include "effectparameter.h"
 +#include "effectwidget.h"
++#include "globaldescriptioncontainer.h"
 +#include "mediacontroller.h"
 +#include "medianode.h"
 +#include "mediaobject.h"
