@@ -3,9 +3,9 @@ Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>, Fathi Boudra <fabo@debian.org>
-Build-Depends: debhelper (>= 7.4.13), cmake (>= 2.6.2), pkg-kde-tools (>= 0.12),
+Build-Depends: debhelper (>= 8.1.3~), cmake (>= 2.6.2), pkg-kde-tools (>= 0.12),
  dpkg-dev (>= 1.15.5), automoc, libglib2.0-dev,
- libpulse-dev (>= 0.9.21), libqt4-dev (>= 4.5),
+ libpulse-dev (>= 0.9.21), libqt4-dev (>= 4:4.8.0),
  libqzeitgeist-dev
 Standards-Version: 3.9.2
 Homepage: http://phonon.kde.org/
@@ -13,7 +13,8 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/phonon.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-req/phonon.git
 
 Package: phonon
-Architecture: all
+Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, libphonon4 (>= ${source:Version}),
  ${phonon:Recommended-Backend} | phonon-backend
 Suggests: ${phonon:Recommended-Backend}, phonon-backend-gstreamer,
@@ -40,7 +41,9 @@ Description: multimedia framework from KDE - development files
 
 Package: libphonon4
 Architecture: any
+Multi-Arch: same
 Section: libs
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: phonon-backend-xine (<< 4:4.6.0really4.3.80)
 Description: multimedia framework from KDE - core library
@@ -68,7 +71,9 @@ Description: multimedia framework from KDE - experimental development files
 
 Package: libphononexperimental4
 Architecture: any
+Multi-Arch: same
 Section: libs
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: phononexperimental-abi-1
 Replaces: libphonon4 (<< 4:4.6.0really4.3.80)
@@ -83,7 +88,8 @@ Description: multimedia framework from KDE - experimental library (internal)
  library.
 
 Package: phonon-backend-null
-Architecture: all
+Architecture: any
+Multi-Arch: same
 Provides: phonon-backend
 Depends: libphonon4, ${misc:Depends}
 Conflicts: phonon-backend
@@ -98,6 +104,7 @@ Description: multimedia framework from KDE - null back-end (no real back-end)
 Package: phonon-dbg
 Priority: extra
 Architecture: any
+Multi-Arch: same
 Section: debug
 Depends: ${misc:Depends}, libphonon4 (= ${binary:Version})
 Suggests: libphononexperimental4 (= ${binary:Version})
