@@ -1,17 +1,21 @@
-phonon (4:4.6.0.0-1+exp1) UNRELEASED; urgency=low
+phonon (4:4.6.0.0-1+exp1) experimental; urgency=low
 
   * Team upload.
 
   [ Felix Geyer ]
   * Convert for multiarch.
-    - Change phonon and phonon-backend-null to arch:any and multi-arch:same.
+    - Bump Build-Depends on Qt to >= 4.8.
+    - Bump Build-Depends on debhelper to >= 8.1.3~.
+    - Install libraries to multiarch paths.
+    - Mark libraries Multi-Arch:same.
+    - Change phonon and phonon-backend-null to arch:any and Multi-Arch:same.
     - Update no_rpath.patch to include multiarch lib paths.
     - Fix debconf prompt to cope with multi-arch:same packages.
 
   [ Didier Raboud ]
   * Bump Standards-Version to 3.9.3 without changes needed.
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 07 Mar 2012 19:19:06 +0100
+ -- Didier Raboud <odyx@debian.org>  Tue, 24 Apr 2012 17:15:50 +0200
 
 phonon (4:4.6.0.0-1) unstable; urgency=low
 
