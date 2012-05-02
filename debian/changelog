@@ -1,7 +1,11 @@
-phonon (4:4.6.0.0-2) UNRELEASED; urgency=low
+phonon (4:4.6.0.0-2) unstable; urgency=low
 
   [ Debconf translation updates ]
   * Polish (Michał Kułach). (Closes: #670645)
+
+  [ Fathi Boudra ]
+  * Bump Build-Depends on Qt to >= 4.8.1.
+  * Bump debian/compat to 8.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Apr 2012 18:11:46 +0200
 
