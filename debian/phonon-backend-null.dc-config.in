@@ -21,7 +21,8 @@ warn_about_phonon_backend_null()
         # are (about to be) installed. In order to avoid checking dpkg status
         # database, we can check Owners field of the debconf question.
         db_metaget phonon-backend-null/isnt_functional Owners
-        if [ "${RET#*,}" != "$RET" ]; then
+        OWNERS="`echo "$RET" | sed 's/, /\n/g'`"
+        if echo "$OWNERS" | grep -q -e 'phonon$' -e 'phonon:' && echo "$OWNERS" | grep -q phonon-backend-null; then
             show_warning=1
         fi
 

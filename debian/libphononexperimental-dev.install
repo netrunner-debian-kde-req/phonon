@@ -30,4 +30,4 @@ usr/include/phonon/experimental/videoframe.h
 usr/include/phonon/experimental/videoframe2.h
 usr/include/phonon/experimental/videowidget.h
 usr/include/phonon/experimental/visualization.h
-usr/lib/libphononexperimental.so
+usr/lib/*/libphononexperimental.so
