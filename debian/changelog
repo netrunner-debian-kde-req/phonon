@@ -1,6 +1,9 @@
 phonon (4:4.6.0.0-3) UNRELEASED; urgency=low
 
-
+  * Add phonon-backend-xine transitional package, transition to the vlc
+    backend. This fixes the "Could not perform immediate configuration on
+    'phonon-backend-vlc'" apt error on upgrades from squeeze (Closes: #669278).
+    Thanks Andreas Beckmann for the patch to fix this issue.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Jan 2013 11:50:22 -0300
 
