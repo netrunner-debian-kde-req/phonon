@@ -1,5 +1,6 @@
 phonon (4:4.6.0.0-3) unstable; urgency=low
 
+  * Team upload.
   * Add phonon-backend-xine transitional package, transition to the vlc
     backend. This fixes the "Could not perform immediate configuration on
     'phonon-backend-vlc'" apt error on upgrades from squeeze (Closes: #669278).
