@@ -126,10 +126,3 @@ Description: multimedia framework from KDE - debugging symbols
  This package contains debugging symbols for the Phonon library and its main
  back-ends. Install it if you want to report a crash or debug a problem with
  Phonon or its back-ends.
-
-Package: phonon-backend-xine
-Architecture: all
-Depends: phonon-backend-vlc
-Description: transitional package to aid switching to phonon-backend-vlc
- This is a transitional dummy package to aid switching to phonon-backend-vlc.
- It can be safely removed.

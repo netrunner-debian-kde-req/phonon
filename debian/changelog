@@ -5,6 +5,8 @@ phonon (4:4.7.0.0-0r1) UNRELEASED; urgency=low
   * Refresh phonon-inc.patch.
   * Update install files.
   * Update symbol files.
+  * Drop phonon-backend-xine transitional package. No longer needed since it
+    has already been released with Wheezy.
 
  -- Modestas Vainius <modax@debian.org>  Tue, 05 Nov 2013 09:55:14 +0200
 
