@@ -1,4 +1,4 @@
-phonon (4:4.7.0.0-0r1) UNRELEASED; urgency=low
+phonon (4:4.7.0.0-1) unstable; urgency=low
 
   * New upstream release (4.7.0).
   * Adapt no_rpath.patch to upstream changes.
@@ -12,7 +12,7 @@ phonon (4:4.7.0.0-0r1) UNRELEASED; urgency=low
   * No longer explicitly pass multiarch LIB_SUFFIX to cmake. Phonon gets the
     multiarch libdir from cmake (as of cmake 2.8.7).
 
- -- Modestas Vainius <modax@debian.org>  Tue, 05 Nov 2013 09:55:14 +0200
+ -- Modestas Vainius <modax@debian.org>  Tue, 05 Nov 2013 13:04:32 +0200
 
 phonon (4:4.6.0.0-3) unstable; urgency=low
 
