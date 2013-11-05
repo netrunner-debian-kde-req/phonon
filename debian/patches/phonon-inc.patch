@@ -6,8 +6,8 @@ Last-Update: 2011-12-20
 
 --- a/phonon/CMakeLists.txt
 +++ b/phonon/CMakeLists.txt
-@@ -153,3 +153,6 @@ if (QT_QTDBUS_FOUND AND NOT PHONON_NO_DB
-     install(FILES org.kde.Phonon.AudioOutput.xml  DESTINATION  ${DBUS_INTERFACES_INSTALL_DIR})
+@@ -222,3 +222,6 @@ if (QT_QTDBUS_FOUND AND NOT PHONON_NO_DB
+     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.kde.${PHONON_LIB_SONAME_CAMEL}.AudioOutput.xml DESTINATION  ${DBUS_INTERFACES_INSTALL_DIR})
  endif (QT_QTDBUS_FOUND AND NOT PHONON_NO_DBUS)
  
 +install(FILES
