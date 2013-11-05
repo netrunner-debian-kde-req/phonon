@@ -12,7 +12,7 @@ Build-Depends: automoc,
                libqt4-dev (>= 4:4.8.1),
                libqzeitgeist-dev,
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Homepage: http://phonon.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/phonon.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-req/phonon.git
