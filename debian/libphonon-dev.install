@@ -136,13 +136,10 @@ usr/share/dbus-1/interfaces/org.kde.Phonon.AudioOutput.xml
 usr/share/phonon/buildsystem/FindAutomoc4.cmake
 usr/share/phonon/buildsystem/FindPackageHandleStandardArgs.cmake
 usr/share/phonon/buildsystem/FindPhononInternal.cmake
-usr/share/phonon/buildsystem/FindQt4.cmake
 usr/share/phonon/buildsystem/MacroEnsureVersion.cmake
 usr/share/phonon/buildsystem/MacroLogFeature.cmake
 usr/share/phonon/buildsystem/MacroOptionalFindPackage.cmake
 usr/share/phonon/buildsystem/MacroPushRequiredVars.cmake
 usr/share/phonon/buildsystem/PhononMacros.cmake
-usr/share/phonon/buildsystem/Qt4ConfigDependentSettings.cmake
-usr/share/phonon/buildsystem/Qt4Macros.cmake
 usr/share/phonon/buildsystem/cmake_uninstall.cmake.in
 usr/share/qt4/mkspecs/modules/qt_phonon.pri
