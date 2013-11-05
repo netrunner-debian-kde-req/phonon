@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.0really4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.7.0.0 amd64
 libphonon.so.4 libphonon4 #MINVER#
 | phonon, libphonon4 #MINVER#
 * Build-Depends-Package: libphonon-dev
@@ -73,6 +73,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon11MediaObjectD1Ev@Base 4:4.2.0
  _ZN6Phonon11MediaObjectD2Ev@Base 4:4.2.0
  _ZN6Phonon11MediaSource13setAutoDeleteEb@Base 4:4.2.0
+ _ZN6Phonon11MediaSourceC1ENS_15CaptureCategoryE@Base 4:4.7.0.0
  _ZN6Phonon11MediaSourceC1ENS_7Capture10DeviceTypeENS_15CaptureCategoryE@Base 4:4.6.0really4.5.0
  _ZN6Phonon11MediaSourceC1ENS_8DiscTypeERK7QString@Base 4:4.2.0
  _ZN6Phonon11MediaSourceC1EP9QIODevice@Base 4:4.2.0
@@ -85,6 +86,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon11MediaSourceC1ERKS0_@Base 4:4.2.0
  _ZN6Phonon11MediaSourceC1ERNS_18MediaSourcePrivateE@Base 4:4.2.0
  _ZN6Phonon11MediaSourceC1Ev@Base 4:4.2.0
+ _ZN6Phonon11MediaSourceC2ENS_15CaptureCategoryE@Base 4:4.7.0.0
  _ZN6Phonon11MediaSourceC2ENS_7Capture10DeviceTypeENS_15CaptureCategoryE@Base 4:4.6.0really4.5.0
  _ZN6Phonon11MediaSourceC2ENS_8DiscTypeERK7QString@Base 4:4.2.0
  _ZN6Phonon11MediaSourceC2EP9QIODevice@Base 4:4.2.0
@@ -105,16 +107,15 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon11PulseStream11qt_metacastEPKc@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream11usingDeviceEi@Base 4:4.6.0really4.4.1
  (subst)_ZN6Phonon11PulseStream13volumeChangedE{qreal}@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream15setCachedVolumeEd@Base 4:4.7.0.0
  _ZN6Phonon11PulseStream16staticMetaObjectE@Base 4:4.6.0really4.4.1
- _ZN6Phonon11PulseStream4uuidEv@Base 4:4.6.0really4.4.1
- _ZN6Phonon11PulseStream5indexEv@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStream17applyCachedVolumeEv@Base 4:4.7.0.0
  _ZN6Phonon11PulseStream7setMuteEb@Base 4:4.6.0really4.4.1
- _ZN6Phonon11PulseStream8channelsEv@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream8setIndexEj@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream9setDeviceEi@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStream9setVolumeEPK10pa_cvolume@Base 4:4.6.0really4.4.1
- _ZN6Phonon11PulseStreamC1E7QString@Base 4:4.6.0really4.4.1
- _ZN6Phonon11PulseStreamC2E7QString@Base 4:4.6.0really4.4.1
+ _ZN6Phonon11PulseStreamC1E7QStringS1_@Base 4:4.7.0.0
+ _ZN6Phonon11PulseStreamC2E7QStringS1_@Base 4:4.7.0.0
  _ZN6Phonon11PulseStreamD0Ev@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStreamD1Ev@Base 4:4.6.0really4.4.1
  _ZN6Phonon11PulseStreamD2Ev@Base 4:4.6.0really4.4.1
@@ -191,6 +192,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon12PulseSupport20registerOutputStreamE7QStringNS_8CategoryE@Base 4:4.6.0really4.4.1
  _ZN6Phonon12PulseSupport21registerCaptureStreamE7QStringNS_15CaptureCategoryE@Base 4:4.6.0really4.5.0
  _ZN6Phonon12PulseSupport21registerCaptureStreamE7QStringNS_8CategoryE@Base 4:4.6.0really4.4.1
+ _ZN6Phonon12PulseSupport22setupStreamEnvironmentE7QString@Base 4:4.7.0.0
  _ZN6Phonon12PulseSupport24objectDescriptionChangedENS_21ObjectDescriptionTypeE@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport28emitObjectDescriptionChangedENS_21ObjectDescriptionTypeE@Base 4:4.6.0really4.3.80
  _ZN6Phonon12PulseSupport34setOutputDevicePriorityForCategoryENS_8CategoryE5QListIiE@Base 4:4.6.0really4.3.80
@@ -254,11 +256,15 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon15MediaController14setCurrentMenuENS0_14NavigationMenuE@Base 4:4.6.0really4.5.0
  _ZN6Phonon15MediaController15setCurrentAngleEi@Base 4:4.2.0
  _ZN6Phonon15MediaController15setCurrentTitleEi@Base 4:4.2.0
+ _ZN6Phonon15MediaController15setSubtitleFontERK5QFont@Base 4:4.7.0.0
  _ZN6Phonon15MediaController16staticMetaObjectE@Base 4:4.2.0
  _ZN6Phonon15MediaController17setAutoplayTitlesEb@Base 4:4.2.0
  _ZN6Phonon15MediaController17setCurrentChapterEi@Base 4:4.2.0
+ _ZN6Phonon15MediaController18setCurrentSubtitleERK4QUrl@Base 4:4.7.0.0
  _ZN6Phonon15MediaController18setCurrentSubtitleERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE3EEE@Base 4:4.2.0
+ _ZN6Phonon15MediaController19setSubtitleEncodingERK7QString@Base 4:4.7.0.0
  _ZN6Phonon15MediaController21availableMenusChangedE5QListINS0_14NavigationMenuEE@Base 4:4.6.0really4.5.0
+ _ZN6Phonon15MediaController21setSubtitleAutodetectEb@Base 4:4.7.0.0
  _ZN6Phonon15MediaController22availableAnglesChangedEi@Base 4:4.2.0
  _ZN6Phonon15MediaController22availableTitlesChangedEi@Base 4:4.2.0
  _ZN6Phonon15MediaController22navigationMenuToStringENS0_14NavigationMenuE@Base 4:4.6.0really4.5.0
@@ -315,6 +321,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon18MediaObjectPrivate15_k_stateChangedENS_5StateES1_@Base 4:4.2.0
  _ZN6Phonon18MediaObjectPrivate18setupBackendObjectEv@Base 4:4.2.0
  _ZN6Phonon18MediaSourcePrivate16setCaptureDeviceENS_7Capture10DeviceTypeENS_15CaptureCategoryE@Base 4:4.6.0really4.5.0
+ _ZN6Phonon18MediaSourcePrivate17setCaptureDevicesENS_15CaptureCategoryE@Base 4:4.7.0.0
  (optional=templinst)_ZN6Phonon18MediaSourcePrivate17setCaptureDevicesERKNS_17ObjectDescriptionILNS_21ObjectDescriptionTypeE4EEERKNS1_ILS2_5EEE@Base 4:4.6.0really4.5.0
  _ZN6Phonon18MediaSourcePrivate9setStreamEPNS_19AbstractMediaStreamE@Base 4:4.2.0
  _ZN6Phonon18MediaSourcePrivateD0Ev@Base 4:4.2.0
@@ -444,6 +451,13 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon9MediaNodeD0Ev@Base 4:4.2.0
  _ZN6Phonon9MediaNodeD1Ev@Base 4:4.2.0
  _ZN6Phonon9MediaNodeD2Ev@Base 4:4.2.0
+ _ZN6PhononlsE6QDebugRKNS_11MediaSourceE@Base 4:4.7.0.0
+ _ZN6PhononlsE6QDebugRKNS_5StateE@Base 4:4.7.0.0
+ _ZN6PhononlsE6QDebugRKNS_7Capture10DeviceTypeE@Base 4:4.7.0.0
+ _ZN6PhononlsE6QDebugRKNS_8CategoryE@Base 4:4.7.0.0
+ _ZN6PhononlsE6QDebugRKNS_8DiscTypeE@Base 4:4.7.0.0
+ _ZN6PhononlsE6QDebugRKNS_8MetaDataE@Base 4:4.7.0.0
+ _ZN6PhononlsE6QDebugRKNS_9ErrorTypeE@Base 4:4.7.0.0
  _ZNK6Phonon10SeekSlider10metaObjectEv@Base 4:4.2.0
  _ZNK6Phonon10SeekSlider10singleStepEv@Base 4:4.2.0
  _ZNK6Phonon10SeekSlider11hasTrackingEv@Base 4:4.2.0
@@ -481,6 +495,8 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon11MediaSource16deviceAccessListEv@Base 4:4.6.0really4.4.3
  _ZNK6Phonon11MediaSource18audioCaptureDeviceEv@Base 4:4.6.0really4.4.3
  _ZNK6Phonon11MediaSource18videoCaptureDeviceEv@Base 4:4.6.0really4.4.3
+ _ZNK6Phonon11MediaSource21audioDeviceAccessListEv@Base 4:4.7.0.0
+ _ZNK6Phonon11MediaSource21videoDeviceAccessListEv@Base 4:4.7.0.0
  _ZNK6Phonon11MediaSource3mrlEv@Base 4:4.6.0really4.5.0
  _ZNK6Phonon11MediaSource3urlEv@Base 4:4.2.0
  _ZNK6Phonon11MediaSource4typeEv@Base 4:4.2.0
@@ -489,6 +505,11 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon11MediaSource8fileNameEv@Base 4:4.2.0
  _ZNK6Phonon11MediaSourceeqERKS0_@Base 4:4.2.0
  _ZNK6Phonon11PulseStream10metaObjectEv@Base 4:4.6.0really4.4.1
+ _ZNK6Phonon11PulseStream12cachedVolumeEv@Base 4:4.7.0.0
+ _ZNK6Phonon11PulseStream4roleEv@Base 4:4.7.0.0
+ _ZNK6Phonon11PulseStream4uuidEv@Base 4:4.7.0.0
+ _ZNK6Phonon11PulseStream5indexEv@Base 4:4.7.0.0
+ _ZNK6Phonon11PulseStream8channelsEv@Base 4:4.7.0.0
  _ZNK6Phonon11VideoPlayer10metaObjectEv@Base 4:4.2.0
  _ZNK6Phonon11VideoPlayer11audioOutputEv@Base 4:4.2.0
  _ZNK6Phonon11VideoPlayer11currentTimeEv@Base 4:4.2.0
@@ -523,6 +544,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon12GlobalConfig28audioCaptureDevicePropertiesEi@Base 4:4.6.0really4.4.3
  _ZNK6Phonon12GlobalConfig28videoCaptureDevicePropertiesEi@Base 4:4.6.0really4.4.3
  _ZNK6Phonon12PulseSupport10metaObjectEv@Base 4:4.6.0really4.3.80
+ _ZNK6Phonon12PulseSupport16streamPropertiesE7QString@Base 4:4.7.0.0
  _ZNK6Phonon12PulseSupport23objectIndexesByCategoryENS_21ObjectDescriptionTypeENS_15CaptureCategoryE@Base 4:4.6.0really4.5.0
  _ZNK6Phonon12PulseSupport23objectIndexesByCategoryENS_21ObjectDescriptionTypeENS_8CategoryE@Base 4:4.6.0really4.3.80
  _ZNK6Phonon12PulseSupport24objectDescriptionIndexesENS_21ObjectDescriptionTypeE@Base 4:4.6.0really4.3.80
@@ -554,15 +576,18 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZNK6Phonon15MediaController10metaObjectEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController12currentAngleEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController12currentTitleEv@Base 4:4.2.0
+ _ZNK6Phonon15MediaController12subtitleFontEv@Base 4:4.7.0.0
  _ZNK6Phonon15MediaController14autoplayTitlesEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController14availableMenusEv@Base 4:4.6.0really4.5.0
  _ZNK6Phonon15MediaController14currentChapterEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController15availableAnglesEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController15availableTitlesEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController15currentSubtitleEv@Base 4:4.2.0
+ _ZNK6Phonon15MediaController16subtitleEncodingEv@Base 4:4.7.0.0
  _ZNK6Phonon15MediaController17availableChaptersEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController17supportedFeaturesEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController18availableSubtitlesEv@Base 4:4.2.0
+ _ZNK6Phonon15MediaController18subtitleAutodetectEv@Base 4:4.7.0.0
  _ZNK6Phonon15MediaController19currentAudioChannelEv@Base 4:4.2.0
  _ZNK6Phonon15MediaController22availableAudioChannelsEv@Base 4:4.2.0
  _ZNK6Phonon17VolumeFaderEffect10metaObjectEv@Base 4:4.2.0
