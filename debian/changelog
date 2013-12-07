@@ -3,6 +3,8 @@ phonon (4:4.7.1-1) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Remove the extra 0 used to avoid the "really" in the versioning.
+  * Remove no_rpath.patch. The logic of the patch is now available in the
+    upstream code.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Dec 2013 15:27:36 -0300
 
