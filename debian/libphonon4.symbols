@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.0.0 amd64 armel armhf
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libphonon.so.4 libphonon4 #MINVER#
 | phonon, libphonon4 #MINVER#
 * Build-Depends-Package: libphonon-dev
@@ -452,6 +452,7 @@ libphonon.so.4 libphonon4 #MINVER#
  _ZN6Phonon9MediaNodeD1Ev@Base 4:4.2.0
  _ZN6Phonon9MediaNodeD2Ev@Base 4:4.2.0
  _ZN6PhononlsE6QDebugRKNS_11MediaSourceE@Base 4:4.7.0.0
+ _ZN6PhononlsE6QDebugRKNS_15CaptureCategoryE@Base 4:4.7.1
  _ZN6PhononlsE6QDebugRKNS_5StateE@Base 4:4.7.0.0
  _ZN6PhononlsE6QDebugRKNS_7Capture10DeviceTypeE@Base 4:4.7.0.0
  _ZN6PhononlsE6QDebugRKNS_8CategoryE@Base 4:4.7.0.0
