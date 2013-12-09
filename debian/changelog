@@ -1,13 +1,13 @@
-phonon (4:4.7.1-1) UNRELEASED; urgency=low
+phonon (4:4.7.1-1) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * New upstream release.
   * Remove the extra 0 used to avoid the "really" in the versioning.
   * Remove no_rpath.patch. The logic of the patch is now available in the
     upstream code.
   * Update symbols file. This version adds a new symbol.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Dec 2013 15:27:36 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 09 Dec 2013 16:31:51 -0300
 
 phonon (4:4.7.0.0-2) unstable; urgency=low
 
