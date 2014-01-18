@@ -2,6 +2,8 @@ phonon (4:4.7.1-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Fix the watch file.
+  * phonon: explicitly lists all the backends as suggests, without relying on
+    ${phonon:Recommended-Backend}.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 16 Dec 2013 00:35:07 +0100
 
