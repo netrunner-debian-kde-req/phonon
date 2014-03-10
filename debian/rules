@@ -8,10 +8,24 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
-RECOMMENDED_PHONON_BACKEND := phonon-backend-vlc
+RECOMMENDED_PHONON4_QT4_BACKEND := phonon-backend-vlc
+RECOMMENDED_PHONON4_QT5_BACKEND := phonon-qt5-backend-vlc
+
+override_dh_auto_clean:
+	$(overridden_command)
+	rm -rf build-qt5
 
 override_dh_auto_configure:
 	$(overridden_command) -- -DPHONON_INSTALL_QT_EXTENSIONS_INTO_SYSTEM_QT=ON
+	$(overridden_command) --builddirectory=build-qt5 -- -DPHONON_INSTALL_QT_EXTENSIONS_INTO_SYSTEM_QT=ON -DPHONON_BUILD_PHONON4QT5=ON
+
+override_dh_auto_build:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=build-qt5
+
+override_dh_auto_install:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=build-qt5
 
 # shlibs is needed for library-packages.mk (strict shlibs) to work
 override_dh_makeshlibs:
@@ -28,12 +42,16 @@ override_dh_gencontrol:
 	          debian/*/DEBIAN/config \
 	          debian/*/DEBIAN/templates; do \
 	    if [ -f "$$f" ]; then \
-	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(RECOMMENDED_PHONON_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
+	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(RECOMMENDED_PHONON4_QT4_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
 	        echo "$$cmd"; eval "$$cmd"; \
 	    fi; \
 	done
 	if [ -d debian/phonon-backend-null ]; then \
-	    sed -i 's/\$${recommended_backend}/$(RECOMMENDED_PHONON_BACKEND)/g' \
+	    sed -i 's/\$${recommended_backend}/$(RECOMMENDED_PHONON4_QT4_BACKEND)/g' \
 	        debian/phonon-backend-null/usr/share/doc/phonon-backend-null/README.Debian; \
 	fi
-	$(overridden_command) -- -Vphonon:Recommended-Backend=$(RECOMMENDED_PHONON_BACKEND)
+	if [ -d debian/phonon-qt5-backend-null ]; then \
+	    sed -i 's/\$${recommended_backend}/$(RECOMMENDED_PHONON4_QT5_BACKEND)/g' \
+	        debian/phonon-backend-null/usr/share/doc/phonon-backend-null/README.Debian; \
+	fi
+	$(overridden_command) -- -Vphonon:Recommended-Backend-qt4=$(RECOMMENDED_PHONON4_QT4_BACKEND) -Vphonon:Recommended-Backend-qt5=$(RECOMMENDED_PHONON4_QT5_BACKEND)
