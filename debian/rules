@@ -27,6 +27,9 @@ override_dh_auto_install:
 	$(overridden_command)
 	$(overridden_command) --builddirectory=build-qt5
 
+override_dh_install:
+	dh_install --fail-missing
+
 # shlibs is needed for library-packages.mk (strict shlibs) to work
 override_dh_makeshlibs:
 	$(overridden_command) -plibphonon4 -V'libphonon4 (>= $(dqk_upstream_version)), phonon'
