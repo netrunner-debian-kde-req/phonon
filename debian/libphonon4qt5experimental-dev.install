@@ -1,9 +1,9 @@
-usr/lib/*/libphonon4qt5experimental.so
-usr/include/phonon4qt5/KDE/Phonon/Experimental/Visualization
-usr/include/phonon4qt5/KDE/Phonon/Experimental/VideoFrame
+usr/include/phonon4qt5/KDE/Phonon/Experimental/AbstractVideoDataOutput
+usr/include/phonon4qt5/KDE/Phonon/Experimental/AudioDataOutput
+usr/include/phonon4qt5/KDE/Phonon/Experimental/SnapshotInterface
 usr/include/phonon4qt5/KDE/Phonon/Experimental/VideoDataOutput
 usr/include/phonon4qt5/KDE/Phonon/Experimental/VideoDataOutputInterface
-usr/include/phonon4qt5/KDE/Phonon/Experimental/AudioDataOutput
-usr/include/phonon4qt5/KDE/Phonon/Experimental/AbstractVideoDataOutput
-usr/include/phonon4qt5/KDE/Phonon/Experimental/SnapshotInterface
+usr/include/phonon4qt5/KDE/Phonon/Experimental/VideoFrame
 usr/include/phonon4qt5/KDE/Phonon/Experimental/VideoFrame2
+usr/include/phonon4qt5/KDE/Phonon/Experimental/Visualization
+usr/lib/*/libphonon4qt5experimental.so
