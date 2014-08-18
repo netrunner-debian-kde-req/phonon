@@ -1,4 +1,6 @@
-phonon (4:4.7.2-1) UNRELEASED; urgency=low
+phonon (4:4.7.2-1) unstable; urgency=low
+
+  * Team upload.
 
   [ Pino Toscano ]
   * Fix the watch file.
@@ -8,7 +10,7 @@ phonon (4:4.7.2-1) UNRELEASED; urgency=low
   [ Felix Geyer ]
   * New upstream release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 16 Dec 2013 00:35:07 +0100
+ -- Felix Geyer <fgeyer@debian.org>  Mon, 18 Aug 2014 20:46:36 +0200
 
 phonon (4:4.7.1-1) unstable; urgency=low
 
