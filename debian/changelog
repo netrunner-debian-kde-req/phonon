@@ -7,6 +7,7 @@ phonon (4:4.7.80-1) UNRELEASED; urgency=medium
   [ Diane Trout]
   * New upstream release
   * add libqt5opengl5-dev to build dependencies.
+  * update SO versions to 4.7.80 for libphonon4qt5*.install
 
  -- Diane Trout <diane@ghic.org>  Mon, 19 Aug 2014 21:00:17 -0700
 
