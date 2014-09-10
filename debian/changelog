@@ -9,6 +9,7 @@ phonon (4:4.8.0-1) UNRELEASED; urgency=medium
   * add libqt5opengl5-dev to build dependencies.
   * update SO versions to 4.8.0 for libphonon4qt5*.install
   * Add myself to upoaders.
+  * Update libphonon4.symbols
 
  -- Diane Trout <diane@ghic.org>  Tue, 09 Sep 2014 10:55:34 -0700
 
