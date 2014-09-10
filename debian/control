@@ -190,9 +190,9 @@ Description: multimedia framework from KDE - null back-end (no real back-end)
 Package: phonon4qt5-backend-null
 Architecture: any
 Multi-Arch: same
-Provides: phonon-backend
+Provides: phonon4qt5-backend
 Depends: libphonon4qt5, ${misc:Depends}
-Conflicts: phonon-backend
+Conflicts: phonon4qt5-backend
 Description: multimedia framework from KDE using Qt 5 - null back-end (no real back-end)
  Phonon is a Qt 5 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.
