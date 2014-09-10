@@ -2,7 +2,7 @@ phonon (4:4.8.0-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Provide Qt 5 versions of the packages (Closes: #731936).
-    - Modify debian/rules to allow teh double build.
+    - Modify debian/rules to allow the double build.
 
   [ Diane Trout]
   * New upstream release
