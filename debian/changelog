@@ -12,6 +12,7 @@ phonon (4:4.8.0-1) UNRELEASED; urgency=medium
   * Update libphonon4.symbols
   * phonon4qt5-backend-null should only conflict with other
     phonon4qt5-backends.
+  * update libphonon4qt5-dev.install package
 
  -- Diane Trout <diane@ghic.org>  Tue, 09 Sep 2014 10:55:34 -0700
 
