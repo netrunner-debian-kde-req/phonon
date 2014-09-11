@@ -14,6 +14,8 @@ phonon (4:4.8.0-1) UNRELEASED; urgency=medium
     phonon4qt5-backends.
   * update libphonon4qt5-dev.install package
   * Add symbols files for libphonon4qt5 and libphonon4qt5experimental4
+  * Add override_dh_strip target to correctly build libphonon-dbg (qt4)
+    and libphonon4qt5-dbg (qt5) debug packages.
 
 
  -- Diane Trout <diane@ghic.org>  Tue, 09 Sep 2014 10:55:34 -0700
