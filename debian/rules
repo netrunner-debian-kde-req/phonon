@@ -9,7 +9,7 @@ libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 RECOMMENDED_PHONON4_QT4_BACKEND := phonon-backend-vlc
-RECOMMENDED_PHONON4_QT5_BACKEND := phonon-qt5-backend-vlc
+RECOMMENDED_PHONON4_QT5_BACKEND := phonon4qt5-backend-vlc
 
 override_dh_auto_clean:
 	$(overridden_command)
@@ -54,13 +54,17 @@ override_dh_gencontrol:
 	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(RECOMMENDED_PHONON4_QT4_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
 	        echo "$$cmd"; eval "$$cmd"; \
 	    fi; \
+	    if [ -f "$$f" ]; then \
+	        cmd="awk -f debian/expand4qt5_vars.awk -v recommended4qt5_backend='$(RECOMMENDED_PHONON4_QT5_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
+	        echo "$$cmd"; eval "$$cmd"; \
+	    fi; \
 	done
 	if [ -d debian/phonon-backend-null ]; then \
 	    sed -i 's/\$${recommended_backend}/$(RECOMMENDED_PHONON4_QT4_BACKEND)/g' \
 	        debian/phonon-backend-null/usr/share/doc/phonon-backend-null/README.Debian; \
 	fi
-	if [ -d debian/phonon-qt5-backend-null ]; then \
-	    sed -i 's/\$${recommended_backend}/$(RECOMMENDED_PHONON4_QT5_BACKEND)/g' \
-	        debian/phonon-backend-null/usr/share/doc/phonon-backend-null/README.Debian; \
+	if [ -d debian/phonon4qt5-backend-null ]; then \
+	    sed -i 's/\$${recommended4qt5_backend}/$(RECOMMENDED_PHONON4_QT5_BACKEND)/g' \
+	        debian/phonon4qt5-backend-null/usr/share/doc/phonon4qt5-backend-null/README.Debian; \
 	fi
 	$(overridden_command) -- -Vphonon:Recommended-Backend-qt4=$(RECOMMENDED_PHONON4_QT4_BACKEND) -Vphonon:Recommended-Backend-qt5=$(RECOMMENDED_PHONON4_QT5_BACKEND)
