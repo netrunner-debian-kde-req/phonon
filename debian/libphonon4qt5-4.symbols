@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.8.0 amd64
-libphonon4qt5.so.4 libphonon4qt5 #MINVER#
+libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon10SeekSlider11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.8.0
  _ZN6Phonon10SeekSlider11qt_metacastEPKc@Base 4:4.8.0
  _ZN6Phonon10SeekSlider11setIconSizeERK5QSize@Base 4:4.8.0

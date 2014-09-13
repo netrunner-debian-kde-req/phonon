@@ -20,6 +20,7 @@ phonon (4:4.8.0-1) UNRELEASED; urgency=medium
     library.
   * Merge in changes from Kubuntu to support Qt5 debconf warning. 
     (Done by jriddel)
+  * Rename libphonon4qt5 library to libphonon4qt5-4 to match soname
 
  -- Diane Trout <diane@ghic.org>  Tue, 09 Sep 2014 10:55:34 -0700
 

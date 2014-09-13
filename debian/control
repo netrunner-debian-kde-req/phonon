@@ -41,7 +41,7 @@ Description: multimedia framework from KDE using Qt 4 - metapackage
 Package: phonon4qt5
 Architecture: any
 Multi-Arch: same
-Depends: libphonon4qt5 (>= ${source:Version}),
+Depends: libphonon4qt5-4 (>= ${source:Version}),
          ${misc:Depends},
          ${phonon:Recommended-Backend-qt5} | phonon-backend
 Suggests: phonon4qt5-backend-gstreamer,
@@ -72,7 +72,7 @@ Description: multimedia framework from KDE using Qt 4 - development files
 Package: libphonon4qt5-dev
 Architecture: any
 Section: libdevel
-Depends: libphonon4qt5 (= ${binary:Version}),
+Depends: libphonon4qt5-4 (= ${binary:Version}),
          phonon4qt5-backend-null | phonon4qt5,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -97,7 +97,7 @@ Description: multimedia framework from KDE - core library
  This package contains the core library of the Phonon cross-platform multimedia
  framework from KDE. It is required to run applications that use Phonon.
 
-Package: libphonon4qt5
+Package: libphonon4qt5-4
 Architecture: any
 Multi-Arch: same
 Section: libs
@@ -192,7 +192,7 @@ Package: phonon4qt5-backend-null
 Architecture: any
 Multi-Arch: same
 Provides: phonon4qt5-backend
-Depends: libphonon4qt5, ${misc:Depends}
+Depends: libphonon4qt5-4, ${misc:Depends}
 Conflicts: phonon4qt5-backend
 Description: multimedia framework from KDE using Qt 5 - null back-end (no real back-end)
  Phonon is a Qt 5 multimedia API, which provides a task-oriented abstraction
@@ -222,7 +222,7 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Depends: libphonon4qt5 (= ${binary:Version}), ${misc:Depends}
+Depends: libphonon4qt5-4 (= ${binary:Version}), ${misc:Depends}
 Suggests: libphonon4qt5experimental4 (= ${binary:Version})
 Description: multimedia framework from KDE using Qt 5 - debugging symbols
  Phonon is the Qt 5 multimedia API, which provides a task-oriented abstraction
