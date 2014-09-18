@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-dh = --dbg-package=phonon-dbg
+#dh = --dbg-package=phonon-dbg
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
@@ -8,10 +8,33 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
-RECOMMENDED_PHONON_BACKEND := phonon-backend-vlc
+RECOMMENDED_PHONON4_QT4_BACKEND := phonon-backend-vlc
+RECOMMENDED_PHONON4_QT5_BACKEND := phonon4qt5-backend-vlc
+
+override_dh_auto_clean:
+	$(overridden_command)
+	rm -rf build-qt5
 
 override_dh_auto_configure:
 	$(overridden_command) -- -DPHONON_INSTALL_QT_EXTENSIONS_INTO_SYSTEM_QT=ON
+	$(overridden_command) --builddirectory=build-qt5 -- -DPHONON_INSTALL_QT_EXTENSIONS_INTO_SYSTEM_QT=ON -DPHONON_BUILD_PHONON4QT5=ON
+
+override_dh_auto_build:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=build-qt5
+
+override_dh_auto_install:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=build-qt5
+
+override_dh_install:
+	dh_install --fail-missing
+
+override_dh_strip:
+	$(overridden_command) -plibphonon4 --dbg-package=phonon-dbg
+	$(overridden_command) -plibphononexperimental4 --dbg-package=phonon-dbg
+	$(overridden_command) -plibphonon-dev --dbg-package=phonon-dbg
+	$(overridden_command) --remaining-packages --dbg-package=phonon4qt5-dbg
 
 # shlibs is needed for library-packages.mk (strict shlibs) to work
 override_dh_makeshlibs:
@@ -28,12 +51,20 @@ override_dh_gencontrol:
 	          debian/*/DEBIAN/config \
 	          debian/*/DEBIAN/templates; do \
 	    if [ -f "$$f" ]; then \
-	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(RECOMMENDED_PHONON_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
+	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(RECOMMENDED_PHONON4_QT4_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
+	        echo "$$cmd"; eval "$$cmd"; \
+	    fi; \
+	    if [ -f "$$f" ]; then \
+	        cmd="awk -f debian/expand4qt5_vars.awk -v recommended4qt5_backend='$(RECOMMENDED_PHONON4_QT5_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
 	        echo "$$cmd"; eval "$$cmd"; \
 	    fi; \
 	done
 	if [ -d debian/phonon-backend-null ]; then \
-	    sed -i 's/\$${recommended_backend}/$(RECOMMENDED_PHONON_BACKEND)/g' \
+	    sed -i 's/\$${recommended_backend}/$(RECOMMENDED_PHONON4_QT4_BACKEND)/g' \
 	        debian/phonon-backend-null/usr/share/doc/phonon-backend-null/README.Debian; \
 	fi
-	$(overridden_command) -- -Vphonon:Recommended-Backend=$(RECOMMENDED_PHONON_BACKEND)
+	if [ -d debian/phonon4qt5-backend-null ]; then \
+	    sed -i 's/\$${recommended4qt5_backend}/$(RECOMMENDED_PHONON4_QT5_BACKEND)/g' \
+	        debian/phonon4qt5-backend-null/usr/share/doc/phonon4qt5-backend-null/README.Debian; \
+	fi
+	$(overridden_command) -- -Vphonon:Recommended-Backend-qt4=$(RECOMMENDED_PHONON4_QT4_BACKEND) -Vphonon:Recommended-Backend-qt5=$(RECOMMENDED_PHONON4_QT5_BACKEND)

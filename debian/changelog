@@ -1,3 +1,28 @@
+phonon (4:4.8.0-2) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Provide Qt 5 versions of the packages (Closes: #731936).
+    - Modify debian/rules to allow the double build.
+
+  [ Diane Trout]
+  * New upstream release
+  * add libqt5opengl5-dev to build dependencies.
+  * update SO versions to 4.8.0 for libphonon4qt5*.install
+  * Add myself to upoaders.
+  * phonon4qt5-backend-null should only conflict with other
+    phonon4qt5-backends.
+  * update libphonon4qt5-dev.install package
+  * Add symbols files for libphonon4qt5 and libphonon4qt5experimental4
+  * Add override_dh_strip target to correctly build libphonon-dbg (qt4)
+    and libphonon4qt5-dbg (qt5) debug packages.
+  * Add qttools5-dev to build qt5 phononwidgets designer support
+    library.
+  * Merge in changes from Kubuntu to support Qt5 debconf warning. 
+    (Done by jriddel)
+  * Rename libphonon4qt5 library to libphonon4qt5-4 to match soname
+
+ -- Diane Trout <diane@ghic.org>  Tue, 09 Sep 2014 10:55:34 -0700
+
 phonon (4:4.8.0-1) unstable; urgency=medium
 
   * Team upload.

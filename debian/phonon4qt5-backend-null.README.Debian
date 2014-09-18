@@ -1,0 +1,19 @@
+About this backend
+------------------
+
+This backend is not a real Phonon4Qt5 backend. Therefore Phonon4Qt5 based (i.e. most
+KF5 and some Qt5) applications will produce no audio or video output. Typically,
+this is an undesirable configuration which you might have gotten to
+unintentionally. However, `phonon4qt5-backend-null' might be useful if you are not
+interested in multimedia and you don't want to install a number of pretty heavy
+packages which real backends typically depend on.
+
+If you wish to restore full Phonon4Qt5 multimedia capabilities, install a real
+Phonon4Qt5 backend with your favourite package manager. The recommended backend
+is `${recommended4qt5_backend}' but you may choose any other package which provides
+the `phonon4qt5-backend' virtual package. Use whatever works best with your system
+setup.
+
+Phonon4Qt5 backend package names typically start with 'phonon4qt5-backend-' string by
+convention. Have a look at the packages suggested by the `phonon4qt5' package as
+well.
