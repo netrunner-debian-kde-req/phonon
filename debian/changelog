@@ -14,8 +14,8 @@ phonon (4:4.8.0-2) UNRELEASED; urgency=medium
   * Add symbols files for libphonon4qt5 and libphonon4qt5experimental4
   * Add override_dh_strip target to correctly build libphonon-dbg (qt4)
     and libphonon4qt5-dbg (qt5) debug packages.
-  * Add qttools5-dev to build qt5 phononwidgets designer support
-    library.
+  * Add qttools5-dev as a build dependency in order to build qt5 phononwidgets
+    designer support library.
   * Merge in changes from Kubuntu to support Qt5 debconf warning.
     (Done by Jonathan Riddell)
   * Rename libphonon4qt5 library to libphonon4qt5-4 to match soname
