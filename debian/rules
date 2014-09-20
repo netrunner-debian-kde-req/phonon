@@ -31,9 +31,10 @@ override_dh_install:
 	dh_install --fail-missing
 
 override_dh_strip:
-	$(overridden_command) -plibphonon4 --dbg-package=phonon-dbg
-	$(overridden_command) -plibphononexperimental4 --dbg-package=phonon-dbg
-	$(overridden_command) -plibphonon-dev --dbg-package=phonon-dbg
+	$(overridden_command) -plibphonon4 \
+			      -plibphononexperimental4 \
+			      -plibphonon-dev \
+			      --dbg-package=phonon-dbg
 	$(overridden_command) --remaining-packages --dbg-package=phonon4qt5-dbg
 
 # shlibs is needed for library-packages.mk (strict shlibs) to work
