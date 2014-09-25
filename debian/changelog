@@ -7,7 +7,7 @@ phonon (4:4.8.0-2) unstable; urgency=medium
   [ Diane Trout]
   * add libqt5opengl5-dev to build dependencies.
   * update SO versions to 4.8.0 for libphonon4qt5*.install
-  * Add myself to upoaders.
+  * Add myself to uploaders.
   * phonon4qt5-backend-null should only conflict with other
     phonon4qt5-backends.
   * update libphonon4qt5-dev.install package
