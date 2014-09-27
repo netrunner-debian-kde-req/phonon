@@ -52,11 +52,7 @@ override_dh_gencontrol:
 	          debian/*/DEBIAN/config \
 	          debian/*/DEBIAN/templates; do \
 	    if [ -f "$$f" ]; then \
-	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(RECOMMENDED_PHONON4_QT4_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
-	        echo "$$cmd"; eval "$$cmd"; \
-	    fi; \
-	    if [ -f "$$f" ]; then \
-	        cmd="awk -f debian/expand4qt5_vars.awk -v recommended4qt5_backend='$(RECOMMENDED_PHONON4_QT5_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
+	        cmd="awk -f debian/expand_vars.awk -v recommended_backend='$(RECOMMENDED_PHONON4_QT4_BACKEND)' -v  recommended4qt5_backend='$(RECOMMENDED_PHONON4_QT5_BACKEND)' -- $$f > $$f.tmp && cat $$f.tmp >| $$f && rm -f $$f.tmp"; \
 	        echo "$$cmd"; eval "$$cmd"; \
 	    fi; \
 	done

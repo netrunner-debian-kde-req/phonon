@@ -7,6 +7,7 @@ function readfile(file)
 
 function process()
 {
+    gsub(/#RECOMMENDED4QT5_BACKEND#/,recommended4qt5_backend);
     gsub(/#RECOMMENDED_BACKEND#/,recommended_backend);
     if (/^#INCLUDE [^#]+#$/) {
         readfile(substr($0,10,length($0)-9-1));

@@ -1,6 +1,7 @@
 phonon (4:4.8.0-3) UNRELEASED; urgency=medium
 
   * Remove debian/installgen, no longer used.
+  * Simplify merginging expand4qt5_vars.awk into expand_vars.awk
 
  -- Diane Trout <diane@ghic.org>  Fri, 26 Sep 2014 21:10:59 -0700
 
