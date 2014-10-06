@@ -1,3 +1,10 @@
+phonon (4:4.8.0-4) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add myself to Uploaders.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Oct 2014 14:03:01 -0300
+
 phonon (4:4.8.0-3) unstable; urgency=medium
 
   * Remove debian/installgen, no longer used.

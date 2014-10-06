@@ -3,7 +3,7 @@ Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>, Fathi Boudra <fabo@debian.org>,
-           Diane Trout <diane@ghic.org>
+           Diane Trout <diane@ghic.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: automoc,
                cmake (>= 2.8.7),
                debhelper (>= 9),
