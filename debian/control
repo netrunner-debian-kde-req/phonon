@@ -2,8 +2,10 @@ Source: phonon
 Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Modestas Vainius <modax@debian.org>, Fathi Boudra <fabo@debian.org>,
-           Diane Trout <diane@ghic.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Diane Trout <diane@ghic.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: automoc,
                cmake (>= 2.8.7),
                debhelper (>= 9),
@@ -11,11 +13,11 @@ Build-Depends: automoc,
                libglib2.0-dev,
                libpulse-dev (>= 0.9.21),
                libqt4-dev (>= 4:4.8.1),
+               libqt5opengl5-dev,
                libqzeitgeist-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev,
-               qttools5-dev,
-               libqt5opengl5-dev
+               qttools5-dev
 Standards-Version: 3.9.5
 Homepage: http://phonon.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-req/phonon.git
@@ -27,9 +29,7 @@ Multi-Arch: same
 Depends: libphonon4 (>= ${source:Version}),
          ${misc:Depends},
          ${phonon:Recommended-Backend-qt4} | phonon-backend
-Suggests: phonon-backend-gstreamer,
-          phonon-backend-mplayer,
-          phonon-backend-vlc
+Suggests: phonon-backend-gstreamer, phonon-backend-mplayer, phonon-backend-vlc
 Breaks: phonon-backend-xine (<< 4:4.6.0.0)
 Description: multimedia framework from KDE using Qt 4 - metapackage
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
