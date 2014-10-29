@@ -1,7 +1,7 @@
 Source: phonon
 Section: sound
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Diane Trout <diane@ghic.org>,
@@ -14,7 +14,6 @@ Build-Depends: automoc,
                libpulse-dev (>= 0.9.21),
                libqt4-dev (>= 4:4.8.1),
                libqt5opengl5-dev,
-               libqzeitgeist-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev,
                qttools5-dev

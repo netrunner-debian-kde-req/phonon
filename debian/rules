@@ -8,8 +8,8 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
-RECOMMENDED_PHONON4_QT4_BACKEND := phonon-backend-vlc
-RECOMMENDED_PHONON4_QT5_BACKEND := phonon4qt5-backend-vlc
+RECOMMENDED_PHONON4_QT4_BACKEND := phonon-backend-gstreamer
+RECOMMENDED_PHONON4_QT5_BACKEND := phonon4qt5-backend-gstreamer
 
 override_dh_auto_clean:
 	$(overridden_command)

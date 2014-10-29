@@ -1,3 +1,13 @@
+phonon (4:4.8.0-~4ubuntu1) vivid; urgency=medium
+
+  * Merge with Debian, remaining changes:
+    - Drop universe dependency libqzeitgeist-dev.
+    - in debian/rules set default to gstreamer
+    - move qt5 experimental headers from libphonon4qt5-dev.install
+      to libphonon4qt5experimental-dev.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 29 Oct 2014 17:18:34 +0000
+
 phonon (4:4.8.0-4) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
@@ -69,6 +79,101 @@ phonon (4:4.7.1-1) unstable; urgency=low
   * Update symbols file. This version adds a new symbol.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 09 Dec 2013 16:31:51 -0300
+
+phonon (4:4.7.80-0ubuntu2) utopic; urgency=medium
+
+  * Use phonon-backend-gstreamer instead of phonon-backend-gstreamer1.0
+    for dependencies and recommendations.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 10 Sep 2014 14:24:01 +0200
+
+phonon (4:4.7.80-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 14 Aug 2014 14:18:52 +0200
+
+phonon (4:4.7.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Add missing symbols files for Qt5 libraries
+  * Add explicit phonon4qt5 dependency to symbols files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 12:05:38 +0200
+
+phonon (4:4.7.1-0ubuntu8) trusty; urgency=medium
+
+  * Fix install location of usr/include/phonon4qt5/KDE/
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Apr 2014 13:05:09 +0000
+
+phonon (4:4.7.1-0ubuntu7) trusty; urgency=medium
+
+  * Change recommended backend to phonon-backend-gstreamer1.0
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 24 Mar 2014 20:13:27 +0000
+
+phonon (4:4.7.1-0ubuntu6) trusty; urgency=medium
+
+  [ Scarlett Clark ]
+  * Fix .pri install location.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 24 Mar 2014 17:09:52 +0000
+
+phonon (4:4.7.1-0ubuntu5) trusty; urgency=medium
+
+  [ Timo Jyrinki ]
+  * Rebuild against Qt 5.2.1
+  * Use the new mkspecs location
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 10 Mar 2014 07:18:59 +0000
+
+phonon (4:4.7.1-0ubuntu4) trusty; urgency=medium
+
+  * Fix install of qt_phonon4qt5.pri
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 14 Feb 2014 15:55:59 +0000
+
+phonon (4:4.7.1-0ubuntu3) trusty; urgency=medium
+
+  * Fix paths in libphonon4qt5-dev.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 04 Feb 2014 17:39:47 +0000
+
+phonon (4:4.7.1-0ubuntu2) trusty; urgency=medium
+
+  * Fix paths in libphonon4qt5-dev.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 30 Jan 2014 10:39:05 +0000
+
+phonon (4:4.7.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+  * Do not suggest phonon-backend-mplayer which no longer exists
+  * Do second build for phonon4qt5 and duplicate packages and debconf setup for it
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 06 Dec 2013 12:32:48 +0000
+
+phonon (4:4.7.0.0-2ubuntu3) trusty; urgency=low
+
+  * Third time's the charm: suggest phonon-backend-vlc to
+    compliment the previous phonon-backend-gstreamer change.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sat, 23 Nov 2013 22:06:30 -0700
+
+phonon (4:4.7.0.0-2ubuntu2) trusty; urgency=low
+
+  * Actually change default backend to phonon-backend-gstreamer.
+
+ -- Dmitrijs Ledkovs <xnox@ubuntu.com>  Sun, 24 Nov 2013 04:53:10 +0000
+
+phonon (4:4.7.0.0-2ubuntu1) trusty; urgency=low
+
+  * Rebase on to debian, remaining changes:
+    - Drop universe dependency libqzeitgeist-dev.
+    - Change default backend to phonon-backend-gstreamer.
+
+ -- Dmitrijs Ledkovs <xnox@ubuntu.com>  Sun, 24 Nov 2013 02:51:02 +0000
 
 phonon (4:4.7.0.0-2) unstable; urgency=low
 
