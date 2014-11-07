@@ -2,9 +2,11 @@ From: Sune Vuorela <debian@pusling.com>
 Subject: Install headers where they were earlier
 Forwarded: no
 
---- a/includes/CMakeLists.txt
-+++ b/includes/CMakeLists.txt
-@@ -91,7 +91,7 @@ install( FILES
+Index: phonon-4.8.0/includes/CMakeLists.txt
+===================================================================
+--- phonon-4.8.0.orig/includes/CMakeLists.txt	2014-09-06 16:14:24.000000000 +0000
++++ phonon-4.8.0/includes/CMakeLists.txt	2014-10-29 14:31:14.000000000 +0000
+@@ -91,7 +91,7 @@
    old/Phonon/VolumeFaderEffect
    old/Phonon/VolumeFaderInterface
    old/Phonon/VolumeSlider
@@ -13,3 +15,16 @@ Forwarded: no
  
  if (PHONON_BUILD_EXPERIMENTAL)
      install(FILES
+Index: phonon-4.8.0/PhononConfig.cmake.in
+===================================================================
+--- phonon-4.8.0.orig/PhononConfig.cmake.in	2014-09-06 16:14:24.000000000 +0000
++++ phonon-4.8.0/PhononConfig.cmake.in	2014-10-29 14:32:01.374544000 +0000
+@@ -30,7 +30,7 @@
+ # The following one is only for compatiblity
+ set(PHONON_LIBS ${PHONON_LIBRARIES})
+ 
+-set(PHONON_INCLUDES ${PHONON_INCLUDE_DIR} ${PHONON_INCLUDE_DIR}/KDE )
++set(PHONON_INCLUDES ${PHONON_INCLUDE_DIR} ${PHONON_INCLUDE_DIR}/KDE ${PHONON_INCLUDE_DIR}/phonon )
+ 
+ # Find Internal is included in the backends' finders rather than here.
+ # http://lists.kde.org/?l=kde-multimedia&m=135934335320148&w=2
