@@ -1,10 +1,10 @@
-phonon (4:4.8.0-4) UNRELEASED; urgency=medium
+phonon (4:4.8.0-4) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * Add do_not_assume_existing_backend.patch to solve a crash when running
     without a backend (Closes: #771138).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Nov 2014 00:00:18 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 27 Nov 2014 10:33:03 -0300
 
 phonon (4:4.8.0-3) unstable; urgency=medium
 
