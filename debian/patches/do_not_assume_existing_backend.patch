@@ -1,0 +1,40 @@
+commit ec5f8fc79338e15b69d24fd89b9fccf93049624f
+Author: Harald Sitter <sitter@kde.org>
+Date:   Wed Nov 26 23:28:06 2014 +0100
+
+    do not assume we have a backend when setting an output device
+    
+    random suggestion du jour: since debianesque distros are the only ones
+    allowing running without a backend (to my knowledge anyway), this fix
+    should be adopted there at the earliest convenient time.
+    
+    this change prevents a crash when run without a backend and getting device
+    changes as the Iface handling later on would directly call the cast output
+    without checking its validity. since the cast would always be null when
+    there is no backend we can just as well save time and return early.
+    
+    note: this is ultimately fallout from too excessive init() setup
+    when there is no backend, so the ideal fix would have been to abort the
+    setup there. given the limited testing exposure of alsa+phononserver+phonon
+    this less invasive fix is deemed more suitable for the existing code base
+    though.
+    (this lineup only happens with phononserver in the picture and that
+     bugger has already been killed off for plasma5)
+    
+    BUG: 341296
+    CCMAIL: pkg-kde-talk@lists.alioth.debian.org
+
+diff --git a/phonon/audiooutput.cpp b/phonon/audiooutput.cpp
+index 0768768..f118824 100644
+--- a/phonon/audiooutput.cpp
++++ b/phonon/audiooutput.cpp
+@@ -54,6 +54,9 @@ static inline bool callSetOutputDevice(AudioOutputPrivate *const d, const AudioO
+     if (pulse->isActive())
+         return pulse->setOutputDevice(d->getStreamUuid(), dev.index());
+ 
++    if (!d->backendObject())
++        return false;
++
+     Iface<IFACES2> iface(d);
+     if (iface) {
+         return iface->setOutputDevice(dev);
