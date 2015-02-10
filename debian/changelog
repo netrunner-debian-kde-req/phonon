@@ -1,4 +1,4 @@
-phonon (4:4.8.0-4) unstable; urgency=medium
+phonon (4:4.8.0-5) unstable; urgency=medium
 
   * Team upload.
 
@@ -10,6 +10,14 @@ phonon (4:4.8.0-4) unstable; urgency=medium
     new include path is properly exported.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 11:37:23 +0100
+
+phonon (4:4.8.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Add do_not_assume_existing_backend.patch to solve a crash when running
+    without a backend (Closes: #771138).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 27 Nov 2014 10:33:03 -0300
 
 phonon (4:4.8.0-3) unstable; urgency=medium
 
