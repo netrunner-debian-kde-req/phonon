@@ -7,3 +7,4 @@ findqt4_optional_x11.diff
 upstream_dont_allocate_a_char_with_undefined_size
 upstream_fix_build_with_qt_5.4.2
 fix_include_dirs
+upstream_tear_cmake_logic_for_qt4_and_qt5_apart
