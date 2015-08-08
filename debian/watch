@@ -1,3 +1,3 @@
 version=3
-
-http://download.kde.org/stable/phonon/([\d.]+)/ phonon-([\d.]+).tar.xz
+opts=downloadurlmangle=s/([\d.]+)\//$1\/src\/phonon-$1.tar.xz/,filenamemangle=s/([\d.]+)\/?/phonon-$1.tar.xz/ \
+ http://download.kde.org/stable/phonon/ ([\d.]+)/
