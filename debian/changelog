@@ -11,6 +11,7 @@ phonon (4:4.8.3-1~) UNRELEASED; urgency=medium
   * New patch: fix_include_dirs
   * Add ecm build dep.
   * Update symbols files.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Aug 2015 17:14:09 +0200
 
