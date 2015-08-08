@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.0 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64
 libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon10SeekSlider11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.8.0
  _ZN6Phonon10SeekSlider11qt_metacastEPKc@Base 4:4.8.0
@@ -33,9 +33,9 @@ libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon11AudioOutputC1EP7QObject@Base 4:4.8.0
  _ZN6Phonon11AudioOutputC2ENS_8CategoryEP7QObject@Base 4:4.8.0
  _ZN6Phonon11AudioOutputC2EP7QObject@Base 4:4.8.0
- _ZN6Phonon11AudioOutputD0Ev@Base 4:4.8.0
- _ZN6Phonon11AudioOutputD1Ev@Base 4:4.8.0
- _ZN6Phonon11AudioOutputD2Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon11AudioOutputD0Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon11AudioOutputD1Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon11AudioOutputD2Ev@Base 4:4.8.0
  _ZN6Phonon11MediaObject10clearQueueEv@Base 4:4.8.0
  _ZN6Phonon11MediaObject11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.8.0
  _ZN6Phonon11MediaObject11qt_metacastEPKc@Base 4:4.8.0
@@ -154,9 +154,9 @@ libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon11VideoWidgetC1ERNS_18VideoWidgetPrivateEP7QWidget@Base 4:4.8.0
  _ZN6Phonon11VideoWidgetC2EP7QWidget@Base 4:4.8.0
  _ZN6Phonon11VideoWidgetC2ERNS_18VideoWidgetPrivateEP7QWidget@Base 4:4.8.0
- _ZN6Phonon11VideoWidgetD0Ev@Base 4:4.8.0
- _ZN6Phonon11VideoWidgetD1Ev@Base 4:4.8.0
- _ZN6Phonon11VideoWidgetD2Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon11VideoWidgetD0Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon11VideoWidgetD1Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon11VideoWidgetD2Ev@Base 4:4.8.0
  _ZN6Phonon12EffectWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.8.0
  _ZN6Phonon12EffectWidget11qt_metacastEPKc@Base 4:4.8.0
  _ZN6Phonon12EffectWidget16staticMetaObjectE@Base 4:4.8.0
@@ -234,9 +234,9 @@ libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon15AudioDataOutput9dataReadyERK4QMapINS0_7ChannelE7QVectorIsEE@Base 4:4.8.0
  _ZN6Phonon15AudioDataOutputC1EP7QObject@Base 4:4.8.0
  _ZN6Phonon15AudioDataOutputC2EP7QObject@Base 4:4.8.0
- _ZN6Phonon15AudioDataOutputD0Ev@Base 4:4.8.0
- _ZN6Phonon15AudioDataOutputD1Ev@Base 4:4.8.0
- _ZN6Phonon15AudioDataOutputD2Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon15AudioDataOutputD0Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon15AudioDataOutputD1Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon15AudioDataOutputD2Ev@Base 4:4.8.0
  _ZN6Phonon15EffectParameterC1ERKS0_@Base 4:4.8.0
  _ZN6Phonon15EffectParameterC1EiRK7QString6QFlagsINS0_4HintEERK8QVariantS9_S9_RK5QListIS7_ES3_@Base 4:4.8.0
  _ZN6Phonon15EffectParameterC1Ev@Base 4:4.8.0
@@ -313,9 +313,9 @@ libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon17VolumeFaderEffect9setVolumeEf@Base 4:4.8.0
  _ZN6Phonon17VolumeFaderEffectC1EP7QObject@Base 4:4.8.0
  _ZN6Phonon17VolumeFaderEffectC2EP7QObject@Base 4:4.8.0
- _ZN6Phonon17VolumeFaderEffectD0Ev@Base 4:4.8.0
- _ZN6Phonon17VolumeFaderEffectD1Ev@Base 4:4.8.0
- _ZN6Phonon17VolumeFaderEffectD2Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon17VolumeFaderEffectD0Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon17VolumeFaderEffectD1Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon17VolumeFaderEffectD2Ev@Base 4:4.8.0
  _ZN6Phonon17registerMetaTypesEv@Base 4:4.8.0
  _ZN6Phonon18MediaObjectPrivate15_k_stateChangedENS_5StateES1_@Base 4:4.8.0
  _ZN6Phonon18MediaObjectPrivate18setupBackendObjectEv@Base 4:4.8.0
@@ -353,9 +353,9 @@ libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon19AbstractMediaStreamD2Ev@Base 4:4.8.0
  _ZN6Phonon19AbstractVideoOutputC1ERNS_26AbstractVideoOutputPrivateE@Base 4:4.8.0
  _ZN6Phonon19AbstractVideoOutputC2ERNS_26AbstractVideoOutputPrivateE@Base 4:4.8.0
- _ZN6Phonon19AbstractVideoOutputD0Ev@Base 4:4.8.0
- _ZN6Phonon19AbstractVideoOutputD1Ev@Base 4:4.8.0
- _ZN6Phonon19AbstractVideoOutputD2Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon19AbstractVideoOutputD0Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon19AbstractVideoOutputD1Ev@Base 4:4.8.0
+ (optional=gccinternal)_ZN6Phonon19AbstractVideoOutputD2Ev@Base 4:4.8.0
  _ZN6Phonon19BackendCapabilities18availableMimeTypesEv@Base 4:4.8.0
  _ZN6Phonon19BackendCapabilities19isMimeTypeAvailableERK7QString@Base 4:4.8.0
  _ZN6Phonon19BackendCapabilities21availableAudioEffectsEv@Base 4:4.8.0
@@ -705,13 +705,13 @@ libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZTVN6Phonon6EffectE@Base 4:4.8.0
  _ZTVN6Phonon9MediaNodeE@Base 4:4.8.0
  (c++)"non-virtual thunk to Phonon::AbstractAudioOutput::~AbstractAudioOutput()@Base" 4:4.8.0
- (c++)"non-virtual thunk to Phonon::AudioDataOutput::~AudioDataOutput()@Base" 4:4.8.0
- (c++)"non-virtual thunk to Phonon::AudioOutput::~AudioOutput()@Base" 4:4.8.0
+ (optional=gccinternal|c++)"non-virtual thunk to Phonon::AudioDataOutput::~AudioDataOutput()@Base" 4:4.8.0
+ (optional=gccinternal|c++)"non-virtual thunk to Phonon::AudioOutput::~AudioOutput()@Base" 4:4.8.0
  (c++)"non-virtual thunk to Phonon::Effect::~Effect()@Base" 4:4.8.0
  (c++)"non-virtual thunk to Phonon::EffectWidget::~EffectWidget()@Base" 4:4.8.0
  (c++)"non-virtual thunk to Phonon::MediaObject::~MediaObject()@Base" 4:4.8.0
  (c++)"non-virtual thunk to Phonon::SeekSlider::~SeekSlider()@Base" 4:4.8.0
  (c++)"non-virtual thunk to Phonon::VideoPlayer::~VideoPlayer()@Base" 4:4.8.0
- (c++)"non-virtual thunk to Phonon::VideoWidget::~VideoWidget()@Base" 4:4.8.0
- (c++)"non-virtual thunk to Phonon::VolumeFaderEffect::~VolumeFaderEffect()@Base" 4:4.8.0
+ (optional=gccinternal|c++)"non-virtual thunk to Phonon::VideoWidget::~VideoWidget()@Base" 4:4.8.0
+ (optional=gccinternal|c++)"non-virtual thunk to Phonon::VolumeFaderEffect::~VolumeFaderEffect()@Base" 4:4.8.0
  (c++)"non-virtual thunk to Phonon::VolumeSlider::~VolumeSlider()@Base" 4:4.8.0
