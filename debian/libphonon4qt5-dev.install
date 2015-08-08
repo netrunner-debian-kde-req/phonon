@@ -156,7 +156,7 @@ usr/lib/*/cmake/phonon4qt5/PhononTargets.cmake
 usr/lib/*/libphonon4qt5.so
 usr/lib/*/pkgconfig/phonon4qt5.pc
 usr/lib/*/qt5/mkspecs/modules/qt_phonon4qt5.pri
-usr/lib/*/qt5/plugins/designer/libphononwidgets.so
+usr/lib/*/qt5/plugins/designer/phononwidgets.so
 usr/share/dbus-1/interfaces/org.kde.Phonon4Qt5.AudioOutput.xml
 usr/share/phonon/buildsystem/COPYING-CMAKE-SCRIPTS
 usr/share/phonon4qt5/buildsystem/COPYING-CMAKE-SCRIPTS
