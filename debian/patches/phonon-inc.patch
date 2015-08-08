@@ -4,17 +4,21 @@ Subject: Create a magic phonon header
 Forwarded: no
 Last-Update: 2011-12-20
 
---- a/phonon/CMakeLists.txt
-+++ b/phonon/CMakeLists.txt
-@@ -222,3 +222,6 @@ if (QT_QTDBUS_FOUND AND NOT PHONON_NO_DB
+Index: phonon/phonon/CMakeLists.txt
+===================================================================
+--- phonon.orig/phonon/CMakeLists.txt	2015-08-08 17:15:37.084706210 +0200
++++ phonon/phonon/CMakeLists.txt	2015-08-08 17:15:37.080706367 +0200
+@@ -224,3 +224,6 @@
      install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.kde.${PHONON_LIB_SONAME_CAMEL}.AudioOutput.xml DESTINATION  ${DBUS_INTERFACES_INSTALL_DIR})
  endif (QT_QTDBUS_FOUND AND NOT PHONON_NO_DBUS)
  
 +install(FILES
 +   phonon
 +DESTINATION ${INCLUDE_INSTALL_DIR}/phonon)
---- /dev/null
-+++ b/phonon/phonon
+Index: phonon/phonon/phonon
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ phonon/phonon/phonon	2015-08-08 17:15:37.080706367 +0200
 @@ -0,0 +1,32 @@
 +#include "abstractaudiooutput.h"
 +#include "abstractmediastream.h"

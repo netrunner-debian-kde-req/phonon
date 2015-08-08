@@ -24,13 +24,13 @@ Date:   Wed Nov 26 23:28:06 2014 +0100
     BUG: 341296
     CCMAIL: pkg-kde-talk@lists.alioth.debian.org
 
-diff --git a/phonon/audiooutput.cpp b/phonon/audiooutput.cpp
-index 0768768..f118824 100644
---- a/phonon/audiooutput.cpp
-+++ b/phonon/audiooutput.cpp
-@@ -54,6 +54,9 @@ static inline bool callSetOutputDevice(AudioOutputPrivate *const d, const AudioO
-     if (pulse->isActive())
-         return pulse->setOutputDevice(d->getStreamUuid(), dev.index());
+Index: phonon/phonon/audiooutput.cpp
+===================================================================
+--- phonon.orig/phonon/audiooutput.cpp	2015-08-08 17:15:27.861069323 +0200
++++ phonon/phonon/audiooutput.cpp	2015-08-08 17:15:27.833070426 +0200
+@@ -57,6 +57,9 @@
+     if (!d->backendObject())
+         return false;
  
 +    if (!d->backendObject())
 +        return false;
