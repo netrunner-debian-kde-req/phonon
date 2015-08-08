@@ -4,3 +4,5 @@ do_not_assume_existing_backend.patch
 phonon-inc.patch
 phonon_is_not_forced_in_KDE.diff
 findqt4_optional_x11.diff
+upstream_dont_allocate_a_char_with_undefined_size
+upstream_fix_build_with_qt_5.4.2
