@@ -1,5 +1,6 @@
-phonon (4:4.8.3-1~) UNRELEASED; urgency=medium
+phonon (4:4.8.3-1) unstable; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (4.8.3).
   * Use the new PHONON_INSTALL_QT_EXTENSIONS_INTO_SYSTEM_QT build
     option.
@@ -14,7 +15,7 @@ phonon (4:4.8.3-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Aug 2015 17:14:09 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 08 Aug 2015 19:45:43 -0300
 
 phonon (4:4.8.0-5) unstable; urgency=medium
 
