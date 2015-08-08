@@ -19,7 +19,7 @@ Build-Depends: automoc,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev,
                qttools5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://phonon.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-req/phonon.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/phonon.git
