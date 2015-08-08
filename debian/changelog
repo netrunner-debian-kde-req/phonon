@@ -8,6 +8,7 @@ phonon (4:4.8.3-1~) UNRELEASED; urgency=medium
   * Import upstream patch:
     upstream_dont_allocate_a_char_with_undefined_size
   * Import upstream patch: upstream_fix_build_with_qt_5.4.2
+  * New patch: fix_include_dirs
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Aug 2015 17:14:09 +0200
 

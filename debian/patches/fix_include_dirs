@@ -1,0 +1,26 @@
+Index: phonon/cmake/FindPhononInternal.cmake
+===================================================================
+--- phonon.orig/cmake/FindPhononInternal.cmake	2015-08-08 19:31:07.325120567 +0200
++++ phonon/cmake/FindPhononInternal.cmake	2015-08-08 20:49:39.430450988 +0200
+@@ -399,6 +399,10 @@
+       string(REGEX MATCH "(--enable-libstdcxx-allocator=mt)" _GCC_COMPILED_WITH_BAD_ALLOCATOR "${_gcc_alloc_info}")
+    endif (GCC_IS_NEWER_THAN_4_1)
+ 
++   if (PHONON_BUILD_PHONON4QT5) # Qt5
++     string (REPLACE "-fPIE" "-fPIC" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
++   endif(PHONON_BUILD_PHONON4QT5)
++
+    if (__KDE_HAVE_GCC_VISIBILITY AND GCC_IS_NEWER_THAN_4_1 AND NOT _GCC_COMPILED_WITH_BAD_ALLOCATOR AND NOT WIN32)
+       set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility=hidden")
+       set (KDE4_C_FLAGS "-fvisibility=hidden")
+@@ -409,7 +413,9 @@
+       file(WRITE "${_source_file}" "${_source}")
+       set(_include_dirs "-DINCLUDE_DIRECTORIES:STRING=${QT_INCLUDES}")
+ 
+-      try_compile(_compile_result ${CMAKE_BINARY_DIR} ${_source_file} CMAKE_FLAGS "${CMAKE_CXX_FLAGS} ${_include_dirs}" OUTPUT_VARIABLE _compile_output_var)
++      try_compile(_compile_result ${CMAKE_BINARY_DIR} ${_source_file}
++        CMAKE_FLAGS "${CMAKE_CXX_FLAGS}" "${_include_dirs}"
++        OUTPUT_VARIABLE _compile_output_var)
+ 
+       if(NOT _compile_result)
+          message("${_compile_output_var}")
