@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.8.3 amd64
 libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
+| phonon4qt5, libphonon4qt5-4 #MINVER#
 * Build-Depends-Package: libphonon4qt5-dev
  _ZN6Phonon10SeekSlider11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.8.0
  _ZN6Phonon10SeekSlider11qt_metacastEPKc@Base 4:4.8.0
@@ -54,12 +55,12 @@ libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon11MediaObject17setTransitionTimeEi@Base 4:4.8.0
  _ZN6Phonon11MediaObject20currentSourceChangedERKNS_11MediaSourceE@Base 4:4.8.0
  _ZN6Phonon11MediaObject20prefinishMarkReachedEi@Base 4:4.8.0
- _ZN6Phonon11MediaObject4playEv@Base 4:4.8.0
- _ZN6Phonon11MediaObject4seekEx@Base 4:4.8.0
- _ZN6Phonon11MediaObject4stopEv@Base 4:4.8.0
+ _ZN6Phonon11MediaObject4playEv@Base 4:4.8.0 1
+ _ZN6Phonon11MediaObject4seekEx@Base 4:4.8.0 1
+ _ZN6Phonon11MediaObject4stopEv@Base 4:4.8.0 1
  _ZN6Phonon11MediaObject4tickEx@Base 4:4.8.0
  _ZN6Phonon11MediaObject5clearEv@Base 4:4.8.0
- _ZN6Phonon11MediaObject5pauseEv@Base 4:4.8.0
+ _ZN6Phonon11MediaObject5pauseEv@Base 4:4.8.0 1
  _ZN6Phonon11MediaObject7enqueueERK5QListI4QUrlE@Base 4:4.8.0
  _ZN6Phonon11MediaObject7enqueueERK5QListINS_11MediaSourceEE@Base 4:4.8.0
  _ZN6Phonon11MediaObject7enqueueERKNS_11MediaSourceE@Base 4:4.8.0
@@ -122,10 +123,10 @@ libphonon4qt5.so.4 libphonon4qt5-4 #MINVER#
  _ZN6Phonon11VideoPlayer11qt_metacastEPKc@Base 4:4.8.0
  _ZN6Phonon11VideoPlayer16staticMetaObjectE@Base 4:4.8.0
  _ZN6Phonon11VideoPlayer4loadERKNS_11MediaSourceE@Base 4:4.8.0
- _ZN6Phonon11VideoPlayer4playERKNS_11MediaSourceE@Base 4:4.8.0
- _ZN6Phonon11VideoPlayer4playEv@Base 4:4.8.0
- _ZN6Phonon11VideoPlayer4seekEx@Base 4:4.8.0
- _ZN6Phonon11VideoPlayer4stopEv@Base 4:4.8.0
+ _ZN6Phonon11VideoPlayer4playERKNS_11MediaSourceE@Base 4:4.8.0 1
+ _ZN6Phonon11VideoPlayer4playEv@Base 4:4.8.0 1
+ _ZN6Phonon11VideoPlayer4seekEx@Base 4:4.8.0 1
+ _ZN6Phonon11VideoPlayer4stopEv@Base 4:4.8.0 1
  _ZN6Phonon11VideoPlayer5eventEP6QEvent@Base 4:4.8.0
  _ZN6Phonon11VideoPlayer5pauseEv@Base 4:4.8.0
  _ZN6Phonon11VideoPlayer8finishedEv@Base 4:4.8.0
