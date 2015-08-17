@@ -2,6 +2,7 @@ phonon (4:4.8.3-2) UNRELEASED; urgency=medium
 
   * Make some symbols in libphonon4qt5 create a dependency on phonon4qt5
     similar to libphonon4.
+  * Fix dependency of phonon4qt5: phonon-backend -> phonon4qt5-backend
 
  -- Felix Geyer <fgeyer@debian.org>  Mon, 17 Aug 2015 18:43:26 +0200
 

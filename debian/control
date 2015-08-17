@@ -44,7 +44,7 @@ Architecture: any
 Multi-Arch: same
 Depends: libphonon4qt5-4 (>= ${source:Version}),
          ${misc:Depends},
-         ${phonon:Recommended-Backend-qt5} | phonon-backend
+         ${phonon:Recommended-Backend-qt5} | phonon4qt5-backend
 Suggests: phonon4qt5-backend-gstreamer,
           phonon4qt5-backend-mplayer,
           phonon4qt5-backend-vlc
