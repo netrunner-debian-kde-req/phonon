@@ -30,7 +30,7 @@ Multi-Arch: same
 Depends: libphonon4 (>= ${source:Version}),
          ${misc:Depends},
          ${phonon:Recommended-Backend-qt4} | phonon-backend
-Suggests: phonon-backend-gstreamer, phonon-backend-mplayer, phonon-backend-vlc
+Suggests: phonon-backend-gstreamer, phonon-backend-vlc
 Breaks: phonon-backend-xine (<< 4:4.6.0.0)
 Description: multimedia framework from KDE using Qt 4 - metapackage
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
@@ -46,7 +46,6 @@ Depends: libphonon4qt5-4 (>= ${source:Version}),
          ${misc:Depends},
          ${phonon:Recommended-Backend-qt5} | phonon4qt5-backend
 Suggests: phonon4qt5-backend-gstreamer,
-          phonon4qt5-backend-mplayer,
           phonon4qt5-backend-vlc
 Description: multimedia framework from KDE using Qt 5 - metapackage
  Phonon Qt 5 is a multimedia API, which provides a task-oriented abstraction
