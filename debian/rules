@@ -48,10 +48,11 @@ override_dh_strip:
 # shlibs is needed for library-packages.mk (strict shlibs) to work
 override_dh_makeshlibs:
 	$(overridden_command) -plibphonon4 -V'libphonon4 (>= $(dqk_upstream_version)), phonon'
+	$(overridden_command) -plibphonon4qt5-4 -V'libphonon4qt5-4 (>= $(dqk_upstream_version)), phonon4qt5'
 	$(overridden_command) -V --remaining-packages
 
 override_dh_shlibdeps:
-	$(overridden_command) -- -xphonon
+	$(overridden_command) -- -xphonon -xphonon4qt5
 
 override_dh_gencontrol:
 	# Expand some variables in maintainer scripts and debconf templates
