@@ -15,4 +15,4 @@ _Description: Missing back-end for Phonon4Qt5
  To restore full Phonon4Qt5 multimedia capabilities, install one of the real
  Phonon4Qt5 back-end packages which are currently available for this system:
  .
- ${recommended_backend} (recommended)${other_backends}
+ ${recommended4qt5_backend} (recommended)${other_backends}
